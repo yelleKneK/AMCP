@@ -29,6 +29,7 @@ A list of the available data sets from AMCP can be obtained with the following c
 
 Note that, for many data sets the coding for factors is numeric. Correspondingly, those variables may need to be identified as factors (e.g., \code{C16E9$Room <- as.factor(C16E9$Room)}). Further,
 the data sets are not always in the most convenient form for analysis, as they are generally entered to match the style in the book. Thus, for some analyses the data may benefit from being parsed, wrangled, or tidied.
+See \code{vignette("factors-and-coding", package = "AMCP")} for recipes that add factor labels without changing the canonical data, and a worked example showing that relabeling reproduces the book's results.
 
 The book illustrates many analyses using the \strong{MBESS} package. These analyses can also be carried out using the \strong{DMAR} package, which we encourage users to install with \code{install.packages("DMAR")}.
 

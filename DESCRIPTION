@@ -19,5 +19,11 @@ License: GPL (>= 3)
 Encoding: UTF-8
 Depends:
     R (>= 3.0.0)
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
 RoxygenNote: 7.3.2
 LazyData: true
+Config/testthat/edition: 3

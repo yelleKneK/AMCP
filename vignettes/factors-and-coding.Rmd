@@ -1,0 +1,169 @@
+---
+title: "Factors and numeric coding in AMCP"
+author: "Ken Kelley"
+date: "`r format(Sys.Date(), '%B %Y')`"
+output:
+  rmarkdown::html_vignette:
+    toc: true
+    toc_depth: 2
+vignette: >
+  %\VignetteIndexEntry{Factors and numeric coding in AMCP}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment  = "#>"
+)
+library(AMCP)
+```
+
+## Why AMCP codes grouping variables as numbers
+
+The data sets in AMCP are entered to match the printed tables in
+Maxwell, Delaney, and Kelley, *Designing Experiments and Analyzing
+Data: A Model Comparison Perspective* (4th ed.). The package's reason
+for existing is that a reader can reproduce the book's worked examples
+**exactly**, so the data deliberately keep the book's coding rather
+than being "modernized." In particular, grouping variables are usually
+stored as integer codes (for example `1`/`2`, or `0`/`1`) rather than
+as `factor`s with text labels.
+
+That is a feature, not an oversight: it keeps the object identical to
+the book. But for your own analysis you will often want human-readable
+labels, and for any variable with **three or more** groups you must
+tell R that the codes are categories and not a quantity. This vignette
+shows how to add labels safely, without changing the canonical data and
+without breaking the book's results.
+
+The golden rule:
+
+> Convert a *copy* of the column to a factor in your own workspace.
+> Never rely on the integer codes carrying meaning in a model with
+> three or more groups, and always confirm which code means which
+> condition from the data set's help page and the book.
+
+## The two-line recipe
+
+```r
+my_data <- chapter_X_table_Y                 # take a copy
+my_data$g <- factor(my_data$g,
+                    levels = c(1, 2),        # the codes, in the order you want
+                    labels = c("Label 1", "Label 2"))
+```
+
+`levels` lists the numeric codes (controlling the reference level and
+the order R uses); `labels` gives the text shown in output. If you omit
+`labels`, the factor simply uses the codes as its labels
+(`"1"`, `"2"`, ...), which is already enough to make a variable
+categorical.
+
+## A worked example with known labels
+
+A case where the coding is documented is the teacher-expectancy
+("Pygmalion") data in `chapter_9_exercise_15`. Here `Treatment` is
+coded `0` for the control children and `1` for the children who were
+(at random) identified to their teachers as likely "intellectual
+bloomers."
+
+```{r}
+data(chapter_9_exercise_15)
+pyg <- chapter_9_exercise_15            # work on a copy
+table(pyg$Treatment)                    # 246 control, 64 "bloomer"
+
+pyg$group <- factor(pyg$Treatment,
+                    levels = c(0, 1),
+                    labels = c("Control", "Bloomer"))
+table(pyg$group)
+```
+
+Crucially, labeling does **not** change the analysis. For a two-group
+comparison the integer-coded fit and the labeled-factor fit give the
+identical omnibus test:
+
+```{r}
+f_numeric <- anova(lm(IQGain ~ Treatment, data = pyg))
+f_factor  <- anova(lm(IQGain ~ group,     data = pyg))
+
+c(F_numeric = f_numeric[["F value"]][1],
+  F_factor  = f_factor[["F value"]][1])
+```
+
+This "does my relabeling reproduce the original?" check is the safe way
+to confirm that a tidy-up has not silently altered a result. (DMAR
+ships this same data set, already labeled in exactly this way, as the
+`pygmalion` data set; see `vignette("pygmalion", package = "DMAR")`.)
+
+## With three or more groups, the coding *matters*
+
+For two groups the numeric and factor versions happen to agree. With
+three or more groups they do **not**, because R treats a bare numeric
+column as a single quantitative predictor. Consider `chapter_4_table_1`,
+where `cond` is a four-group treatment code (`1`, `2`, `3`, `4`) and
+`bloodpr` is the response.
+
+```{r}
+data(chapter_4_table_1)
+d4 <- chapter_4_table_1
+sort(unique(d4$cond))
+
+# WRONG for a grouping variable: 'cond' enters as one numeric slope
+# (1 numerator df), testing only a linear trend across the codes.
+anova(lm(bloodpr ~ cond, data = d4))
+
+# RIGHT: factor(cond) enters as four groups (3 numerator df), the
+# one-way ANOVA the book intends.
+anova(lm(bloodpr ~ factor(cond), data = d4))
+```
+
+The two tables have different degrees of freedom and different *F*
+statistics. Whenever a column is a group label, wrap it in `factor()`
+(or convert a copy, as above) before modeling. If you are unsure
+whether a numeric column is a group label or a real measurement, the
+help page and the corresponding table or exercise in the book are
+authoritative.
+
+## Finding the categorical variables in a data set
+
+AMCP does not impose a single coding scheme across the book: some
+examples use `1`/`2`, others use `0`/`1`, and the meaning of each code
+follows the example it comes from. A quick way to spot columns that are
+*probably* categorical is to look for numeric columns with only a few
+distinct whole-number values:
+
+```{r}
+likely_factors <- function(df) {
+  is_codey <- function(x) {
+    if (!is.numeric(x)) return(FALSE)
+    u <- unique(x[!is.na(x)])
+    length(u) <= 6 && all(u == floor(u))
+  }
+  names(df)[vapply(df, is_codey, logical(1))]
+}
+
+likely_factors(chapter_7_table_15)   # e.g., Sex, Education
+likely_factors(chapter_16_table_1)   # e.g., Gender, Trainee, Condition
+```
+
+This is a heuristic, not a guarantee (a genuine count variable can look
+"codey," and a categorical variable can have many levels). Always
+confirm a variable's role, and the meaning of its codes, from its help
+page (for example `?chapter_7_table_15`) and from the book before
+assigning labels. Because the codes carry meaning that this package
+cannot infer for you, AMCP intentionally does **not** guess label text
+on your behalf.
+
+## Summary
+
+* The canonical AMCP data keep the book's numeric coding so the
+  examples reproduce exactly; nothing here changes that.
+* Add labels on a **copy**: `factor(x, levels = , labels = )`.
+* For two groups, numeric and factor fits agree; for three or more
+  groups you must use `factor()` so the codes are treated as
+  categories.
+* Confirm which code means which condition from the help page and the
+  book before labeling.
+* Verify a relabeling by checking that it reproduces the original test
+  statistic.
