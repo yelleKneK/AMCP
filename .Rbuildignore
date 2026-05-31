@@ -1,6 +1,7 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.claude$
+^CLAUDE\.md$
 ^\.Rhistory$
 ^\.Rapp\.history$
 \.DS_Store$
