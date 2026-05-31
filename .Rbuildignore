@@ -5,5 +5,4 @@
 ^\.Rhistory$
 ^\.Rapp\.history$
 \.DS_Store$
-^data-raw$
 ^cran-comments\.md$

@@ -37,6 +37,3 @@ A Model Comparison Perspective* (2026, Routledge).
   canonical data, including a worked example confirming that relabeling
   reproduces the book's results.
 * Added a package `CITATION` file.
-* Added developer-only `data-raw/` scripts (not shipped) that regenerate
-  the `.rda` files from the companion-website CSVs and verify
-  documentation/data consistency.
