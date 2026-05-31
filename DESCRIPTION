@@ -1,6 +1,6 @@
 Package: AMCP
 Type: Package
-Title: A Model Comparison Perspective
+Title: Data Sets to Accompany Designing Experiments and Analyzing Data: A Model Comparison Perspective (Maxwell, Delaney, and Kelley, 2026, 4th Edition)
 Version: 2.0.0
 Date: 2026-05-31
 Authors@R: c(person(given="Scott", family="Maxwell", role = "aut"), person(given="Harold", family="Delaney", role = "aut"), person("Ken", "Kelley", role = c("aut", "cre"), email = "kkelley@nd.edu"))
