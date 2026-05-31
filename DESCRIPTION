@@ -4,7 +4,6 @@ Title: A Model Comparison Perspective
 Version: 2.0.0
 Date: 2026-05-31
 Authors@R: c(person(given="Scott", family="Maxwell", role = "aut"), person(given="Harold", family="Delaney", role = "aut"), person("Ken", "Kelley", role = c("aut", "cre"), email = "kkelley@nd.edu"))
-Maintainer: Ken Kelley <kkelley@nd.edu>
 Description: Data sets that accompany the book "Designing experiments and
     analyzing data: A model comparison perspective" (4th ed.) by
     Maxwell, Delaney, & Kelley (2026; Routledge). Contains all of the data
@@ -15,6 +14,8 @@ Description: Data sets that accompany the book "Designing experiments and
     package; these analyses can also be carried out with the 'DMAR' package,
     which we encourage users to install. The book's companion website is
     available at <https://designingexperiments.com/>.
+URL: https://github.com/yelleKneK/AMCP
+BugReports: https://github.com/yelleKneK/AMCP/issues
 License: GPL (>= 3)
 Encoding: UTF-8
 Language: en-US
