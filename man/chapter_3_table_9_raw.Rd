@@ -13,8 +13,8 @@ An object of class \code{data.frame} with 88 rows and 3 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
 data(chapter_3_table_9_raw)
@@ -23,7 +23,7 @@ data(chapter_3_table_9_raw)
 Raw data on the number of drinks per day (and log of the number of drinks)
 }
 \details{
-Average number of standard drinks per week at intake for a sample of homeless alcoholics at nine-month follow-up (Smith, Meyers, & Delaney, 1988). Note that the groups, 1-5, are, respectively, "T1 CRA-D", "T1 CRA+D", "T1Std", "T2 CRA-D", and "T2 Std," where CRA is "Community Reinforcement Approach (with or without Disulfiram) and where "Std" is standard therepy. Note that this is the same data as \code{data(chapter_3_table_9_raw)}.
+Average number of standard drinks per week at intake for a sample of homeless alcoholics at nine-month follow-up (Smith, Meyers, & Delaney, 1988). Note that the groups, 1-5, are, respectively, "T1 CRA-D", "T1 CRA+D", "T1Std", "T2 CRA-D", and "T2 Std," where CRA is "Community Reinforcement Approach (with or without Disulfiram) and where "Std" is standard therapy. Note that this is the same data as \code{data(chapter_3_table_9_raw)}.
 }
 \section{Variables}{
 
@@ -50,10 +50,10 @@ str(chapter_3_table_9_raw)
 
 }
 \references{
-Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+{A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 
-Smith, J. E., Meyers, R. J. \& Delaney, H. D. (1998). The community reinforcement approach with homeless alcohol-dependent individuals. \emph{Journal of Consulting and Clinical Psychology, 66}, 541--548.
+Smith, J. E., Meyers, R. J. & Delaney, H. D. (1998). The community reinforcement approach with homeless alcohol-dependent individuals. \emph{Journal of Consulting and Clinical Psychology, 66}, 541--548.
 }
 \author{
 Ken Kelley \email{kkelley@nd.edu}

@@ -13,8 +13,8 @@ An object of class \code{data.frame} with 20 rows and 2 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
 data(chapter_4_table_1)
@@ -29,7 +29,7 @@ This is hypothetical data for four groups of participants, corresponding to trea
 
 \describe{
 \item{\code{bloodpr}}{systolic blood pressure (hypothetical data)}
-\item{\code{cond}}{identifies group membership (1=drug therapy; 2=biofeedbacbk; 3=diet; 4=combination)}}
+\item{\code{cond}}{identifies group membership (1=drug therapy; 2=biofeedback; 3=diet; 4=combination)}}
 }
 
 \section{Synonym}{
@@ -49,8 +49,8 @@ str(chapter_4_table_1)
 
 }
 \references{
-Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+{A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{
 Ken Kelley \email{kkelley@nd.edu}

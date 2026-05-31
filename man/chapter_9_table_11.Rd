@@ -13,8 +13,8 @@ An object of class \code{data.frame} with 18 rows and 4 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
 data(chapter_9_table_11)
@@ -23,7 +23,7 @@ data(chapter_9_table_11)
 The data used in Chapter 9, Table 11
 }
 \details{
-The question of interest in the present situation assumes that there are three blocks of elderly participants, six per block. The elderly participants are sorted into the three blocks as a function of their age. The purpose of the study was to assess the effect of age on motor control, measured by the number of errors on a certain task (where there were three tasks). The goal here is to replicate the results from the top portion of Table 9.12 (At this point performing the ANOVA and the ANCOVA also included in Table 9.12 should be straightforward.#'
+The question of interest in the present situation assumes that there are three blocks of elderly participants, six per block. The elderly participants are sorted into the three blocks as a function of their age. The purpose of the study was to assess the effect of age on motor control, measured by the number of errors on a certain task (where there were three tasks). The goal here is to replicate the results from the top portion of Table 9.12 (At this point performing the ANOVA and the ANCOVA also included in Table 9.12 should be straightforward.
 }
 \section{Variables}{
 
@@ -52,8 +52,8 @@ str(chapter_9_table_11)
 
 }
 \references{
-Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+{A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{
 Ken Kelley \email{kkelley@nd.edu}

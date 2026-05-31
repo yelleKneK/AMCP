@@ -13,14 +13,14 @@ An object of class \code{data.frame} with 19 rows and 7 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
 data(chapter_11_exercise_22)
 }
 \description{
-Data from Chapter 11 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+Data from Chapter 11 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 }
 \details{
 \itemize{
@@ -52,8 +52,8 @@ summary(chapter_11_exercise_22)
 
 }
 \references{
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+{A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{
 Ken Kelley \email{kkelley@nd.edu}

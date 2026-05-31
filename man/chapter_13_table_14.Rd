@@ -13,8 +13,8 @@ An object of class \code{data.frame} with 8 rows and 2 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
 data(chapter_13_table_14)
@@ -23,7 +23,7 @@ data(chapter_13_table_14)
 The data used in Chapter 13, Table 14
 }
 \details{
-Table 13.14 shows the slope of the least-squares regression line for each of the eight subjects, as well as the score on the linear D variable, reproduced from Table 13.14. There is a strikin relationship between the numbers in the two columns of Table 13.14. Every subject's score on D is 24 times his or her slope.
+Table 13.14 shows the slope of the least-squares regression line for each of the eight subjects, as well as the score on the linear D variable, reproduced from Table 13.14. There is a striking relationship between the numbers in the two columns of Table 13.14. Every subject's score on D is 24 times his or her slope.
 }
 \section{Variables}{
 
@@ -50,8 +50,8 @@ str(chapter_13_table_14)
 
 }
 \references{
-Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+{A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{
 Ken Kelley \email{kkelley@nd.edu}

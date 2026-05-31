@@ -13,8 +13,8 @@ An object of class \code{data.frame} with 72 rows and 4 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
 data(chapter_8_table_12)
@@ -23,7 +23,7 @@ data(chapter_8_table_12)
 The data used in Chapter 8, Table 12
 }
 \details{
-This example builds from the hypertension example used in chapter 7 for the two-way design. The data in Table 8.12 consist of blood pressure scores for 72 participants. Three categorical independent variables: the presence and absence of biofeedback (biofeed), drug X, Y, or Z (drug), and diet absent or present (diet) have been factorially combined to form a 2 x 3 x 2 design where each person contributes one blood pressure score to one of the 12 different experimental conditions. For this example, there are 6 participants in each group.#'
+This example builds from the hypertension example used in chapter 7 for the two-way design. The data in Table 8.12 consist of blood pressure scores for 72 participants. Three categorical independent variables: the presence and absence of biofeedback (biofeed), drug X, Y, or Z (drug), and diet absent or present (diet) have been factorially combined to form a 2 x 3 x 2 design where each person contributes one blood pressure score to one of the 12 different experimental conditions. For this example, there are 6 participants in each group.
 }
 \section{Variables}{
 
@@ -52,8 +52,8 @@ str(chapter_8_table_12)
 
 }
 \references{
-Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+{A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{
 Ken Kelley \email{kkelley@nd.edu}

@@ -9,40 +9,23 @@
 \title{The data used in Chapter 7, Table 15}
 \format{
 An object of class \code{data.frame} with 22 rows and 3 columns.
-
-An object of class \code{data.frame} with 22 rows and 3 columns.
 }
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-
-\url{https://designingexperiments.com/data/}
-
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
 data(chapter_7_table_15)
-
-data(chapter_7_table_15)
 }
 \description{
-The data used in Chapter 7, Table 15
-
 The data used in Chapter 7, Table 15
 }
 \details{
 The following hypothetical salary data represents a nonorthogonal two-by-two factorial design. The first factor (sex) is crossed with college (degree or no degree). The primary question of interest is whether or not there is sex discrimination in terms of salary.
 
-The data in Table 7.15 presents hypothetical data (in thousands) for 12 females and 10 males who have just been hired by the organization. The mean salary for the 12 females is \$22,333, whereas the mean for the 10 males is \$22,100. The data in Table 7.15 also contains information about an additional characteristic of employees, namely whether they received a college degree. It is clear from the data that a majority of the new female employees are college graduates, whereas a majority of the males are not.
-
-Table 7.23 shows hypothetical MMPI scores for 45 participants, each of whom is placed in one cell of a 3x3 design. One factor (A, the row factor) is type of therapy. The other factor (B, the column factor) is degree of severity.
-
-Suppose that a clinical psychologist is interested in comparing the relative effectiveness of three forms of psychotherapy for alleviating depression. Fifteen individuals are randomly assigned to one of each of three treatment groups: cognitive-behavioral, Rogerian, and assertiveness training. The Depression Scale of the MMPI serves as the dependent variable. After the fact, these individuals where placed into one of three categories based on the severity of their depression. Thus, this data set represents a 3 by 3 nonorthogonal factorial design with post hoc blocking.
-
-The data represents the relative effectiveness of three forms of psychotherapy for alleviating depression. Fifteen individuals were randomly assigned to one of three groups. After the fact, these individuals where placed into one of three categories based on the severity of their depression. Thus, this data set represents a 3 by 3 nonorthogonal factorial design with post hoc blocking.
+The data in Table 7.15 presents hypothetical data (in thousands) for 12 females and 10 males who have just been hired by the organization. The mean salary for the 12 females is $22,333, whereas the mean for the 10 males is $22,100. The data in Table 7.15 also contains information about an additional characteristic of employees, namely whether they received a college degree. It is clear from the data that a majority of the new female employees are college graduates, whereas a majority of the males are not.
 }
 \section{Variables}{
 
@@ -51,20 +34,10 @@ The data represents the relative effectiveness of three forms of psychotherapy f
 \item{educ}{education level (degree vs no degree)}
 \item{salary}{salary (in thousands)}
 }
-
-
-\describe{
-\item{therapy}{the type of therapy}
-\item{severity}{the severity of the therapy}
-\item{score}{the score of the individual}
-}
 }
 
 \section{Synonym}{
-
-C7T15
-
-
+ 
 C7T15
 }
 
@@ -78,26 +51,12 @@ data(C7T15)
 # View the structure
 str(chapter_7_table_15)
 
-# Load the data
-data(chapter_7_table_15)
-
-# Or, alternatively load the data as
-data(C7T15)
-
-# View the structure
-str(chapter_7_table_15)
-
 }
 \references{
-Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
-
-Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+{A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{
-Ken Kelley \email{kkelley@nd.edu}
-
 Ken Kelley \email{kkelley@nd.edu}
 }
 \keyword{datasets}

@@ -1,11 +1,11 @@
 # Read me
-# This file contains the help files, in Roxygen [ library(roxygen2) ] for the AMCP package (beginning in version .0.0.4, February 2017).
+# This file contains the help files, in Roxygen [ library(roxygen2) ] for the AMCP package, which contains the data to accompany Maxwell, Delaney, & Kelley (2026).
 
 # Tables from the chapters
 #######################################################################################################################################
 #' The data used in Chapter 1, Table 1
 #'
-#' Assume that a developmental psychologist is interested in whether brief training can improve performance of 2-year-old children on a test of mental abilities. The test selected is the Mental Scale of the Bayley Scales of Infant Development, which yields a mental age in months. To increase the sensitivity of the experiment, the psychologist decides to rectruit sets of twins and randomly assigns one member of each pair to the treatment condition. The treatment consists of simply watching a videotape of another child attempting to perform tasks similar to those making up the Bayley Mental Scale. The other member of each pair plays in a waiting area as a time-filling activity while the first is viewing the videotape. Then both children are individually given the Bayley by a tester who is blind to their assigned conditions. A different set of twins takes part in the experiment each day, Monday through Friday, and the experiment extends over a 2-week period. Table 1.1 shows the data for the study in the middle columns.
+#' Assume that a developmental psychologist is interested in whether brief training can improve performance of 2-year-old children on a test of mental abilities. The test selected is the Mental Scale of the Bayley Scales of Infant Development, which yields a mental age in months. To increase the sensitivity of the experiment, the psychologist decides to recruit sets of twins and randomly assigns one member of each pair to the treatment condition. The treatment consists of simply watching a videotape of another child attempting to perform tasks similar to those making up the Bayley Mental Scale. The other member of each pair plays in a waiting area as a time-filling activity while the first is viewing the videotape. Then both children are individually given the Bayley by a tester who is blind to their assigned conditions. A different set of twins takes part in the experiment each day, Monday through Friday, and the experiment extends over a 2-week period. Table 1.1 shows the data for the study in the middle columns.
 #'
 #'@section Variables:
 #'\describe{
@@ -18,10 +18,10 @@
 #' @aliases C1T1 chapter_1_table_1 Chapter_1_Table_1 c1t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_1_table_1)
 #' @section Synonym:
@@ -47,7 +47,7 @@
 #'
 #' Hyperactive children's IQ scores from the WISC-R
 #'
-#' Assume that you work in the research office of a large school system. For the last several years, the mean score on the WISC-R, which is administered to all elementary school children in your district, has been holding fairly steady at about 98. A parent of a hyperactive child in one of your special edication programs maintains that the hyperactive children in the district are actually brighter than this average. To investigate this assertion, you randomly select the files of six hyperactive children and examine their WISC-R scores. The data set analyzed to replicate Chapter 3 Table 1 consists of IQ (WISC-R) measurements on six hyperactive children. The question of interest is: "are hyperactive children in the school district brighter than the average student?" The mean IQ among the students is known to be 98. Thus, the null hypothesis in this situation is that the population mean for the hyperactive students is also 98. To answer such a question we perform a one sample \emph{t}-test specifying the value of the null hypothesis as 98. Because a t-value squared with df degrees of freedom is equivalent to an \emph{F}-value with one numerator and \emph{df} denominator degrees of freedom. Recall that the observed \emph{F}-value (with 1 and 5 degrees of freedom) in the book is 9, whereas our \emph{t}-value (with 5 degrees of freedom) is 3.
+#' Assume that you work in the research office of a large school system. For the last several years, the mean score on the WISC-R, which is administered to all elementary school children in your district, has been holding fairly steady at about 98. A parent of a hyperactive child in one of your special education programs maintains that the hyperactive children in the district are actually brighter than this average. To investigate this assertion, you randomly select the files of six hyperactive children and examine their WISC-R scores. The data set analyzed to replicate Chapter 3 Table 1 consists of IQ (WISC-R) measurements on six hyperactive children. The question of interest is: "are hyperactive children in the school district brighter than the average student?" The mean IQ among the students is known to be 98. Thus, the null hypothesis in this situation is that the population mean for the hyperactive students is also 98. To answer such a question we perform a one sample \emph{t}-test specifying the value of the null hypothesis as 98. Because a t-value squared with df degrees of freedom is equivalent to an \emph{F}-value with one numerator and \emph{df} denominator degrees of freedom. Recall that the observed \emph{F}-value (with 1 and 5 degrees of freedom) in the book is 9, whereas our \emph{t}-value (with 5 degrees of freedom) is 3.
 #'
 #' @section Variables:
 #'\describe{
@@ -58,10 +58,10 @@
 #' @aliases C3T1 chapter_3_table_1 Chapter_3_Table_1 c3t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_3_table_1)
 #' @section Synonym:
@@ -94,10 +94,10 @@
 #' @aliases C3T3 chapter_3_table_3 Chapter_3_Table_3 c3t3
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_3_table_3)
 #' @section Synonym:
@@ -119,7 +119,7 @@
 #'
 #' Raw data on the number of drinks per day (and log of the number of drinks)
 #'
-#' Average number of standard drinks per week at intake for a sample of homeless alcoholics at nine-month follow-up (Smith, Meyers, & Delaney, 1988). Note that the groups, 1-5, are, respectively, "T1 CRA-D", "T1 CRA+D", "T1Std", "T2 CRA-D", and "T2 Std," where CRA is "Community Reinforcement Approach (with or without Disulfiram) and where "Std" is standard therepy. Note that this is the same data as \code{data(chapter_3_table_9_raw)}.
+#' Average number of standard drinks per week at intake for a sample of homeless alcoholics at nine-month follow-up (Smith, Meyers, & Delaney, 1988). Note that the groups, 1-5, are, respectively, "T1 CRA-D", "T1 CRA+D", "T1Std", "T2 CRA-D", and "T2 Std," where CRA is "Community Reinforcement Approach (with or without Disulfiram) and where "Std" is standard therapy. Note that this is the same data as \code{data(chapter_3_table_9_raw)}.
 #'
 #' @section Variables:
 #'\describe{
@@ -132,11 +132,11 @@
 #' @aliases C3T7R chapter_3_table_7_raw Chapter_3_Table_7_Raw c3t7r
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
-#' @references Smith, J. E., Meyers, R. J. \& Delaney, H. D. (1998). The community reinforcement approach with homeless alcohol-dependent individuals. \emph{Journal of Consulting and Clinical Psychology, 66}, 541--548.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @references Smith, J. E., Meyers, R. J. & Delaney, H. D. (1998). The community reinforcement approach with homeless alcohol-dependent individuals. \emph{Journal of Consulting and Clinical Psychology, 66}, 541--548.
 #' @keywords datasets
 #' @usage data(chapter_3_table_7_raw)
 #' @section Synonym:
@@ -158,7 +158,7 @@
 #'
 #' Raw data on the number of drinks per day (and log of the number of drinks)
 #'
-#' Average number of standard drinks per week at intake for a sample of homeless alcoholics at nine-month follow-up (Smith, Meyers, & Delaney, 1988). Note that the groups, 1-5, are, respectively, "T1 CRA-D", "T1 CRA+D", "T1Std", "T2 CRA-D", and "T2 Std," where CRA is "Community Reinforcement Approach (with or without Disulfiram) and where "Std" is standard therepy. Note that this is the same data as \code{data(chapter_3_table_9_raw)}.
+#' Average number of standard drinks per week at intake for a sample of homeless alcoholics at nine-month follow-up (Smith, Meyers, & Delaney, 1988). Note that the groups, 1-5, are, respectively, "T1 CRA-D", "T1 CRA+D", "T1Std", "T2 CRA-D", and "T2 Std," where CRA is "Community Reinforcement Approach (with or without Disulfiram) and where "Std" is standard therapy. Note that this is the same data as \code{data(chapter_3_table_9_raw)}.
 #'
 #' @section Variables:
 #'\describe{
@@ -171,11 +171,11 @@
 #' @aliases C3T9R chapter_3_table_9_raw Chapter_3_Table_9_Raw c3t9r
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
-#' @references Smith, J. E., Meyers, R. J. \& Delaney, H. D. (1998). The community reinforcement approach with homeless alcohol-dependent individuals. \emph{Journal of Consulting and Clinical Psychology, 66}, 541--548.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @references Smith, J. E., Meyers, R. J. & Delaney, H. D. (1998). The community reinforcement approach with homeless alcohol-dependent individuals. \emph{Journal of Consulting and Clinical Psychology, 66}, 541--548.
 #' @keywords datasets
 #' @usage data(chapter_3_table_9_raw)
 #' @section Synonym:
@@ -202,17 +202,17 @@
 #' @section Variables:
 #'\describe{
 #'\item{\code{bloodpr}}{systolic blood pressure (hypothetical data)}
-#'\item{\code{cond}}{identifies group membership (1=drug therapy; 2=biofeedbacbk; 3=diet; 4=combination)}}
+#'\item{\code{cond}}{identifies group membership (1=drug therapy; 2=biofeedback; 3=diet; 4=combination)}}
 #'
 #' @docType data
 #' @name chapter_4_table_1
 #' @aliases C4T1 chapter_4_table_1 Chapter_4_Table_1 c4t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_4_table_1)
 #' @section Synonym:
@@ -246,10 +246,10 @@
 #' @aliases C4T7 chapter_4_table_7 Chapter_4_Table_7 c4t7
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_4_table_7)
 #' @section Synonym:
@@ -274,7 +274,7 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{group}{a numeric vector between 1 and 4;group number}
+#'\item{group}{a numeric vector between 1 and 4; group number}
 #'\item{sbp}{systolic blood pressure of a patient within one of the four groups}}
 #'
 #' @docType data
@@ -282,10 +282,10 @@
 #' @aliases C5T4 chapter_5_table_4 Chapter_5_Table_4 c5t4
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_5_table_4)
 #' @section Synonym:
@@ -319,10 +319,10 @@
 #' @aliases C6T1 chapter_6_table_1 Chapter_6_Table_1 c6t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_6_table_1)
 #' @section Synonym:
@@ -360,10 +360,10 @@
 #' @aliases C7T1 chapter_7_table_1 Chapter_7_Table_1 c7t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_7_table_1)
 #' @section Synonym:
@@ -400,10 +400,10 @@
 #' @aliases C7T5 chapter_7_table_5 Chapter_7_Table_5 c7t5
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_7_table_5)
 #' @section Synonym:
@@ -438,10 +438,10 @@
 #' @aliases C7T9 chapter_7_table_9 Chapter_7_Table_9 c7t9
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_7_table_9)
 #' @section Synonym:
@@ -477,10 +477,10 @@
 #' @aliases C7T11 chapter_7_table_11 Chapter_7_Table_11 c7t11
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_7_table_11)
 #' @section Synonym:
@@ -504,7 +504,7 @@
 #'
 #' The following hypothetical salary data represents a nonorthogonal two-by-two factorial design. The first factor (sex) is crossed with college (degree or no degree). The primary question of interest is whether or not there is sex discrimination in terms of salary.
 #'
-#' The data in Table 7.15 presents hypothetical data (in thousands) for 12 females and 10 males who have just been hired by the organization. The mean salary for the 12 females is \$22,333, whereas the mean for the 10 males is \$22,100. The data in Table 7.15 also contains information about an additional characteristic of employees, namely whether they received a college degree. It is clear from the data that a majority of the new female employees are college graduates, whereas a majority of the males are not.
+#' The data in Table 7.15 presents hypothetical data (in thousands) for 12 females and 10 males who have just been hired by the organization. The mean salary for the 12 females is $22,333, whereas the mean for the 10 males is $22,100. The data in Table 7.15 also contains information about an additional characteristic of employees, namely whether they received a college degree. It is clear from the data that a majority of the new female employees are college graduates, whereas a majority of the males are not.
 #'
 #'
 #' @section Variables:
@@ -519,56 +519,13 @@
 #' @aliases C7T15 chapter_7_table_15 Chapter_7_Table_15 c7t15
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_7_table_15)
-#' @section Synonym:
-#' C7T15
-#' @examples
-#' # Load the data
-#' data(chapter_7_table_15)
-#'
-#' # Or, alternatively load the data as
-#' data(C7T15)
-#'
-#' # View the structure
-#' str(chapter_7_table_15)
-#'
-"chapter_7_table_15"
-
-
-#' The data used in Chapter 7, Table 15
-#'
-#' The data used in Chapter 7, Table 15
-#'
-#' Table 7.23 shows hypothetical MMPI scores for 45 participants, each of whom is placed in one cell of a 3x3 design. One factor (A, the row factor) is type of therapy. The other factor (B, the column factor) is degree of severity.
-#'
-#' Suppose that a clinical psychologist is interested in comparing the relative effectiveness of three forms of psychotherapy for alleviating depression. Fifteen individuals are randomly assigned to one of each of three treatment groups: cognitive-behavioral, Rogerian, and assertiveness training. The Depression Scale of the MMPI serves as the dependent variable. After the fact, these individuals where placed into one of three categories based on the severity of their depression. Thus, this data set represents a 3 by 3 nonorthogonal factorial design with post hoc blocking.
-#'
-#' The data represents the relative effectiveness of three forms of psychotherapy for alleviating depression. Fifteen individuals were randomly assigned to one of three groups. After the fact, these individuals where placed into one of three categories based on the severity of their depression. Thus, this data set represents a 3 by 3 nonorthogonal factorial design with post hoc blocking.
-#'
-#' @section Variables:
-#'\describe{
-#'\item{therapy}{the type of therapy}
-#'\item{severity}{the severity of the therapy}
-#'\item{score}{the score of the individual}
-#'}
-#'
-#' @docType data
-#' @name chapter_7_table_15
-#' @aliases C7T15 chapter_7_table_15 Chapter_7_Table_15 c7t15
-#' @author Ken Kelley \email{kkelley@nd.edu}
-#' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
-#' @keywords datasets
-#' @usage data(chapter_7_table_15)
-#' @section Synonym:
+#' @section Synonym: 
 #' C7T15
 #' @examples
 #' # Load the data
@@ -603,10 +560,10 @@
 #' @aliases C7T23 chapter_7_table_23 Chapter_7_Table_23 c7t23
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_7_table_23)
 #' @section Synonym:
@@ -628,7 +585,7 @@
 #'
 #' The data used in Chapter 8, Table 12
 #'
-#' This example builds from the hypertension example used in chapter 7 for the two-way design. The data in Table 8.12 consist of blood pressure scores for 72 participants. Three categorical independent variables: the presence and absence of biofeedback (biofeed), drug X, Y, or Z (drug), and diet absent or present (diet) have been factorially combined to form a 2 x 3 x 2 design where each person contributes one blood pressure score to one of the 12 different experimental conditions. For this example, there are 6 participants in each group.#'
+#' This example builds from the hypertension example used in chapter 7 for the two-way design. The data in Table 8.12 consist of blood pressure scores for 72 participants. Three categorical independent variables: the presence and absence of biofeedback (biofeed), drug X, Y, or Z (drug), and diet absent or present (diet) have been factorially combined to form a 2 x 3 x 2 design where each person contributes one blood pressure score to one of the 12 different experimental conditions. For this example, there are 6 participants in each group.
 #'
 #' @section Variables:
 #'\describe{
@@ -643,10 +600,10 @@
 #' @aliases C8T12 chapter_8_table_12 Chapter_8_Table_12 c8t12
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_8_table_12)
 #' @section Synonym:
@@ -683,10 +640,10 @@
 #' @aliases C9T1 chapter_9_table_1 Chapter_9_Table_1 c9t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_9_table_1)
 #' @section Synonym:
@@ -708,7 +665,7 @@
 #'
 #' The data used in Chapter 9, Table 7
 #'
-#' The data shown in Table 9.7 represents a hypothetical three-group study assessing different interventions for depression. 30 depressive individuals have been randomly assigned to one of three conditions: (1) selective serotonin reuptake inhibitor (SSRI) antidepressant medication, (2) placebo, or (3) wait list control. The Beck Depression Inventory (BDI) has been administered to each individual prior to the study, and then later is administered a second time at the end of the study. The data represents a three group pre-post design, where the 30 depressives were randomly assigned to one of three conditions. The primary question of interest is: "do individuals in some groups change more on their measures of depression than do individuals in other groups?"#'
+#' The data shown in Table 9.7 represents a hypothetical three-group study assessing different interventions for depression. 30 depressive individuals have been randomly assigned to one of three conditions: (1) selective serotonin reuptake inhibitor (SSRI) antidepressant medication, (2) placebo, or (3) wait list control. The Beck Depression Inventory (BDI) has been administered to each individual prior to the study, and then later is administered a second time at the end of the study. The data represents a three group pre-post design, where the 30 depressives were randomly assigned to one of three conditions. The primary question of interest is: "do individuals in some groups change more on their measures of depression than do individuals in other groups?"
 #'
 #' @section Variables:
 #'\describe{
@@ -722,10 +679,10 @@
 #' @aliases C9T7 chapter_9_table_7 Chapter_9_Table_7 c9t7
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_9_table_7)
 #' @section Synonym:
@@ -747,7 +704,7 @@
 #'
 #' The data used in Chapter 9, Table 11
 #'
-#' The question of interest in the present situation assumes that there are three blocks of elderly participants, six per block. The elderly participants are sorted into the three blocks as a function of their age. The purpose of the study was to assess the effect of age on motor control, measured by the number of errors on a certain task (where there were three tasks). The goal here is to replicate the results from the top portion of Table 9.12 (At this point performing the ANOVA and the ANCOVA also included in Table 9.12 should be straightforward.#'
+#' The question of interest in the present situation assumes that there are three blocks of elderly participants, six per block. The elderly participants are sorted into the three blocks as a function of their age. The purpose of the study was to assess the effect of age on motor control, measured by the number of errors on a certain task (where there were three tasks). The goal here is to replicate the results from the top portion of Table 9.12 (At this point performing the ANOVA and the ANCOVA also included in Table 9.12 should be straightforward.
 #'
 #' @section Variables:
 #'\describe{
@@ -762,10 +719,10 @@
 #' @aliases C9T11 chapter_9_table_11 Chapter_9_Table_11 c9t11
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_9_table_11)
 #' @section Synonym:
@@ -801,10 +758,10 @@
 #' @aliases C9ExtT1 chapter_9_extension_table_1 Chapter_9_Extension_Table_1 c9extt1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_9_extension_table_1)
 #' @section Synonym:
@@ -845,10 +802,10 @@
 #' @aliases C10T5 chapter_10_table_5 Chapter_10_Table_5 c10t5
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_10_table_5)
 #' @section Synonym:
@@ -884,10 +841,10 @@
 #' @aliases C10T9 chapter_10_table_9 Chapter_10_Table_9 c10t9
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_10_table_9)
 #' @section Synonym:
@@ -924,10 +881,10 @@
 #' @aliases C11T1 chapter_11_table_1 Chapter_11_Table_1 c11t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_11_table_1)
 #' @section Synonym:
@@ -965,10 +922,10 @@
 #' @aliases C11T4 chapter_11_table_4 Chapter_11_Table_4 c11t4
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_11_table_4)
 #' @section Synonym:
@@ -1006,10 +963,10 @@
 #' @aliases C11T5 chapter_11_table_5 Chapter_11_Table_5 c11t5
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_11_table_5)
 #' @section Synonym:
@@ -1047,10 +1004,10 @@
 #' @aliases C11T19 chapter_11_table_19 Chapter_11_Table_19 c11t19
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_11_table_19)
 #' @section Synonym:
@@ -1089,10 +1046,10 @@
 #' @aliases C11T20 chapter_11_table_20 Chapter_11_Table_20 c11t20
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_11_table_20)
 #' @section Synonym:
@@ -1132,10 +1089,10 @@
 #' @aliases C12T1 chapter_12_table_1 Chapter_12_Table_1 c12t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_12_table_1)
 #' @section Synonym:
@@ -1172,10 +1129,10 @@
 #' @aliases C12T7 chapter_12_table_7 Chapter_12_Table_7 c12t7
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_12_table_7)
 #' @section Synonym:
@@ -1210,10 +1167,10 @@
 #' @aliases C12T9 chapter_12_table_9 Chapter_12_Table_9 c12t9
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_12_table_9)
 #' @section Synonym:
@@ -1249,10 +1206,10 @@
 #' @aliases C12T11 chapter_12_table_11 Chapter_12_Table_11 c12t11
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_12_table_11)
 #' @section Synonym:
@@ -1288,10 +1245,10 @@
 #' @aliases C12T15 chapter_12_table_15 Chapter_12_Table_15 c12t15
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_12_table_15)
 #' @section Synonym:
@@ -1331,10 +1288,10 @@
 #' @aliases C12T21 chapter_12_table_21 Chapter_12_Table_21 c12t21
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_12_table_21)
 #' @section Synonym:
@@ -1372,10 +1329,10 @@
 #' @aliases C13T1 chapter_13_table_1 Chapter_13_Table_1 c13t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_13_table_1)
 #' @section Synonym:
@@ -1412,10 +1369,10 @@
 #' @aliases C13T2 chapter_13_table_2 Chapter_13_Table_2 c13t2
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_13_table_2)
 #' @section Synonym:
@@ -1434,11 +1391,11 @@
 
 
 
-#' The data used in Chapter 13, Table 5
+#' The data used in Chapter 13, Table 6
 #'
-#' The data used in Chapter 13, Table 5
+#' The data used in Chapter 13, Table 6
 #'
-#' Table 13.5 presents the hypothetical McCarthy IQ scores for 12 subjects (ages 30, 36, 42, or 48 months). The McCarthy data contained in Table 13.5, which was previously analyzed in Table 11.5, is now analyzed using the multivariate approach to repeated measures.
+#' Table 13.6 presents the hypothetical McCarthy IQ scores for 12 subjects (ages 30, 36, 42, or 48 months). The McCarthy data contained in Table 13.6, which was previously analyzed in Table 11.5, is now analyzed using the multivariate approach to repeated measures.
 #'
 #' @section Variables:
 #'\describe{
@@ -1449,29 +1406,29 @@
 #'}
 #'
 #' @docType data
-#' @name chapter_13_table_5
-#' @aliases C13T5 chapter_13_table_5 Chapter_13_Table_5 c13t5
+#' @name chapter_13_table_6
+#' @aliases C13T6 chapter_13_table_6 Chapter_13_Table_6 c13t6
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
-#' @usage data(chapter_13_table_5)
+#' @usage data(chapter_13_table_6)
 #' @section Synonym:
-#' C13T5
+#' C13T6
 #' @examples
 #' # Load the data
-#' data(chapter_13_table_5)
+#' data(chapter_13_table_6)
 #'
 #' # Or, alternatively load the data as
-#' data(C13T5)
+#' data(C13T6)
 #'
 #' # View the structure
-#' str(chapter_13_table_5)
+#' str(chapter_13_table_6)
 #'
-"chapter_13_table_5"
+"chapter_13_table_6"
 
 
 
@@ -1494,48 +1451,10 @@
 #' @aliases C13T12 chapter_13_table_12 Chapter_13_Table_12 c13t12
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
-#' @keywords datasets
-#' @usage data(chapter_13_table_12)
-#' @section Synonym:
-#' C13T12
-#' @examples
-#' # Load the data
-#' data(chapter_13_table_12)
-#'
-#' # Or, alternatively load the data as
-#' data(C13T12)
-#'
-#' # View the structure
-#' str(chapter_13_table_12)
-#'
-"chapter_13_table_12"
-
-
-#' The data used in Chapter 13, Table 12
-#'
-#' The data used in Chapter 13, Table 12
-#'
-#' Table 13.14 shows the slope of the least-squares regression line for each of the eight subjects, as well as the score on the linear D variable, reproduced from Table 13.12. There is a strikin relationship between the numbers in the two columns of Table 13.14. Every subject's score on D is 24 times his or her slope.
-#'
-#' @section Variables:
-#'\describe{
-#'\item{slope}{slope of the least-squares regression line for data in Table 13.2}
-#'\item{linear}{Linear D variable for data in Table 13.2}
-#'}
-#'
-#' @docType data
-#' @name chapter_13_table_12
-#' @aliases C13T12 chapter_13_table_12 Chapter_13_Table_12 c13t12
-#' @author Ken Kelley \email{kkelley@nd.edu}
-#' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_13_table_12)
 #' @section Synonym:
@@ -1557,7 +1476,7 @@
 #'
 #' The data used in Chapter 13, Table 14
 #'
-#' Table 13.14 shows the slope of the least-squares regression line for each of the eight subjects, as well as the score on the linear D variable, reproduced from Table 13.14. There is a strikin relationship between the numbers in the two columns of Table 13.14. Every subject's score on D is 24 times his or her slope.
+#' Table 13.14 shows the slope of the least-squares regression line for each of the eight subjects, as well as the score on the linear D variable, reproduced from Table 13.14. There is a striking relationship between the numbers in the two columns of Table 13.14. Every subject's score on D is 24 times his or her slope.
 #'
 #' @section Variables:
 #'\describe{
@@ -1570,10 +1489,10 @@
 #' @aliases C13T14 chapter_13_table_14 Chapter_13_Table_14 c13t14
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_13_table_14)
 #' @section Synonym:
@@ -1610,10 +1529,10 @@
 #' @aliases C14T1 chapter_14_table_1 Chapter_14_Table_1 c14t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_14_table_1)
 #' @section Synonym:
@@ -1651,10 +1570,10 @@
 #' @aliases C14T3 chapter_14_table_3 Chapter_14_Table_3 c14t3
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_14_table_3)
 #' @section Synonym:
@@ -1693,10 +1612,10 @@
 #' @aliases C14T4 chapter_14_table_4 Chapter_14_Table_4 c14t4
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_14_table_4)
 #' @section Synonym:
@@ -1734,10 +1653,10 @@
 #' @aliases C14T5 chapter_14_table_5 Chapter_14_Table_5 c14t5
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_14_table_5)
 #' @section Synonym:
@@ -1775,10 +1694,10 @@
 #' @aliases C14T8 chapter_14_table_8 Chapter_14_Table_8 c14t8
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_14_table_8)
 #' @section Synonym:
@@ -1815,10 +1734,10 @@
 #' @aliases C14T10 chapter_14_table_10 Chapter_14_Table_10 c14t10
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_14_table_10)
 #' @section Synonym:
@@ -1856,10 +1775,10 @@
 #' @aliases C15T1 chapter_15_table_1 Chapter_15_Table_1 c15t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_15_table_1)
 #' @section Synonym:
@@ -1894,10 +1813,10 @@
 #' @aliases C16T1 chapter_16_table_1 Chapter_16_Table_1 c16t1
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_16_table_1)
 #' @section Synonym:
@@ -1937,10 +1856,10 @@
 #' @aliases C16T4 chapter_16_table_4 Chapter_16_Table_4 c16t4
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_16_table_4)
 #' @section Synonym:
@@ -1965,7 +1884,7 @@
 
 #' The data used in Chapter 1, Exercise 18
 #'
-#' Data from Chapter 1 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 1 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Promoted.
@@ -1977,10 +1896,10 @@
 #' @aliases C1E18 chapter_1_exercise_18 Chapter_1_Exercise_18 c1e18
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
 #' @usage data(chapter_1_exercise_18)
 #' @section Synonym:
@@ -2003,7 +1922,7 @@
 
 #' The data used in Chapter 1, Exercise 19
 #'
-#' Data from Chapter 1 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 1 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Convicted.
@@ -2011,10 +1930,10 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_1_exercise_19
 #' @aliases chapter_1_exercise_19 Chapter_1_Exercise_19 C1E19 c1e19
@@ -2040,7 +1959,7 @@
 
 #' The data used in Chapter 1, Exercise 21
 #'
-#' Data from Chapter 1 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 1 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Experimental.
@@ -2048,10 +1967,10 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_1_exercise_21
 #' @aliases chapter_1_exercise_21 Chapter_1_Exercise_21 C1E21 c1e21
@@ -2077,7 +1996,7 @@
 
 #' The data used in Chapter 1, Exercise 22
 #'
-#' Data from Chapter 1 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 1 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Pot.
@@ -2086,10 +2005,10 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_1_exercise_22
 #' @aliases chapter_1_exercise_22 Chapter_1_Exercise_22 C1E22 c1e22
@@ -2115,7 +2034,7 @@
 
 #' The data used in Chapter 1, Exercise 23
 #'
-#' Data from Chapter 1 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 1 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Group.
@@ -2124,10 +2043,10 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_1_exercise_23
 #' @aliases chapter_1_exercise_23 Chapter_1_Exercise_23 C1E23 c1e23
@@ -2153,7 +2072,7 @@
 
 #' The data used in Chapter 3, Exercise 9
 #'
-#' Data from Chapter 3 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 3 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Group.
@@ -2161,10 +2080,10 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_3_exercise_9
 #' @aliases chapter_3_exercise_9 Chapter_3_Exercise_9 C3E9 c3e9
@@ -2190,7 +2109,7 @@
 
 #' The data used in Chapter 3, Exercise 10
 #'
-#' Data from Chapter 3 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 3 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Experiment.
@@ -2199,10 +2118,10 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_3_exercise_10
 #' @aliases chapter_3_exercise_10 Chapter_3_Exercise_10 C3E10 c3e10
@@ -2228,7 +2147,7 @@
 
 #' The data used in Chapter 3, Exercise 11
 #'
-#' Data from Chapter 3 Exercise 11 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 3 Exercise 11 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Condition.
@@ -2236,10 +2155,10 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_3_exercise_11
 #' @aliases chapter_3_exercise_11 Chapter_3_Exercise_11 C3E11 c3e11
@@ -2265,7 +2184,7 @@
 
 #' The data used in Chapter 3, Exercise 19
 #'
-#' Data from Chapter 3 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 3 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -2274,11 +2193,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_3_exercise_19
 #' @aliases chapter_3_exercise_19 Chapter_3_Exercise_19 C3E19 c3e19
@@ -2304,7 +2223,7 @@
 
 #' The data used in Chapter 3, Exercise 20
 #'
-#' Data from Chapter 3 Exercise 20 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 3 Exercise 20 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -2313,11 +2232,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_3_exercise_20
 #' @aliases chapter_3_exercise_20 Chapter_3_Exercise_20 C3E20 c3e20
@@ -2342,7 +2261,7 @@
 
 #' The data used in Chapter 3, Exercise 21
 #'
-#' Data from Chapter 3 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 3 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Condition.
@@ -2350,11 +2269,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_3_exercise_21
 #' @aliases chapter_3_exercise_21 Chapter_3_Exercise_21 C3E21 c3e21
@@ -2379,7 +2298,7 @@
 
 #' The data used in Chapter 3, Exercise 22
 #'
-#' Data from Chapter 3 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 3 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Grade.
@@ -2390,11 +2309,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_3_exercise_22
 #' @aliases chapter_3_exercise_22 Chapter_3_Exercise_22 C3E22 c3e22
@@ -2419,7 +2338,7 @@
 
 #' The data used in Chapter 4, Exercise 11
 #'
-#' Data from Chapter 4 Exercise 11 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 4 Exercise 11 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item dv.
@@ -2427,11 +2346,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_4_exercise_11
 #' @aliases chapter_4_exercise_11 Chapter_4_Exercise_11 C4E11 c4e11
@@ -2456,7 +2375,7 @@
 
 #' The data used in Chapter 4, Exercise 12
 #'
-#' Data from Chapter 4 Exercise 12 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 4 Exercise 12 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item group.
@@ -2464,11 +2383,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_4_exercise_12
 #' @aliases chapter_4_exercise_12 Chapter_4_Exercise_12 C4E12 c4e12
@@ -2493,7 +2412,7 @@
 
 #' The data used in Chapter 4, Exercise 13
 #'
-#' Data from Chapter 4 Exercise 13 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 4 Exercise 13 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item dv.
@@ -2501,16 +2420,16 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_4_exercise_13
 #' @aliases chapter_4_exercise_13 Chapter_4_Exercise_13 C4E13 c4e13
 #' @keywords datasets
-#' @usage data(chapter_4_exercise_12)
+#' @usage data(chapter_4_exercise_13)
 #' @section Synonym:
 #' C4E13
 #' @examples
@@ -2530,7 +2449,7 @@
 
 #' The data used in Chapter 5, Exercise 5
 #'
-#' Data from Chapter 5 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 5 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item dv.
@@ -2538,11 +2457,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_5_exercise_5
 #' @aliases chapter_5_exercise_5 Chapter_5_Exercise_5 C5E5 c5e5
@@ -2567,7 +2486,7 @@
 
 #' The data used in Chapter 5, Exercise 10
 #'
-#' Data from Chapter 5 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 5 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item cond.
@@ -2575,11 +2494,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_5_exercise_10
 #' @aliases chapter_5_exercise_10 Chapter_5_Exercise_10 C5E10 c5e10
@@ -2604,7 +2523,7 @@
 
 #' The data used in Chapter 5, Exercise 16
 #'
-#' Data from Chapter 5 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 5 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item cond.
@@ -2612,11 +2531,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_5_exercise_16
 #' @aliases chapter_5_exercise_16 Chapter_5_Exercise_16 C5E16 c5e16
@@ -2641,7 +2560,7 @@
 
 #' The data used in Chapter 6, Exercise 10
 #'
-#' Data from Chapter 6 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 6 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item cond.
@@ -2649,11 +2568,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_6_exercise_10
 #' @aliases chapter_6_exercise_10 Chapter_6_Exercise_10 C6E10 c6e10
@@ -2678,7 +2597,7 @@
 
 #' The data used in Chapter 6, Exercise 14
 #'
-#' Data from Chapter 6 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 6 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Proportion.
@@ -2686,11 +2605,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_6_exercise_14
 #' @aliases chapter_6_exercise_14 Chapter_6_Exercise_14 C6E14 c6e14
@@ -2715,7 +2634,7 @@
 
 #' The data used in Chapter 6, Exercise 16
 #'
-#' Data from Chapter 6 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 6 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item id.
@@ -2726,11 +2645,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_6_exercise_16
 #' @aliases chapter_6_exercise_16 Chapter_6_Exercise_16 C6E16 c6e16
@@ -2755,7 +2674,7 @@
 
 #' The data used in Chapter 7, Exercise 6
 #'
-#' Data from Chapter 7 Exercise 6 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 6 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Treatment.
@@ -2764,11 +2683,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_6
 #' @aliases chapter_7_exercise_6 Chapter_7_Exercise_6 C7E6 c7e6
@@ -2793,7 +2712,7 @@
 
 #' The data used in Chapter 7, Exercise 9
 #'
-#' Data from Chapter 7 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Treatment.
@@ -2802,11 +2721,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_9
 #' @aliases chapter_7_exercise_9 Chapter_7_Exercise_9 C7E9 c7e9
@@ -2831,7 +2750,7 @@
 
 #' The data used in Chapter 7, Exercise 12
 #'
-#' Data from Chapter 7 Exercise 12 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 12 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ALevel.
@@ -2840,11 +2759,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_12
 #' @aliases chapter_7_exercise_12 Chapter_7_Exercise_12 C7E12 c7e12
@@ -2869,7 +2788,7 @@
 
 #' The data used in Chapter 7, Exercise 13
 #'
-#' Data from Chapter 7 Exercise 13 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 13 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Age.
@@ -2878,11 +2797,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_13
 #' @aliases chapter_7_exercise_13 Chapter_7_Exercise_13 C7E13 c7e13
@@ -2907,7 +2826,7 @@
 
 #' The data used in Chapter 7, Exercise 14
 #'
-#' Data from Chapter 7 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item cond.
@@ -2916,11 +2835,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_14
 #' @aliases chapter_7_exercise_14 Chapter_7_Exercise_14 C7E14 c7e14
@@ -2945,7 +2864,7 @@
 
 #' The data used in Chapter 7, Exercise 15
 #'
-#' Data from Chapter 7 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Gender.
@@ -2954,11 +2873,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_15
 #' @aliases chapter_7_exercise_15 Chapter_7_Exercise_15 C7E15 c7e15
@@ -2983,7 +2902,7 @@
 
 #' The data used in Chapter 7, Exercise 18
 #'
-#' Data from Chapter 7 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item level.
@@ -2992,11 +2911,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_18
 #' @aliases chapter_7_exercise_18 Chapter_7_Exercise_18 C7E18 c7e18
@@ -3021,7 +2940,7 @@
 
 #' The data used in Chapter 7, Exercise 19
 #'
-#' Data from Chapter 7 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item race.
@@ -3030,11 +2949,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_19
 #' @aliases chapter_7_exercise_19 Chapter_7_Exercise_19 C7E19 c7e19
@@ -3059,7 +2978,7 @@
 
 #' The data used in Chapter 7, Exercise 22
 #'
-#' Data from Chapter 7 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item id.
@@ -3069,11 +2988,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_22
 #' @aliases chapter_7_exercise_22 Chapter_7_Exercise_22 C7E22 c7e22
@@ -3098,7 +3017,7 @@
 
 #' The data used in Chapter 7, Exercise 23
 #'
-#' Data from Chapter 7 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item id.
@@ -3108,11 +3027,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_23
 #' @aliases chapter_7_exercise_23 Chapter_7_Exercise_23 C7E23 c7e23
@@ -3137,7 +3056,7 @@
 
 #' The data used in Chapter 7, Exercise 24
 #'
-#' Data from Chapter 7 Exercise 24 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 24 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item id.
@@ -3147,11 +3066,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_24
 #' @aliases chapter_7_exercise_24 Chapter_7_Exercise_24 C7E24 c7e24
@@ -3176,7 +3095,7 @@
 
 #' The data used in Chapter 7, Exercise 25
 #'
-#' Data from Chapter 7 Exercise 25 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 7 Exercise 25 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item id.
@@ -3186,11 +3105,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_7_exercise_25
 #' @aliases chapter_7_exercise_25 Chapter_7_Exercise_25 C7E25 c7e25
@@ -3215,7 +3134,7 @@
 
 #' The data used in Chapter 8, Exercise 15
 #'
-#' Data from Chapter 8 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 8 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ProportionTime.
@@ -3225,11 +3144,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_8_exercise_15
 #' @aliases chapter_8_exercise_15 Chapter_8_Exercise_15 C8E15 c8e15
@@ -3254,7 +3173,7 @@
 
 #' The data used in Chapter 8, Exercise 16
 #'
-#' Data from Chapter 8 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 8 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Value.
@@ -3264,11 +3183,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_8_exercise_16
 #' @aliases chapter_8_exercise_16 Chapter_8_Exercise_16 C8E16 c8e16
@@ -3293,7 +3212,7 @@
 
 #' The data used in Chapter 8, Exercise 17
 #'
-#' Data from Chapter 8 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 8 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item BehavioralAvoidance.
@@ -3303,11 +3222,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_8_exercise_17
 #' @aliases chapter_8_exercise_17 Chapter_8_Exercise_17 C8E17 c8e17
@@ -3332,7 +3251,7 @@
 
 #' The data used in Chapter 8, Exercise 18
 #'
-#' Data from Chapter 8 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 8 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -3343,11 +3262,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_8_exercise_18
 #' @aliases chapter_8_exercise_18 Chapter_8_Exercise_18 C8E18 c8e18
@@ -3372,7 +3291,7 @@
 
 #' The data used in Chapter 8, Exercise 19
 #'
-#' Data from Chapter 8 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 8 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -3383,11 +3302,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_8_exercise_19
 #' @aliases chapter_8_exercise_19 Chapter_8_Exercise_19 C8E19 c8e19
@@ -3412,7 +3331,7 @@
 
 #' The data used in Chapter 9, Exercise 4
 #'
-#' Data from Chapter 9 Exercise 4 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 9 Exercise 4 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Group.
@@ -3421,11 +3340,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_9_exercise_4
 #' @aliases chapter_9_exercise_4 Chapter_9_Exercise_4 C9E4 c9e4
@@ -3450,7 +3369,7 @@
 
 #' The data used in Chapter 9, Exercise 14
 #'
-#' Data from Chapter 9 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 9 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -3460,11 +3379,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_9_exercise_14
 #' @aliases chapter_9_exercise_14 Chapter_9_Exercise_14 C9E14 c9e14
@@ -3489,7 +3408,7 @@
 
 #' The data used in Chapter 9, Exercise 15
 #'
-#' Data from Chapter 9 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 9 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -3499,11 +3418,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_9_exercise_15
 #' @aliases chapter_9_exercise_15 Chapter_9_Exercise_15 C9E15 c9e15
@@ -3528,7 +3447,7 @@
 
 #' The data used in Chapter 9, Exercise 16
 #'
-#' Data from Chapter 9 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 9 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -3538,11 +3457,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_9_exercise_16
 #' @aliases chapter_9_exercise_16 Chapter_9_Exercise_16 C9E16 c9e16
@@ -3568,7 +3487,7 @@
 
 #' The data used in Chapter 9 Extension, Exercise 1
 #'
-#' Data from Chapter 9 Extension Exercise 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 9 Extension Exercise 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -3580,11 +3499,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
-#' @source Sturge-Apple, M. L.,  Suor, J. H., Davies, P. T., Cicchetti, D., Skibo, M. A., \& Rogosch, F. A. (2016). Vagal tone and children's delay of gratification: Differential sensitivity in resource-poor and resource-rich environments. \emph{Psychological Science}, \emph{27}, 885--893.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @source Sturge-Apple, M. L.,  Suor, J. H., Davies, P. T., Cicchetti, D., Skibo, M. A., & Rogosch, F. A. (2016). Vagal tone and children's delay of gratification: Differential sensitivity in resource-poor and resource-rich environments. \emph{Psychological Science}, \emph{27}, 885--893.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data: {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data: {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_9_extension_exercise_1
 #' @aliases chapter_9_extension_exercise_1 Chapter_9_Extension_Exercise_1 C9ExtE1 c9exte1
@@ -3609,7 +3528,7 @@
 
 #' The data used in Chapter 9 Extension, Exercise 2
 #'
-#' Data from Chapter 9 Extension Exercise 2 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 9 Extension Exercise 2 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ParticipantNumber.
@@ -3621,11 +3540,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_9_extension_exercise_2
 #' @aliases chapter_9_extension_exercise_2 Chapter_9_Extension_Exercise_2 C9ExtE2 c9exte2
@@ -3651,7 +3570,7 @@
 
 #' The data used in Chapter 9 Extension, Exercise 3
 #'
-#' Data from Chapter 9 Extension Exercise 3 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 9 Extension Exercise 3 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Grade.
@@ -3663,13 +3582,13 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
-#' @name chapter_9_extension_exercise_2
+#' @name chapter_9_extension_exercise_3
 #' @aliases chapter_9_extension_exercise_3 Chapter_9_Extension_Exercise_3 C9ExtE3 c9exte3
 #' @keywords datasets
 #' @usage data(chapter_9_extension_exercise_3)
@@ -3686,7 +3605,7 @@
 #' str(chapter_9_extension_exercise_3)
 #'
 #' # Brief summary of the data.
-#' summary(chapter_9_extension_exercise_2)
+#' summary(chapter_9_extension_exercise_3)
 #'
 "chapter_9_extension_exercise_3"
 
@@ -3694,7 +3613,7 @@
 # Chapter 9, Extension Figures (Only Used in Figures)
 #' The data used in Chapter 9 Extension Figures 4 and 5
 #'
-#' Data used in the Chapter 9 Extension, Figures 4 and 5, of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data used in the Chapter 9 Extension, Figures 4 and 5, of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Grade
@@ -3710,10 +3629,10 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data: {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data: {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_9_extension_figures_4_and_5
 #' @aliases chapter_9_extension_figures_4_and_5 Chapter_9_Extension_Figures_4_and_5 c9extfigs4and5 C9ExtFigs4and5
@@ -3739,7 +3658,7 @@
 
 #' The data used in Chapter 10, Exercise 7
 #'
-#' Data from Chapter 10 Exercise 7 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 10 Exercise 7 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Ratings.
@@ -3748,11 +3667,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_10_exercise_7
 #' @aliases chapter_10_exercise_7 Chapter_10_Exercise_7 C10E7 c10e7
@@ -3777,7 +3696,7 @@
 
 #' The data used in Chapter 10, Exercise 9
 #'
-#' Data from Chapter 10 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 10 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item BP.
@@ -3787,11 +3706,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_10_exercise_9
 #' @aliases chapter_10_exercise_9 Chapter_10_Exercise_9 C10E9 c10e9
@@ -3816,7 +3735,7 @@
 
 #' The data used in Chapter 10, Exercise 14
 #'
-#' Data from Chapter 10 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 10 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Composite.
@@ -3826,11 +3745,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_10_exercise_14
 #' @aliases chapter_10_exercise_14 Chapter_10_Exercise_14 C10E14 c10e14
@@ -3856,7 +3775,7 @@
 
 #' The data used in Chapter 11, Exercise 3
 #'
-#' Data from Chapter 11 Exercise 3 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 3 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Location1.
@@ -3866,11 +3785,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_3
 #' @aliases chapter_11_exercise_3 Chapter_11_Exercise_3 C11E3 c11e3
@@ -3895,7 +3814,7 @@
 
 #' The data used in Chapter 11, Exercise 5
 #'
-#' Data from Chapter 11 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item cond1.
@@ -3904,11 +3823,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_5
 #' @aliases chapter_11_exercise_5 Chapter_11_Exercise_5 C11E5 c11e5
@@ -3933,7 +3852,7 @@
 
 #' The data used in Chapter 11, Exercise 17
 #'
-#' Data from Chapter 11 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Day1.
@@ -3943,11 +3862,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_17
 #' @aliases chapter_11_exercise_17 Chapter_11_Exercise_17 C11E17 c11e17
@@ -3972,7 +3891,7 @@
 
 #' The data used in Chapter 11, Exercise 18
 #'
-#' Data from Chapter 11 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Strong.
@@ -3981,11 +3900,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_18
 #' @aliases chapter_11_exercise_18 Chapter_11_Exercise_18 C11E18 c11e18
@@ -4010,7 +3929,7 @@
 
 #' The data used in Chapter 11, Exercise 19
 #'
-#' Data from Chapter 11 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Face.
@@ -4020,11 +3939,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_19
 #' @aliases chapter_11_exercise_19 Chapter_11_Exercise_19 C11E19 c11e19
@@ -4049,7 +3968,7 @@
 
 #' The data used in Chapter 11, Exercise 21
 #'
-#' Data from Chapter 11 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Mother.
@@ -4058,11 +3977,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_21
 #' @aliases chapter_11_exercise_21 Chapter_11_Exercise_21 C11E21 c11e21
@@ -4087,7 +4006,7 @@
 
 #' The data used in Chapter 11, Exercise 22
 #'
-#' Data from Chapter 11 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item AgeNumeric.
@@ -4100,11 +4019,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_22
 #' @aliases chapter_11_exercise_22 Chapter_11_Exercise_22 C11E22 c11e22
@@ -4129,7 +4048,7 @@
 
 #' The data used in Chapter 11, Exercise 23
 #'
-#' Data from Chapter 11 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item id.
@@ -4138,11 +4057,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_23
 #' @aliases chapter_11_exercise_23 Chapter_11_Exercise_23 C11E23 c11e23
@@ -4167,7 +4086,7 @@
 
 #' The data used in Chapter 11, Exercise 24
 #'
-#' Data from Chapter 11 Exercise 24 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 11 Exercise 24 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item id.
@@ -4176,11 +4095,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_11_exercise_24
 #' @aliases chapter_11_exercise_24 Chapter_11_Exercise_24 C11E24 c11e24
@@ -4206,7 +4125,7 @@
 
 #' The data used in Chapter 12, Exercise 9
 #'
-#' Data from Chapter 12 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 12 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item GridLeft.
@@ -4216,11 +4135,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_12_exercise_9
 #' @aliases chapter_12_exercise_9 Chapter_12_Exercise_9 C12E9 c12e9
@@ -4246,7 +4165,7 @@
 
 #' The data used in Chapter 12, Exercise 17
 #'
-#' Data from Chapter 12 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 12 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Day1.
@@ -4257,11 +4176,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_12_exercise_17
 #' @aliases chapter_12_exercise_17 Chapter_12_Exercise_17 C12E17 c12e17
@@ -4287,7 +4206,7 @@
 
 #' The data used in Chapter 12, Exercise 18
 #'
-#' Data from Chapter 12 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 12 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Baseline.
@@ -4296,11 +4215,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_12_exercise_18
 #' @aliases chapter_12_exercise_18 Chapter_12_Exercise_18 C12E18 c12e18
@@ -4326,7 +4245,7 @@
 
 #' The data used in Chapter 12, Exercise 19
 #'
-#' Data from Chapter 12 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 12 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item September.
@@ -4338,11 +4257,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_12_exercise_19
 #' @aliases chapter_12_exercise_19 Chapter_12_Exercise_19 C12E19 c12e19
@@ -4368,7 +4287,7 @@
 
 #' The data used in Chapter 12, Exercise 21
 #'
-#' Data from Chapter 12 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 12 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Recall.
@@ -4378,11 +4297,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_12_exercise_21
 #' @aliases chapter_12_exercise_21 Chapter_12_Exercise_21 C12E21 c12e21
@@ -4407,7 +4326,7 @@
 
 #' The data used in Chapter 13, Exercise 7
 #'
-#' Data from Chapter 13 Exercise 7 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 13 Exercise 7 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Location1.
@@ -4417,11 +4336,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_13_exercise_7
 #' @aliases chapter_13_exercise_7 Chapter_13_Exercise_7 C13E7 c13e7
@@ -4446,7 +4365,7 @@
 
 #' The data used in Chapter 13, Exercise 10
 #'
-#' Data from Chapter 13 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 13 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Face.
@@ -4456,11 +4375,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_13_exercise_10
 #' @aliases chapter_13_exercise_10 Chapter_13_Exercise_10 C13E10 c13e10
@@ -4485,7 +4404,7 @@
 
 #' The data used in Chapter 13, Exercise 13
 #'
-#' Data from Chapter 13 Exercise 13 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 13 Exercise 13 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Day1.
@@ -4495,11 +4414,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_13_exercise_13
 #' @aliases chapter_13_exercise_13 Chapter_13_Exercise_13 C13E13 c13e13
@@ -4524,7 +4443,7 @@
 
 #' The data used in Chapter 13, Exercise 14
 #'
-#' Data from Chapter 13 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 13 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Time1.
@@ -4533,11 +4452,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_13_exercise_14
 #' @aliases chapter_13_exercise_14 Chapter_13_Exercise_14 C13E14 c13e14
@@ -4562,7 +4481,7 @@
 
 #' The data used in Chapter 13, Exercise 22
 #'
-#' Data from Chapter 13 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 13 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Condition1.
@@ -4571,11 +4490,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_13_exercise_22
 #' @aliases chapter_13_exercise_22 Chapter_13_Exercise_22 C13E22 c13e22
@@ -4600,7 +4519,7 @@
 
 #' The data used in Chapter 13, Exercise 23
 #'
-#' Data from Chapter 13 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 13 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item AgeNumeric.
@@ -4613,11 +4532,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_13_exercise_23
 #' @aliases chapter_13_exercise_23 Chapter_13_Exercise_23 C13E23 c13e23
@@ -4642,7 +4561,7 @@
 
 #' The data used in Chapter 13, Exercise 24
 #'
-#' Data from Chapter 13 Exercise 24 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 13 Exercise 24 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item id.
@@ -4651,11 +4570,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_13_exercise_24
 #' @aliases chapter_13_exercise_24 Chapter_13_Exercise_24 C13E24 c13e24
@@ -4680,7 +4599,7 @@
 
 #' The data used in Chapter 13, Exercise 25
 #'
-#' Data from Chapter 13 Exercise 25 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 13 Exercise 25 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item self.
@@ -4689,11 +4608,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_13_exercise_25
 #' @aliases chapter_13_exercise_25 Chapter_13_Exercise_25 C13E25 c13e25
@@ -4718,7 +4637,7 @@
 
 #' The data used in Chapter 14, Exercise 10
 #'
-#' Data from Chapter 14 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 14 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Angle0.
@@ -4728,11 +4647,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_14_exercise_10
 #' @aliases chapter_14_exercise_10 Chapter_14_Exercise_10 C14E10 c14e10
@@ -4757,7 +4676,7 @@
 
 #' The data used in Chapter 14, Exercise 14
 #'
-#' Data from Chapter 14 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 14 Exercise 14 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Gender.
@@ -4768,11 +4687,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_14_exercise_14
 #' @aliases chapter_14_exercise_14 Chapter_14_Exercise_14 C14E14 c14e14
@@ -4797,7 +4716,7 @@
 
 #' The data used in Chapter 14, Exercise 15
 #'
-#' Data from Chapter 14 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 14 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Baseline.
@@ -4806,11 +4725,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_14_exercise_15
 #' @aliases chapter_14_exercise_15 Chapter_14_Exercise_15 C14E15 c14e15
@@ -4835,7 +4754,7 @@
 
 #' The data used in Chapter 14, Exercise 21
 #'
-#' Data from Chapter 14 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 14 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Day1.
@@ -4846,11 +4765,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_14_exercise_21
 #' @aliases chapter_14_exercise_21 Chapter_14_Exercise_21 C14E21 c14e21
@@ -4875,7 +4794,7 @@
 
 #' The data used in Chapter 14, Exercise 22
 #'
-#' Data from Chapter 14 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 14 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item September.
@@ -4887,11 +4806,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_14_exercise_22
 #' @aliases chapter_14_exercise_22 Chapter_14_Exercise_22 C14E22 c14e22
@@ -4917,7 +4836,7 @@
 
 #' The data used in Chapter 15, Exercise 16
 #'
-#' Data from Chapter 15 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 15 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -4926,11 +4845,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_15_exercise_16
 #' @aliases chapter_15_exercise_16 Chapter_15_Exercise_16 C15E16 c15e16
@@ -4956,7 +4875,7 @@
 
 #' The data used in Chapter 15, Exercise 17
 #'
-#' Data from Chapter 15 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 15 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Day1.
@@ -4966,11 +4885,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_15_exercise_17
 #' @aliases chapter_15_exercise_17 Chapter_15_Exercise_17 C15E17 c15e17
@@ -4995,7 +4914,7 @@
 
 #' The data used in Chapter 15, Exercise 18
 #'
-#' Data from Chapter 15 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 15 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Subject.
@@ -5005,11 +4924,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_15_exercise_18
 #' @aliases chapter_15_exercise_18 Chapter_15_Exercise_18 C15E18 c15e18
@@ -5034,7 +4953,7 @@
 
 #' The data used in Chapter 15, Exercise 19
 #'
-#' Data from Chapter 15 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 15 Exercise 19 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Subject.
@@ -5044,11 +4963,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_15_exercise_19
 #' @aliases chapter_15_exercise_19 Chapter_15_Exercise_19 C15E19 c15e19
@@ -5074,7 +4993,7 @@
 
 #' The data used in Chapter 15, Exercise 18 (Univariate)
 #'
-#' Data from Chapter 15 Exercise 18 (Univariate) of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 15 Exercise 18 (Univariate) of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item ID.
@@ -5083,11 +5002,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_15_exercise_18_univariate
 #' @aliases chapter_15_exercise_18_univariate Chapter_15_Exercise_18_Univariate C15E18U c15e18u
@@ -5113,7 +5032,7 @@
 
 #' The data used in Chapter 15, Exercise 19 (Univariate)
 #'
-#' Data from Chapter 15 Exercise 19 (Univariate) of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 15 Exercise 19 (Univariate) of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Subject.
@@ -5122,11 +5041,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_15_exercise_19_univariate
 #' @aliases chapter_15_exercise_19_univariate Chapter_15_Exercise_19_Univariate C15E19U c15e19u
@@ -5152,7 +5071,7 @@
 
 #' The data used in Chapter 16, Exercise 5
 #'
-#' Data from Chapter 16 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 16 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Severity.
@@ -5161,11 +5080,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_16_exercise_5
 #' @aliases chapter_16_exercise_5 Chapter_16_Exercise_5 C16E5 c16e5
@@ -5191,7 +5110,7 @@
 
 #' The data used in Chapter 16, Exercise 7
 #'
-#' Data from Chapter 16 Exercise 7 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 16 Exercise 7 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Observation.
@@ -5203,11 +5122,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_16_exercise_7
 #' @aliases chapter_16_exercise_7 Chapter_16_Exercise_7 C16E7 c16e7
@@ -5233,7 +5152,7 @@
 
 #' The data used in Chapter 16, Exercise 9
 #'
-#' Data from Chapter 16 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 16 Exercise 9 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Observation.
@@ -5245,11 +5164,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name chapter_16_exercise_9
 #' @aliases chapter_16_exercise_9 Chapter_16_Exercise_9 C16E9 c16e9
@@ -5278,7 +5197,7 @@
 #######################################################################################################################################
 #' The data used in Tutorial 1, Table 1
 #'
-#' Data from Tutorial 1 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Tutorial 1 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Group.
@@ -5286,11 +5205,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name tutorial_1_table_1
 #' @aliases tutorial_1_table_1 tutorial_1_table_1 T1T1 t1t1
@@ -5316,7 +5235,7 @@
 
 #' The data used in Tutorial 2, Table 1
 #'
-#' Data from Tutorial 2 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Tutorial 2 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Group.
@@ -5324,11 +5243,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name tutorial_2_table_1
 #' @aliases tutorial_2_table_1 tutorial_2_table_1 T2T1 t2t1
@@ -5354,7 +5273,7 @@
 
 #' The data used in Tutorial 2, Table 2
 #'
-#' Data from Tutorial 2 Table 2 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Tutorial 2 Table 2 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Y.
@@ -5364,13 +5283,13 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
-#' @name tutorial_2_table_1
+#' @name tutorial_2_table_2
 #' @aliases tutorial_2_table_2 tutorial_2_table_2 T2T2 t2t2
 #' @keywords datasets
 #' @usage data(tutorial_2_table_2)
@@ -5394,7 +5313,7 @@
 
 #' The data used in Tutorial 3A, Table 1
 #'
-#' Data from Tutorial 3A Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Tutorial 3A Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Group.
@@ -5402,11 +5321,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name tutorial_3a_table_1
 #' @aliases tutorial_3a_table_1 tutorial_3a_table_1 T3AT1 t3at1
@@ -5432,7 +5351,7 @@
 
 #' The data used in Tutorial 3A, Table 2
 #'
-#' Data from Tutorial 3A Table 2 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Tutorial 3A Table 2 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item Y.
@@ -5442,11 +5361,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name tutorial_3a_table_2
 #' @aliases tutorial_3a_table_2 tutorial_3a_table_2 T3AT2 t3at2
@@ -5472,7 +5391,7 @@
 
 #' The data used in Tutorial 3A, Table 4
 #'
-#' Data from Tutorial 3A Table 4 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Tutorial 3A Table 4 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item group.
@@ -5484,11 +5403,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name tutorial_3a_table_4
 #' @aliases tutorial_3a_table_4 tutorial_3a_table_4 T3AT4 t3at4
@@ -5514,7 +5433,7 @@
 
 #' The data used in Tutorial 3A, Table 5
 #'
-#' Data from Tutorial 3A Table 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (3rd edition; Maxwell, Delaney, & Kelley).
+#' Data from Tutorial 3A Table 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
 #' \item group.
@@ -5526,11 +5445,11 @@
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 #' @references
-#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @docType data
 #' @name tutorial_3a_table_5
 #' @aliases tutorial_3a_table_5 tutorial_3a_table_5 T3AT5 t3at5

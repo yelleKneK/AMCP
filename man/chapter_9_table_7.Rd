@@ -13,8 +13,8 @@ An object of class \code{data.frame} with 30 rows and 3 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2018). \emph{Designing experiments and
-analyzing data: {A} model comparison perspective}. (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
 data(chapter_9_table_7)
@@ -23,7 +23,7 @@ data(chapter_9_table_7)
 The data used in Chapter 9, Table 7
 }
 \details{
-The data shown in Table 9.7 represents a hypothetical three-group study assessing different interventions for depression. 30 depressive individuals have been randomly assigned to one of three conditions: (1) selective serotonin reuptake inhibitor (SSRI) antidepressant medication, (2) placebo, or (3) wait list control. The Beck Depression Inventory (BDI) has been administered to each individual prior to the study, and then later is administered a second time at the end of the study. The data represents a three group pre-post design, where the 30 depressives were randomly assigned to one of three conditions. The primary question of interest is: "do individuals in some groups change more on their measures of depression than do individuals in other groups?"#'
+The data shown in Table 9.7 represents a hypothetical three-group study assessing different interventions for depression. 30 depressive individuals have been randomly assigned to one of three conditions: (1) selective serotonin reuptake inhibitor (SSRI) antidepressant medication, (2) placebo, or (3) wait list control. The Beck Depression Inventory (BDI) has been administered to each individual prior to the study, and then later is administered a second time at the end of the study. The data represents a three group pre-post design, where the 30 depressives were randomly assigned to one of three conditions. The primary question of interest is: "do individuals in some groups change more on their measures of depression than do individuals in other groups?"
 }
 \section{Variables}{
 
@@ -51,8 +51,8 @@ str(chapter_9_table_7)
 
 }
 \references{
-Maxwell, S. E., Delaney, H. D., \& Kelley, K. (2018). \emph{Designing experiments and analyzing data:
-{A} model comparison perspective} (3rd ed.). New York, NY: Routledge.
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+{A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{
 Ken Kelley \email{kkelley@nd.edu}
