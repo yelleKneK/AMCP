@@ -30,9 +30,9 @@ Consider an example of a cognitive neuroscience study of patient groups. Specifi
 \section{Variables}{
 
 \describe{
-\item{score}{blood pressure}
-\item{feedback}{the likelihood of there being a biofeedback or drug main effect}
-\item{drug}{the level of the drug factor}}
+\item{Diagnosis}{diagnostic group: amnesic, Huntington's disease, or control (three levels)}
+\item{Task}{task type (1 = artificial grammar, 2 = classification learning, 3 = recognition memory)}
+\item{Y}{the dependent variable: the task performance score}}
 }
 
 \section{Synonym}{

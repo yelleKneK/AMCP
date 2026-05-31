@@ -28,9 +28,9 @@ The data in Table 10.9 is based upon the information from the student therapist 
 \section{Variables}{
 
 \describe{
-\item{a}{type of study program}
-\item{b}{the particular school}
-\item{act}{the individual's ACT score}
+\item{Gender}{gender of the clinical-student trainee (two levels: male and female)}
+\item{Trainee}{trainee, nested within gender (three trainees per gender)}
+\item{Severity}{general severity rating assigned by the trainee to a client}
 }
 }
 

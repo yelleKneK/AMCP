@@ -82,12 +82,12 @@
 #'
 #' The data used in Chapter 3, Table 3.
 #'
-#' Although different mood states have, of course, always been of interest to clinicians, recent years have seen a profusion of studies attempting to manipulate mood states in controlled laboratory studies. In such induced-mood research, participants typically are randomly assigned to one of three groups: a depressed-mood induction, a neutral-mood induction, or an elated-mood induction. One study (Pruitt, 1988) used selected videoslips from several movies and public television programs as the mood-induction treatments. After viewing the video for her assigned condition, each participant was asked to indicate her mood on various scales. In addition, each subject was herself videotaped, and her facial expressions of emotion were rated on a scale of 1 to 7 (1 indicating sad; 4, neutral; and 7, happy) by an assistant who viewed the videotapes but was kept "blind" regarding the subjects' assigned conditions.
+#' Although different mood states have, of course, always been of interest to clinicians, recent years have seen a profusion of studies attempting to manipulate mood states in controlled laboratory studies. In such induced-mood research, participants typically are randomly assigned to one of three groups: a depressed-mood induction, a neutral-mood induction, or an elated-mood induction. One study (Pruitt, 1988) used selected video clips from several movies and public television programs as the mood-induction treatments. After viewing the video for her assigned condition, each participant was asked to indicate her mood on various scales. In addition, each subject was herself videotaped, and her facial expressions of emotion were rated on a scale of 1 to 7 (1 indicating sad; 4, neutral; and 7, happy) by an assistant who viewed the videotapes but was kept "blind" regarding the subjects' assigned conditions.
 #'
 #' @section Variables:
 #'\describe{
-#'  \item{cond}{assigned Condition: a numeric vector (1=Pleasant/elated, 2=Neutral, 3=Unpleasant/depressed)}
-#'  \item{mood}{a numeric vector between 1 and 7}}
+#'  \item{Condition}{assigned Condition: a numeric vector (1=Pleasant/elated, 2=Neutral, 3=Unpleasant/depressed)}
+#'  \item{Rating}{a numeric vector between 1 and 7}}
 #'
 #' @docType data
 #' @name chapter_3_table_3
@@ -468,9 +468,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{score}{blood pressure}
-#'\item{feedback}{the likelihood of there being a biofeedback or drug main effect}
-#'\item{drug}{the level of the drug factor}}
+#'\item{Diagnosis}{diagnostic group: amnesic, Huntington's disease, or control (three levels)}
+#'\item{Task}{task type (1 = artificial grammar, 2 = classification learning, 3 = recognition memory)}
+#'\item{Y}{the dependent variable: the task performance score}}
 #'
 #' @docType data
 #' @name chapter_7_table_11
@@ -831,9 +831,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{a}{type of study program}
-#'\item{b}{the particular school}
-#'\item{act}{the individual's ACT score}
+#'\item{Gender}{gender of the clinical-student trainee (two levels: male and female)}
+#'\item{Trainee}{trainee, nested within gender (three trainees per gender)}
+#'\item{Severity}{general severity rating assigned by the trainee to a client}
 #'}
 #'
 #' @docType data
@@ -907,7 +907,7 @@
 #'
 #' The data used in Chapter 11, Table 4
 #'
-#' No analyses are conducted for this data set. The traditional view of a repreated-measures design is to regard it as a two-factor design. Specifically, one factor represents the repeated condition (e.g., time, drug, subtest), whereas the second factor represents subjects. The rationale for this conceptualization can be understood by considering the data in Table 11.4. When the data are displayed this way, the design looks very much like other factorial designs we've already encountered.
+#' No analyses are conducted for this data set. The traditional view of a repeated-measures design is to regard it as a two-factor design. Specifically, one factor represents the repeated condition (e.g., time, drug, subtest), whereas the second factor represents subjects. The rationale for this conceptualization can be understood by considering the data in Table 11.4. When the data are displayed this way, the design looks very much like other factorial designs we've already encountered.
 #'
 #' @section Variables:
 #'\describe{
@@ -1035,10 +1035,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{months30}{age-normed general cognitive score for 30-month-old}
-#'\item{months36}{age-normed general cognitive score for 36-month-old}
-#'\item{months42}{age-normed general cognitive score for 42-month-old}
-#'\item{months48}{age-normed general cognitive score for 48-month-old}
+#'\item{Subject}{target being rated (five targets, i.e., subjects)}
+#'\item{Judge}{judge providing the rating (three judges)}
+#'\item{Rating}{rating assigned by the judge to the target}
 #'}
 #'
 #' @docType data
@@ -1071,7 +1070,7 @@
 #'
 #' The data used in Chapter 12, Table 1
 #'
-#' Suppose that a psychologist studying the visual system was interested in determining the extent to which interfering visual stimuli slow the abilityto recognize letters. Subjects are brought into a laboratory and seated in front of a tachistoscope. Subjects are told that they will see either the letter T or the letter I displayed on the screen. In some trials, the letter appears by itself, but in other trials, the target letter is embedded in a group of other letters. This variation in the display consitutes the first factor, which is referred to as noise. The noise factor has two levels -- absent and present. The other factor varied by the experimenter is where in the display the target letter appears. This factor, which is called angle, has three levels. The target letter is either shown at the center of the screen (0 degrees off-center, where the subject has been instructed to fixate), 4 degrees off-center or 8 degrees off-center (in each case, the deviation from the center varies randomly between left and right).
+#' Suppose that a psychologist studying the visual system was interested in determining the extent to which interfering visual stimuli slow the ability to recognize letters. Subjects are brought into a laboratory and seated in front of a tachistoscope. Subjects are told that they will see either the letter T or the letter I displayed on the screen. In some trials, the letter appears by itself, but in other trials, the target letter is embedded in a group of other letters. This variation in the display constitutes the first factor, which is referred to as noise. The noise factor has two levels -- absent and present. The other factor varied by the experimenter is where in the display the target letter appears. This factor, which is called angle, has three levels. The target letter is either shown at the center of the screen (0 degrees off-center, where the subject has been instructed to fixate), 4 degrees off-center or 8 degrees off-center (in each case, the deviation from the center varies randomly between left and right).
 #' The data in Table 12.1 consist of reaction time scores for 10 participants where each participant contributes 6 scores to the analysis. In particular, each participant is exposed to each of 6 experimental conditions, which are obtained by factorially combining angle (0, 4, and 8) with noise (absent and present). The tests of interest are the omnibus tests within the two-factor within-subjects ANOVA. The dependent measure is reaction time (latency), measured in milliseconds (ms), required by the subject to identify the correct target letter. Each subject has six scores.
 #'
 #' @section Variables:
@@ -1270,7 +1269,7 @@
 #'
 #' The data used in Chapter 12, Table 21
 #'
-#' Suppose that we are interested in comparing the effects of three drugs (A, B, and C) on aggressiveness on monkeys. To control for possible order effects, we use a Latin square design. Specifically, we suppose that six subjects are available (as we discussed in Chapter 11, a subject is actually a pair of monkeys in this design). Following the design principles outlined at the end of Chapter 11, we use a replicated Latin square design with two randomly consituted squares. Subjects are then randomly assigned to rows of the squares. The dependent measure can be thought of as the number of aggressive behvaiors engaged in during a fixed time period. Notice that each sore is a function of three possible influences: subject, time period, and treatment condition (where here is drug, with three levels, either A, B, or C).
+#' Suppose that we are interested in comparing the effects of three drugs (A, B, and C) on aggressiveness on monkeys. To control for possible order effects, we use a Latin square design. Specifically, we suppose that six subjects are available (as we discussed in Chapter 11, a subject is actually a pair of monkeys in this design). Following the design principles outlined at the end of Chapter 11, we use a replicated Latin square design with two randomly constituted squares. Subjects are then randomly assigned to rows of the squares. The dependent measure can be thought of as the number of aggressive behaviors engaged in during a fixed time period. Notice that each score is a function of three possible influences: subject, time period, and treatment condition (where here is drug, with three levels, either A, B, or C).
 #'
 #' To summarize, the data in Table 12.21 consists of hypothetical aggressiveness scores for 6 monkeys who have been exposed to three types of drugs (A, B, and C). In order to control for potential order effects, a Latin square design is utilized. In particular, two randomly constituted squares are formed with three monkeys randomly assigned to each square and also randomly assigned to the particular row of the square that assigns the order that they are exposed to treatment.
 #'
@@ -1440,10 +1439,8 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{months30}{hypothetical McCarthy IQ for 30-month-old individuals}
-#'\item{months36}{hypothetical McCarthy IQ for 36-month-old individuals}
-#'\item{months42}{hypothetical McCarthy IQ for 42-month-old individuals}
-#'\item{months48}{hypothetical McCarthy IQ for 48-month-old individuals}
+#'\item{Linear}{linear-trend D variable: the linear contrast applied to each participant's repeated measures, using coefficients from Appendix Table A.10}
+#'\item{Quadratic}{quadratic-trend D variable: the quadratic contrast applied to each participant's repeated measures, using coefficients from Appendix Table A.10}
 #'}
 #'
 #' @docType data
@@ -1514,7 +1511,7 @@
 #'
 #' The data used in Chapter 14, Table 1
 #'
-#' Suppose that a perceptual psychologist studying the visual system was interested in determining the extent to which interfering visual stimuli slow the ability to recognize letters. Participants are brought into a laboratory and seated in front of a tachistoscope. They are told that they will see either the letter T or the letter I displayed on the screen. In some trials, the letter appears by itself, but in other trials the target letter is embedded in a group of other letters. This variation in the display consitutes the first factor, which is referred to as noise. The noise factor has two levels - absent and present. The other factor varied by the experimenter is where in the display the target letter appears. This factor, which is called angle, also has two levels. The target letter is either shown at the center of the screen (where the participant has been told to fixate), or 8 degrees off center (with the deviation from the center randomly varying between left and right). Table 14.1 presents hypothetical data for 10 participants. As usual, the same size is kept small to minimize the computational burden. The dependent measure is reaction time (or latency) measured in milliseconds. Each participant has  four scores, one for each combination of the 2x2 design. In an actual perceptual experiment, each of these four scores would itself be the mean score for that individual across a number of trials in the particular condition.
+#' Suppose that a perceptual psychologist studying the visual system was interested in determining the extent to which interfering visual stimuli slow the ability to recognize letters. Participants are brought into a laboratory and seated in front of a tachistoscope. They are told that they will see either the letter T or the letter I displayed on the screen. In some trials, the letter appears by itself, but in other trials the target letter is embedded in a group of other letters. This variation in the display constitutes the first factor, which is referred to as noise. The noise factor has two levels - absent and present. The other factor varied by the experimenter is where in the display the target letter appears. This factor, which is called angle, also has two levels. The target letter is either shown at the center of the screen (where the participant has been told to fixate), or 8 degrees off center (with the deviation from the center randomly varying between left and right). Table 14.1 presents hypothetical data for 10 participants. As usual, the sample size is kept small to minimize the computational burden. The dependent measure is reaction time (or latency) measured in milliseconds. Each participant has  four scores, one for each combination of the 2x2 design. In an actual perceptual experiment, each of these four scores would itself be the mean score for that individual across a number of trials in the particular condition.
 #'
 #' @section Variables:
 #'\describe{
@@ -4680,7 +4677,7 @@
 #'
 #' \itemize{
 #' \item Gender.
-#' \item FaleFriend.
+#' \item MaleFriend.
 #' \item FemaleFriend.
 #' \item Same.
 #' \item Opposite.}

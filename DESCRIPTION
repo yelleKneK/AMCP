@@ -17,6 +17,7 @@ Description: Data sets that accompany the book "Designing experiments and
     available at <https://designingexperiments.com/>.
 License: GPL (>= 3)
 Encoding: UTF-8
+Language: en-US
 Depends:
     R (>= 3.0.0)
 Suggests:

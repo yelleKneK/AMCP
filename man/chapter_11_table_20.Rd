@@ -30,10 +30,9 @@ The analysis of the data contained in Table 11.20 is carried out in exactly the 
 \section{Variables}{
 
 \describe{
-\item{months30}{age-normed general cognitive score for 30-month-old}
-\item{months36}{age-normed general cognitive score for 36-month-old}
-\item{months42}{age-normed general cognitive score for 42-month-old}
-\item{months48}{age-normed general cognitive score for 48-month-old}
+\item{Subject}{target being rated (five targets, i.e., subjects)}
+\item{Judge}{judge providing the rating (three judges)}
+\item{Rating}{rating assigned by the judge to the target}
 }
 }
 

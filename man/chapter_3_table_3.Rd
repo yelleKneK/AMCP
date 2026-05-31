@@ -23,13 +23,13 @@ data(chapter_3_table_3)
 The data used in Chapter 3, Table 3.
 }
 \details{
-Although different mood states have, of course, always been of interest to clinicians, recent years have seen a profusion of studies attempting to manipulate mood states in controlled laboratory studies. In such induced-mood research, participants typically are randomly assigned to one of three groups: a depressed-mood induction, a neutral-mood induction, or an elated-mood induction. One study (Pruitt, 1988) used selected videoslips from several movies and public television programs as the mood-induction treatments. After viewing the video for her assigned condition, each participant was asked to indicate her mood on various scales. In addition, each subject was herself videotaped, and her facial expressions of emotion were rated on a scale of 1 to 7 (1 indicating sad; 4, neutral; and 7, happy) by an assistant who viewed the videotapes but was kept "blind" regarding the subjects' assigned conditions.
+Although different mood states have, of course, always been of interest to clinicians, recent years have seen a profusion of studies attempting to manipulate mood states in controlled laboratory studies. In such induced-mood research, participants typically are randomly assigned to one of three groups: a depressed-mood induction, a neutral-mood induction, or an elated-mood induction. One study (Pruitt, 1988) used selected video clips from several movies and public television programs as the mood-induction treatments. After viewing the video for her assigned condition, each participant was asked to indicate her mood on various scales. In addition, each subject was herself videotaped, and her facial expressions of emotion were rated on a scale of 1 to 7 (1 indicating sad; 4, neutral; and 7, happy) by an assistant who viewed the videotapes but was kept "blind" regarding the subjects' assigned conditions.
 }
 \section{Variables}{
 
 \describe{
- \item{cond}{assigned Condition: a numeric vector (1=Pleasant/elated, 2=Neutral, 3=Unpleasant/depressed)}
- \item{mood}{a numeric vector between 1 and 7}}
+ \item{Condition}{assigned Condition: a numeric vector (1=Pleasant/elated, 2=Neutral, 3=Unpleasant/depressed)}
+ \item{Rating}{a numeric vector between 1 and 7}}
 }
 
 \section{Synonym}{

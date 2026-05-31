@@ -23,7 +23,7 @@ data(chapter_11_table_4)
 The data used in Chapter 11, Table 4
 }
 \details{
-No analyses are conducted for this data set. The traditional view of a repreated-measures design is to regard it as a two-factor design. Specifically, one factor represents the repeated condition (e.g., time, drug, subtest), whereas the second factor represents subjects. The rationale for this conceptualization can be understood by considering the data in Table 11.4. When the data are displayed this way, the design looks very much like other factorial designs we've already encountered.
+No analyses are conducted for this data set. The traditional view of a repeated-measures design is to regard it as a two-factor design. Specifically, one factor represents the repeated condition (e.g., time, drug, subtest), whereas the second factor represents subjects. The rationale for this conceptualization can be understood by considering the data in Table 11.4. When the data are displayed this way, the design looks very much like other factorial designs we've already encountered.
 }
 \section{Variables}{
 

@@ -25,7 +25,7 @@ Data from Chapter 14 Exercise 14 of \emph{Designing Experiments and Analyzing Da
 \details{
 \itemize{
 \item Gender.
-\item FaleFriend.
+\item MaleFriend.
 \item FemaleFriend.
 \item Same.
 \item Opposite.}

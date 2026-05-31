@@ -28,10 +28,8 @@ For the hypothetical data contained in Table 13.2, the linear and quadratic D va
 \section{Variables}{
 
 \describe{
-\item{months30}{hypothetical McCarthy IQ for 30-month-old individuals}
-\item{months36}{hypothetical McCarthy IQ for 36-month-old individuals}
-\item{months42}{hypothetical McCarthy IQ for 42-month-old individuals}
-\item{months48}{hypothetical McCarthy IQ for 48-month-old individuals}
+\item{Linear}{linear-trend D variable: the linear contrast applied to each participant's repeated measures, using coefficients from Appendix Table A.10}
+\item{Quadratic}{quadratic-trend D variable: the quadratic contrast applied to each participant's repeated measures, using coefficients from Appendix Table A.10}
 }
 }
 
