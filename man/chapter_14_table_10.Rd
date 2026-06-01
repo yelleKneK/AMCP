@@ -23,15 +23,15 @@ data(chapter_14_table_10)
 The data used in Chapter 14, Table 10
 }
 \details{
-These data are identical to those analyzed in chapter 12 (see Tables 12.7 and 12.15) to facilitate comparisons of the multivariate approach and the mixed-model approach.The hypothetical data contained in Table 14.10 contains an additional level of angle (four degrees) that was not considered in Table 14.8.
+Table 14.10 presents the M, D1, and D2 transformed scores formed from the three-angle reaction-time data of Table 14.9. For each participant, M is the mean reaction time across the 0-degree, 4-degree, and 8-degree angle conditions; D1 is the linear trend across angle (8 degrees minus 0 degrees); and D2 is the quadratic trend across angle (0 degrees minus twice 4 degrees plus 8 degrees). These transformed variables support the multivariate approach to the design: D1 and D2 are used to test the main effect of angle and the age-by-angle interaction, while M carries the between-subjects information used to test the main effect of age. The young-participant means are M = 569, D1 = 168, and D2 = -48; the old-participant means are M = 663, D1 = 249, and D2 = 27; and the grand means are M = 616, D1 = 208.5, and D2 = -10.5.
 }
 \section{Variables}{
 
 \describe{
-\item{Angle0}{participant reaction time at angle 0}
-\item{Angle4}{participant reaction time at angle 4}
-\item{Angle8}{participant reaction time at angle 8}
-\item{Group}{participant group number}
+\item{M}{participant mean reaction time across the 0, 4, and 8 degree angle conditions}
+\item{D1}{linear trend across angle, 8 degrees minus 0 degrees}
+\item{D2}{quadratic trend across angle, 0 degrees minus twice 4 degrees plus 8 degrees}
+\item{Group}{participant age (young or old)}
 }
 }
 

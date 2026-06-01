@@ -628,13 +628,13 @@
 "chapter_7_table_11"
 
 
-#' The data used in Chapter 7, Table 15
+#' The data used in Chapter 7, Table 16
 #'
-#' The data used in Chapter 7, Table 15
+#' The data used in Chapter 7, Table 16
 #'
 #' The following hypothetical salary data represents a nonorthogonal two-by-two factorial design. The first factor (sex) is crossed with college (degree or no degree). The primary question of interest is whether or not there is sex discrimination in terms of salary.
 #'
-#' The data in Table 7.15 presents hypothetical data (in thousands) for 12 females and 10 males who have just been hired by the organization. The mean salary for the 12 females is $22,333, whereas the mean for the 10 males is $22,100. The data in Table 7.15 also contains information about an additional characteristic of employees, namely whether they received a college degree. It is clear from the data that a majority of the new female employees are college graduates, whereas a majority of the males are not.
+#' The data in Table 7.16 presents hypothetical data (in thousands) for 12 females and 10 males who have just been hired by the organization. The mean salary for the 12 females is $22,333, whereas the mean for the 10 males is $22,100. The data in Table 7.16 also contains information about an additional characteristic of employees, namely whether they received a college degree. It is clear from the data that a majority of the new female employees are college graduates, whereas a majority of the males are not.
 #'
 #'
 #' @section Variables:
@@ -645,8 +645,8 @@
 #'}
 #'
 #' @docType data
-#' @name chapter_7_table_15
-#' @aliases C7T15 chapter_7_table_15 Chapter_7_Table_15 c7t15
+#' @name chapter_7_table_16
+#' @aliases C7T16 chapter_7_table_16 Chapter_7_Table_16 c7t16
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
 #' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
@@ -654,18 +654,18 @@
 #' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
 #' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
-#' @usage data(chapter_7_table_15)
+#' @usage data(chapter_7_table_16)
 #' @section Synonym: 
-#' C7T15
+#' C7T16
 #' @examples
 #' # Load the data
-#' data(chapter_7_table_15)
+#' data(chapter_7_table_16)
 #'
 #' # Or, alternatively load the data as
-#' data(C7T15)
+#' data(C7T16)
 #'
 #' # View the structure
-#' str(chapter_7_table_15)
+#' str(chapter_7_table_16)
 #'
 #' # ---------------------------------------------------------------------
 #' # Optional: a factor-coded copy for model-comparison analyses / plotting.
@@ -675,26 +675,26 @@
 #' # fixed by the counts in the narrative: the data have 12 cases in Sex == 1
 #' # and 10 in Sex == 2, matching the "12 females and 10 males", and the
 #' # female majority are graduates, so Education == 1 is the degree group.
-#' C7T15_factors <- chapter_7_table_15
-#' C7T15_factors$Sex <- factor(C7T15_factors$Sex, levels = 1:2,
+#' C7T16_factors <- chapter_7_table_16
+#' C7T16_factors$Sex <- factor(C7T16_factors$Sex, levels = 1:2,
 #'   labels = c("Female", "Male"))
-#' C7T15_factors$Education <- factor(C7T15_factors$Education, levels = 1:2,
+#' C7T16_factors$Education <- factor(C7T16_factors$Education, levels = 1:2,
 #'   labels = c("Degree", "No Degree"))
 #'
 #' # This is a NONORTHOGONAL (unbalanced) two-way design, so the sums of
 #' # squares are order-dependent; the book reports the appropriate tests.
 #' # Build the factor copy, then follow the book's procedure (e.g.,
 #' # car::Anova() for Type II/III) rather than the default anova(lm()).
-#' str(C7T15_factors)
+#' str(C7T16_factors)
 #'
-"chapter_7_table_15"
+"chapter_7_table_16"
 
 
-#' The data used in Chapter 7, Table 23
+#' The data used in Chapter 7, Table 24
 #'
-#' The data used in Chapter 7, Table 23
+#' The data used in Chapter 7, Table 24
 #'
-#' Suppose that a clinical psychologist is interested in comparing the relative effectiveness of three forms of psychotherapy for alleviating depression. Fifteen individuals are randomly assigned to one of each of three treatment groups: cognitive-behavioral, Rogerian, and assertiveness training. The Depression Scale of the MMPI serves as the dependent variable. After the fact, these individuals where placed into one of three categories based on the severity of their depression. Thus, this data set represents a 3 by 3 nonorthogonal factorial design with post hoc blocking. Table 7.23 shows hypothetical MMPI scores for 45 participants, each of whom is placed in one cell of a 3x3 design. One factor (A, the row factor) is type of therapy. The other factor (B, the column factor) is degree of severity.
+#' Suppose that a clinical psychologist is interested in comparing the relative effectiveness of three forms of psychotherapy for alleviating depression. Fifteen individuals are randomly assigned to one of each of three treatment groups: cognitive-behavioral, Rogerian, and assertiveness training. The Depression Scale of the MMPI serves as the dependent variable. After the fact, these individuals where placed into one of three categories based on the severity of their depression. Thus, this data set represents a 3 by 3 nonorthogonal factorial design with post hoc blocking. Table 7.24 shows hypothetical MMPI scores for 45 participants, each of whom is placed in one cell of a 3x3 design. One factor (A, the row factor) is type of therapy. The other factor (B, the column factor) is degree of severity.
 #'
 #' The data represents the relative effectiveness of three forms of psychotherapy for alleviating depression. Fifteen individuals were randomly assigned to one of three groups. After the fact, these individuals where placed into one of three categories based on the severity of their depression. Thus, this data set represents a 3 by 3 nonorthogonal factorial design with post hoc blocking.
 #'
@@ -706,8 +706,8 @@
 #'}
 #'
 #' @docType data
-#' @name chapter_7_table_23
-#' @aliases C7T23 chapter_7_table_23 Chapter_7_Table_23 c7t23
+#' @name chapter_7_table_24
+#' @aliases C7T24 chapter_7_table_24 Chapter_7_Table_24 c7t24
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
 #' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
@@ -715,18 +715,18 @@
 #' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
 #' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
-#' @usage data(chapter_7_table_23)
+#' @usage data(chapter_7_table_24)
 #' @section Synonym:
-#' C7T23
+#' C7T24
 #' @examples
 #' # Load the data
-#' data(chapter_7_table_23)
+#' data(chapter_7_table_24)
 #'
 #' # Or, alternatively load the data as
-#' data(C7T23)
+#' data(C7T24)
 #'
 #' # View the structure
-#' str(chapter_7_table_23)
+#' str(chapter_7_table_24)
 #'
 #' # ---------------------------------------------------------------------
 #' # Optional: a factor-coded copy for model-comparison analyses / plotting.
@@ -735,17 +735,17 @@
 #' # so the numeric codes are kept as the factor levels. Build a *copy*
 #' # (suffix "_factors") so the canonical data set is left unchanged; Score
 #' # stays numeric.
-#' C7T23_factors <- chapter_7_table_23
-#' C7T23_factors$Therapy  <- factor(C7T23_factors$Therapy)
-#' C7T23_factors$Severity <- factor(C7T23_factors$Severity)
+#' C7T24_factors <- chapter_7_table_24
+#' C7T24_factors$Therapy  <- factor(C7T24_factors$Therapy)
+#' C7T24_factors$Severity <- factor(C7T24_factors$Severity)
 #'
 #' # This is a NONORTHOGONAL (unbalanced) two-way design with post hoc
 #' # blocking, so the sums of squares are order-dependent; the book reports
 #' # the appropriate tests. Build the factor copy, then follow the book's
 #' # procedure (e.g., car::Anova() for Type II/III).
-#' str(C7T23_factors)
+#' str(C7T24_factors)
 #'
-"chapter_7_table_23"
+"chapter_7_table_24"
 
 
 #' The data used in Chapter 8, Table 12
@@ -883,9 +883,9 @@
 "chapter_9_table_7"
 
 
-#' The data used in Chapter 9, Table 11
+#' The data used in Chapter 9, Table 12
 #'
-#' The data used in Chapter 9, Table 11
+#' The data used in Chapter 9, Table 12
 #'
 #' The question of interest in the present situation assumes that there are three blocks of elderly participants, six per block. The elderly participants are sorted into the three blocks as a function of their age. The purpose of the study was to assess the effect of age on motor control, measured by the number of errors on a certain task (where there were three tasks). The goal here is to replicate the results from the top portion of Table 9.12 (At this point performing the ANOVA and the ANCOVA also included in Table 9.12 should be straightforward.
 #'
@@ -898,8 +898,8 @@
 #'}
 #'
 #' @docType data
-#' @name chapter_9_table_11
-#' @aliases C9T11 chapter_9_table_11 Chapter_9_Table_11 c9t11
+#' @name chapter_9_table_12
+#' @aliases C9T12 chapter_9_table_12 Chapter_9_Table_12 c9t12
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
 #' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
@@ -907,18 +907,18 @@
 #' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
 #' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
-#' @usage data(chapter_9_table_11)
+#' @usage data(chapter_9_table_12)
 #' @section Synonym:
-#' C9T11
+#' C9T12
 #' @examples
 #' # Load the data
-#' data(chapter_9_table_11)
+#' data(chapter_9_table_12)
 #'
 #' # Or, alternatively load the data as
-#' data(C9T11)
+#' data(C9T12)
 #'
 #' # View the structure
-#' str(chapter_9_table_11)
+#' str(chapter_9_table_12)
 #'
 #' # ---------------------------------------------------------------------
 #' # Optional: a factor-coded copy for model-comparison analyses / plotting.
@@ -927,16 +927,16 @@
 #' # so the numeric codes are kept as the factor levels. Build a *copy*
 #' # (suffix "_factors") so the canonical data set is left unchanged. The
 #' # covariate X (age) and the outcome Y stay numeric.
-#' C9T11_factors <- chapter_9_table_11
-#' C9T11_factors$Block <- factor(C9T11_factors$Block)
-#' C9T11_factors$Task  <- factor(C9T11_factors$Task)
+#' C9T12_factors <- chapter_9_table_12
+#' C9T12_factors$Block <- factor(C9T12_factors$Block)
+#' C9T12_factors$Task  <- factor(C9T12_factors$Task)
 #'
 #' # The book analyzes these data with ANOVA and ANCOVA (Table 9.12); build
 #' # the factor copy, then follow the book's procedure (age, X, is the
 #' # covariate, kept numeric).
-#' str(C9T11_factors)
+#' str(C9T12_factors)
 #'
-"chapter_9_table_11"
+"chapter_9_table_12"
 
 
 #' The data used in Chapter 9, Extension Table 1
@@ -1481,13 +1481,13 @@
 "chapter_12_table_15"
 
 
-#' The data used in Chapter 12, Table 21
+#' The data used in Chapter 12, Table 29
 #'
-#' The data used in Chapter 12, Table 21
+#' The data used in Chapter 12, Table 29
 #'
 #' Suppose that we are interested in comparing the effects of three drugs (A, B, and C) on aggressiveness on monkeys. To control for possible order effects, we use a Latin square design. Specifically, we suppose that six subjects are available (as we discussed in Chapter 11, a subject is actually a pair of monkeys in this design). Following the design principles outlined at the end of Chapter 11, we use a replicated Latin square design with two randomly constituted squares. Subjects are then randomly assigned to rows of the squares. The dependent measure can be thought of as the number of aggressive behaviors engaged in during a fixed time period. Notice that each score is a function of three possible influences: subject, time period, and treatment condition (where here is drug, with three levels, either A, B, or C).
 #'
-#' To summarize, the data in Table 12.21 consists of hypothetical aggressiveness scores for 6 monkeys who have been exposed to three types of drugs (A, B, and C). In order to control for potential order effects, a Latin square design is utilized. In particular, two randomly constituted squares are formed with three monkeys randomly assigned to each square and also randomly assigned to the particular row of the square that assigns the order that they are exposed to treatment.
+#' To summarize, the data in Table 12.29 consists of hypothetical aggressiveness scores for 6 monkeys who have been exposed to three types of drugs (A, B, and C). In order to control for potential order effects, a Latin square design is utilized. In particular, two randomly constituted squares are formed with three monkeys randomly assigned to each square and also randomly assigned to the particular row of the square that assigns the order that they are exposed to treatment.
 #'
 #' @section Variables:
 #'\describe{
@@ -1499,8 +1499,8 @@
 #'}
 #'
 #' @docType data
-#' @name chapter_12_table_21
-#' @aliases C12T21 chapter_12_table_21 Chapter_12_Table_21 c12t21
+#' @name chapter_12_table_29
+#' @aliases C12T29 chapter_12_table_29 Chapter_12_Table_29 c12t29
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
 #' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
@@ -1508,20 +1508,20 @@
 #' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
 #' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
-#' @usage data(chapter_12_table_21)
+#' @usage data(chapter_12_table_29)
 #' @section Synonym:
-#' C12T21
+#' C12T29
 #' @examples
 #' # Load the data
-#' data(chapter_12_table_21)
+#' data(chapter_12_table_29)
 #'
 #' # Or, alternatively load the data as
-#' data(C12T21)
+#' data(C12T29)
 #'
 #' # View the structure
-#' str(chapter_12_table_21)
+#' str(chapter_12_table_29)
 #'
-"chapter_12_table_21"
+"chapter_12_table_29"
 
 
 
@@ -1647,11 +1647,11 @@
 
 
 
-#' The data used in Chapter 13, Table 12
+#' The data used in Chapter 13, Table 10
 #'
-#' The data used in Chapter 13, Table 12
+#' The data used in Chapter 13, Table 10
 #'
-#' For the hypothetical data contained in Table 13.2, the linear and quadratic D variables were formed by making use of the appropriate coefficients from Appendix Table A.10. Because the eight participants were measured at three occasions, both a linear and a quadratic effect can be tested. The question of interest in this instance is: "is there a linear and/or quadratic trend exhibited by the group over time?" Recall that in the book (pages 646-647) it was shown that the D variables for linear and quadratic effects led to an omnibus F test of 19.148, which was a value previously obtained for the omnibus effect. Because the particular values chosen for the D variables do not matter (unless it leads to a linear combination of columns), we will focus only on the tests of the individual contrasts when analyzing the data given in Table 12. Because columns one and two already represent the linear and quadratic effect respectively, all that needs to be done is to test mean of the column in order to determine if it differs from zero.
+#' For the hypothetical data contained in Table 13.2, the linear and quadratic D variables were formed by making use of the appropriate coefficients from Appendix Table A.10. Because the eight participants were measured at three occasions, both a linear and a quadratic effect can be tested. The question of interest in this instance is: "is there a linear and/or quadratic trend exhibited by the group over time?" Recall that in the book it was shown that the D variables for linear and quadratic effects led to an omnibus F test of 19.148, which was a value previously obtained for the omnibus effect. Because the particular values chosen for the D variables do not matter (unless it leads to a linear combination of columns), we will focus only on the tests of the individual contrasts when analyzing the data given in Table 13.10. Because columns one and two already represent the linear and quadratic effect respectively, all that needs to be done is to test the mean of the column in order to determine if it differs from zero.
 #'
 #' @section Variables:
 #'\describe{
@@ -1660,8 +1660,8 @@
 #'}
 #'
 #' @docType data
-#' @name chapter_13_table_12
-#' @aliases C13T12 chapter_13_table_12 Chapter_13_Table_12 c13t12
+#' @name chapter_13_table_10
+#' @aliases C13T10 chapter_13_table_10 Chapter_13_Table_10 c13t10
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
 #' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
@@ -1669,58 +1669,38 @@
 #' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
 #' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #' @keywords datasets
-#' @usage data(chapter_13_table_12)
+#' @usage data(chapter_13_table_10)
 #' @section Synonym:
-#' C13T12
+#' C13T10
 #' @examples
 #' # Load the data
-#' data(chapter_13_table_12)
+#' data(chapter_13_table_10)
 #'
 #' # Or, alternatively load the data as
-#' data(C13T12)
+#' data(C13T10)
 #'
 #' # View the structure
-#' str(chapter_13_table_12)
+#' str(chapter_13_table_10)
 #'
-"chapter_13_table_12"
-
-
-#' The data used in Chapter 13, Table 14
+#' # The Linear and Quadratic D variables are formed from the raw three-level
+#' # data of Table 13.2 (chapter_13_table_2) using the orthogonal-polynomial
+#' # coefficients for three equally spaced levels given in Appendix Table A.10:
+#' #   Linear,    coefficients (-1, 0, 1):  Time3 - Time1
+#' #   Quadratic, coefficients (1, -2, 1):  Time1 - 2 * Time2 + Time3
+#' # Because a contrast is unchanged by its sign, Table 13.10 reports the
+#' # quadratic with the equally valid coefficients (-1, 2, -1), that is,
+#' # 2 * Time2 - Time1 - Time3, so that is what is used here.
+#' data(chapter_13_table_2)
+#' derived <- data.frame(
+#'   Linear    = chapter_13_table_2$Time3 - chapter_13_table_2$Time1,
+#'   Quadratic = 2 * chapter_13_table_2$Time2 -
+#'                 chapter_13_table_2$Time1 - chapter_13_table_2$Time3
+#' )
 #'
-#' The data used in Chapter 13, Table 14
+#' # The derived variables reproduce Table 13.10 exactly
+#' all.equal(derived, chapter_13_table_10)
 #'
-#' Table 13.14 shows the slope of the least-squares regression line for each of the eight subjects, as well as the score on the linear D variable, reproduced from Table 13.14. There is a striking relationship between the numbers in the two columns of Table 13.14. Every subject's score on D is 24 times his or her slope.
-#'
-#' @section Variables:
-#'\describe{
-#'\item{Slope}{slope of the least-squares regression line for data in Table 13.2}
-#'\item{Linear}{Linear D variable for data in Table 13.2}
-#'}
-#'
-#' @docType data
-#' @name chapter_13_table_14
-#' @aliases C13T14 chapter_13_table_14 Chapter_13_Table_14 c13t14
-#' @author Ken Kelley \email{kkelley@nd.edu}
-#' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
-#' @keywords datasets
-#' @usage data(chapter_13_table_14)
-#' @section Synonym:
-#' C13T14
-#' @examples
-#' # Load the data
-#' data(chapter_13_table_14)
-#'
-#' # Or, alternatively load the data as
-#' data(C13T14)
-#'
-#' # View the structure
-#' str(chapter_13_table_14)
-#'
-"chapter_13_table_14"
+"chapter_13_table_10"
 
 
 #' The data used in Chapter 14, Table 1
@@ -1887,11 +1867,11 @@
 "chapter_14_table_5"
 
 
-#' The data used in Chapter 14, Table 8
+#' The data used in Chapter 14, Table 7
 #'
-#' The data used in Chapter 14, Table 8
+#' The data used in Chapter 14, Table 7
 #'
-#' For the hypothetical data contained in Table 14.8, a perceptual psychologist is interested in age differences ("young" and "old") in reaction time on a perceptual task. In addition, the psychologist is also interested in the effect of angle (zero degrees off center and eight degrees off center). The question of interest is to see if there are is a main effect of age, a main effect of angle, and an interaction between the two. Table 14.8 presents the same data that we analyzed in chapter 12 for 10 young participants and 10 old participants, except that for the moment we are only analyzing data from the 0 degree and 8 degree conditions of the angle factor.
+#' For the hypothetical data contained in Table 14.7, a perceptual psychologist is interested in age differences ("young" and "old") in reaction time on a perceptual task. In addition, the psychologist is also interested in the effect of angle (zero degrees off center and eight degrees off center). The question of interest is to see if there are is a main effect of age, a main effect of angle, and an interaction between the two. Table 14.7 presents the same data that we analyzed in chapter 12 for 10 young participants and 10 old participants, except that for the moment we are only analyzing data from the 0 degree and 8 degree conditions of the angle factor.
 #'
 #' In any two factor design, the effects to be tested are typically the two main effects and the two-way interaction. In our example, then, we test the main effect of age (designated A), the main effect of angle (designated B), and the interaction of age and angle.
 #'
@@ -1899,6 +1879,45 @@
 #'\describe{
 #'\item{Angle0}{participant reaction time at angle 0}
 #'\item{Angle8}{participant reaction time at angle 8}
+#'\item{Group}{participant age (young or old)}
+#'}
+#'
+#' @docType data
+#' @name chapter_14_table_7
+#' @aliases C14T7 chapter_14_table_7 Chapter_14_Table_7 c14t7
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @keywords datasets
+#' @usage data(chapter_14_table_7)
+#' @section Synonym:
+#' C14T7
+#' @examples
+#' # Load the data
+#' data(chapter_14_table_7)
+#'
+#' # Or, alternatively load the data as
+#' data(C14T7)
+#'
+#' # View the structure
+#' str(chapter_14_table_7)
+#'
+"chapter_14_table_7"
+
+
+#' The data used in Chapter 14, Table 8
+#'
+#' The data used in Chapter 14, Table 8
+#'
+#' Table 14.8 presents the M and D transformed scores formed from the two-angle reaction-time data of Table 14.7. For each participant, M is the mean reaction time across the 0-degree and 8-degree angle conditions, and D is the difference between the two conditions (8 degrees minus 0 degrees). In the multivariate (within-subjects) approach to this two-way design, the M scores carry the between-subjects information used to test the main effect of age, while the D scores carry the within-subjects information used to test the main effect of angle and the age-by-angle interaction. The mean M and D for the young participants are 561 and 168; the corresponding means for the old participants are 667.5 and 249.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{M}{participant mean reaction time across the 0 and 8 degree angle conditions}
+#'\item{D}{participant difference in reaction time, 8 degrees minus 0 degrees}
 #'\item{Group}{participant age (young or old)}
 #'}
 #'
@@ -1928,18 +1947,58 @@
 "chapter_14_table_8"
 
 
-#' The data used in Chapter 14, Table 10
+#' The data used in Chapter 14, Table 9
 #'
-#' The data used in Chapter 14, Table 10
+#' The data used in Chapter 14, Table 9
 #'
-#' These data are identical to those analyzed in chapter 12 (see Tables 12.7 and 12.15) to facilitate comparisons of the multivariate approach and the mixed-model approach.The hypothetical data contained in Table 14.10 contains an additional level of angle (four degrees) that was not considered in Table 14.8.
+#' These data are identical to those analyzed in chapter 12 (see Tables 12.7 and 12.15) to facilitate comparisons of the multivariate approach and the mixed-model approach.The hypothetical data contained in Table 14.9 contains an additional level of angle (four degrees) that was not considered in Table 14.7.
 #'
 #' @section Variables:
 #'\describe{
 #'\item{Angle0}{participant reaction time at angle 0}
 #'\item{Angle4}{participant reaction time at angle 4}
 #'\item{Angle8}{participant reaction time at angle 8}
-#'\item{Group}{participant group number}
+#'\item{Group}{participant age (young or old)}
+#'}
+#'
+#' @docType data
+#' @name chapter_14_table_9
+#' @aliases C14T9 chapter_14_table_9 Chapter_14_Table_9 c14t9
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @keywords datasets
+#' @usage data(chapter_14_table_9)
+#' @section Synonym:
+#' C14T9
+#' @examples
+#' # Load the data
+#' data(chapter_14_table_9)
+#'
+#' # Or, alternatively load the data as
+#' data(C14T9)
+#'
+#' # View the structure
+#' str(chapter_14_table_9)
+#'
+"chapter_14_table_9"
+
+
+#' The data used in Chapter 14, Table 10
+#'
+#' The data used in Chapter 14, Table 10
+#'
+#' Table 14.10 presents the M, D1, and D2 transformed scores formed from the three-angle reaction-time data of Table 14.9. For each participant, M is the mean reaction time across the 0-degree, 4-degree, and 8-degree angle conditions; D1 is the linear trend across angle (8 degrees minus 0 degrees); and D2 is the quadratic trend across angle (0 degrees minus twice 4 degrees plus 8 degrees). These transformed variables support the multivariate approach to the design: D1 and D2 are used to test the main effect of angle and the age-by-angle interaction, while M carries the between-subjects information used to test the main effect of age. The young-participant means are M = 569, D1 = 168, and D2 = -48; the old-participant means are M = 663, D1 = 249, and D2 = 27; and the grand means are M = 616, D1 = 208.5, and D2 = -10.5.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{M}{participant mean reaction time across the 0, 4, and 8 degree angle conditions}
+#'\item{D1}{linear trend across angle, 8 degrees minus 0 degrees}
+#'\item{D2}{quadratic trend across angle, 0 degrees minus twice 4 degrees plus 8 degrees}
+#'\item{Group}{participant age (young or old)}
 #'}
 #'
 #' @docType data

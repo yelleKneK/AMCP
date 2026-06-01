@@ -5,14 +5,14 @@
 # as chapter_1_table_1 and a short alias such as C1T1), so the total
 # count is exactly twice the number of distinct data sets.
 
-test_that("the catalog has the expected size (139 data sets x 2 names)", {
+test_that("the catalog has the expected size (140 data sets x 2 names)", {
   items <- data(package = "AMCP")$results[, "Item"]
-  expect_equal(length(items), 278L)
+  expect_equal(length(items), 280L)
 
   long  <- items[grepl("^(chapter|tutorial)_", items)]
-  expect_equal(length(long), 139L)
+  expect_equal(length(long), 140L)
   # Every long-named data set is matched one-to-one by a short alias.
-  expect_equal(length(items) - length(long), 139L)
+  expect_equal(length(items) - length(long), 140L)
 })
 
 test_that("every advertised data set loads and is non-empty", {

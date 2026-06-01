@@ -23,15 +23,13 @@ data(chapter_14_table_8)
 The data used in Chapter 14, Table 8
 }
 \details{
-For the hypothetical data contained in Table 14.8, a perceptual psychologist is interested in age differences ("young" and "old") in reaction time on a perceptual task. In addition, the psychologist is also interested in the effect of angle (zero degrees off center and eight degrees off center). The question of interest is to see if there are is a main effect of age, a main effect of angle, and an interaction between the two. Table 14.8 presents the same data that we analyzed in chapter 12 for 10 young participants and 10 old participants, except that for the moment we are only analyzing data from the 0 degree and 8 degree conditions of the angle factor.
-
-In any two factor design, the effects to be tested are typically the two main effects and the two-way interaction. In our example, then, we test the main effect of age (designated A), the main effect of angle (designated B), and the interaction of age and angle.
+Table 14.8 presents the M and D transformed scores formed from the two-angle reaction-time data of Table 14.7. For each participant, M is the mean reaction time across the 0-degree and 8-degree angle conditions, and D is the difference between the two conditions (8 degrees minus 0 degrees). In the multivariate (within-subjects) approach to this two-way design, the M scores carry the between-subjects information used to test the main effect of age, while the D scores carry the within-subjects information used to test the main effect of angle and the age-by-angle interaction. The mean M and D for the young participants are 561 and 168; the corresponding means for the old participants are 667.5 and 249.
 }
 \section{Variables}{
 
 \describe{
-\item{Angle0}{participant reaction time at angle 0}
-\item{Angle8}{participant reaction time at angle 8}
+\item{M}{participant mean reaction time across the 0 and 8 degree angle conditions}
+\item{D}{participant difference in reaction time, 8 degrees minus 0 degrees}
 \item{Group}{participant age (young or old)}
 }
 }

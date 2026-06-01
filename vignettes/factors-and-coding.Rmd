@@ -143,7 +143,7 @@ likely_factors <- function(df) {
   names(df)[vapply(df, looks_categorical, logical(1))]
 }
 
-likely_factors(chapter_7_table_15)   # e.g., Sex, Education
+likely_factors(chapter_7_table_16)   # e.g., Sex, Education
 likely_factors(chapter_16_table_1)   # e.g., Gender, Trainee, Condition
 ```
 
@@ -151,7 +151,7 @@ This is a heuristic, not a guarantee (a genuine count variable can also
 have only a few whole-number values, and a categorical variable can have
 many levels). Always
 confirm a variable's role, and the meaning of its codes, from its help
-page (for example `?chapter_7_table_15`) and from the book before
+page (for example `?chapter_7_table_16`) and from the book before
 assigning labels. Because the codes carry meaning that this package
 cannot infer for you, AMCP intentionally does **not** guess label text
 on your behalf.
