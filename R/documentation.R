@@ -112,6 +112,22 @@
 #' # View the structure
 #' str(chapter_3_table_3)
 #'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for ANOVA / model-comparison analyses.
+#' # Condition is stored as a numeric code so the book's contrast and
+#' # model-comparison examples reproduce exactly. For a one-way ANOVA you
+#' # generally want it as a factor; otherwise the code enters the model as a
+#' # single linear (1 df) term. Build a *copy* (suffix "_factors") so the
+#' # canonical data set is left unchanged. Labels are taken from the
+#' # "Variables" section above.
+#' C3T3_factors <- chapter_3_table_3
+#' C3T3_factors$Condition <- factor(C3T3_factors$Condition, levels = 1:3,
+#'   labels = c("Pleasant/Elated", "Neutral", "Unpleasant/Depressed"))
+#'
+#' # The coding matters: numeric code (1 df) versus factor (2 df).
+#' anova(lm(Rating ~ Condition, data = chapter_3_table_3))
+#' anova(lm(Rating ~ Condition, data = C3T3_factors))
+#'
 "chapter_3_table_3"
 
 
@@ -150,6 +166,22 @@
 #'
 #' # View the structure
 #' str(chapter_3_table_7_raw)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for model-comparison analyses / plotting.
+#' # Group is stored as a numeric code so the book's examples reproduce
+#' # exactly. To treat it as a grouping factor, build a *copy* (suffix
+#' # "_factors") so the canonical data set is left unchanged. Labels are
+#' # taken from the description above (CRA = Community Reinforcement
+#' # Approach, with [+D] or without [-D] Disulfiram; Std = standard therapy).
+#' C3T7R_factors <- chapter_3_table_7_raw
+#' C3T7R_factors$Group <- factor(C3T7R_factors$Group, levels = 1:5,
+#'   labels = c("T1 CRA-D", "T1 CRA+D", "T1 Std", "T2 CRA-D", "T2 Std"))
+#'
+#' # These are the raw scores behind the chapter's summary measures, so the
+#' # factor copy is mainly for grouping/plotting; Drinks and LgDrinks stay
+#' # numeric.
+#' str(C3T7R_factors)
 #'
 "chapter_3_table_7_raw"
 
@@ -190,6 +222,22 @@
 #' # View the structure
 #' str(chapter_3_table_9_raw)
 #'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for model-comparison analyses / plotting.
+#' # Group is stored as a numeric code so the book's examples reproduce
+#' # exactly. To treat it as a grouping factor, build a *copy* (suffix
+#' # "_factors") so the canonical data set is left unchanged. Labels are
+#' # taken from the description above (CRA = Community Reinforcement
+#' # Approach, with [+D] or without [-D] Disulfiram; Std = standard therapy).
+#' C3T9R_factors <- chapter_3_table_9_raw
+#' C3T9R_factors$Group <- factor(C3T9R_factors$Group, levels = 1:5,
+#'   labels = c("T1 CRA-D", "T1 CRA+D", "T1 Std", "T2 CRA-D", "T2 Std"))
+#'
+#' # These are the raw scores behind the chapter's summary measures, so the
+#' # factor copy is mainly for grouping/plotting; Drinks and LgDrinks stay
+#' # numeric.
+#' str(C3T9R_factors)
+#'
 "chapter_3_table_9_raw"
 
 
@@ -226,6 +274,22 @@
 #'
 #' # View the structure
 #' str(chapter_4_table_1)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for ANOVA / model-comparison analyses.
+#' # Group membership is stored as a numeric code so the book's contrast and
+#' # model-comparison examples reproduce exactly. For a one-way ANOVA you
+#' # generally want it as a factor; otherwise the code enters the model as a
+#' # single linear (1 df) term. Build a *copy* (suffix "_factors") so the
+#' # canonical data set is left unchanged. Labels are taken from the
+#' # "Variables" section above.
+#' C4T1_factors <- chapter_4_table_1
+#' C4T1_factors$cond <- factor(C4T1_factors$cond, levels = 1:4,
+#'   labels = c("Drug Therapy", "Biofeedback", "Diet", "Combination"))
+#'
+#' # The coding matters: numeric code (1 df) versus factor (3 df).
+#' anova(lm(bloodpr ~ cond, data = chapter_4_table_1))
+#' anova(lm(bloodpr ~ cond, data = C4T1_factors))
 #'
 "chapter_4_table_1"
 
@@ -299,6 +363,23 @@
 #'
 #' # View the structure
 #' str(chapter_5_table_4)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for ANOVA / model-comparison analyses.
+#' # group is stored as a numeric code so the book's contrast and
+#' # model-comparison examples reproduce exactly. For a one-way ANOVA you
+#' # generally want it as a factor; otherwise the code enters the model as a
+#' # single linear (1 df) term. The "Variables" section does not give level
+#' # labels, so the numeric codes are kept as the factor levels. Build a
+#' # *copy* (suffix "_factors") so the canonical data set is left unchanged.
+#' C5T4_factors <- chapter_5_table_4
+#' C5T4_factors$group <- factor(C5T4_factors$group)
+#'
+#' # The coding matters: numeric code (1 df) versus factor (3 df).
+#' anova(lm(sbp ~ group, data = chapter_5_table_4))
+#' anova(lm(sbp ~ group, data = C5T4_factors))
+#' # (Chapter 5 analyzes these data with planned contrasts, which use numeric
+#' #  contrast codes; the factor copy is for the omnibus test and plotting.)
 #'
 "chapter_5_table_4"
 
@@ -418,6 +499,21 @@
 #' # View the structure
 #' str(chapter_7_table_5)
 #'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for factorial ANOVA / model comparison.
+#' # Feedback and Drug are stored as numeric codes so the book's contrast and
+#' # model-comparison examples reproduce exactly. For a factorial ANOVA you
+#' # want them as factors; otherwise a code enters the model as a single
+#' # linear (1 df) term. The "Variables" section does not give level labels,
+#' # so the numeric codes are kept as the factor levels. Build a *copy*
+#' # (suffix "_factors") so the canonical data set is left unchanged.
+#' C7T5_factors <- chapter_7_table_5
+#' C7T5_factors$Feedback <- factor(C7T5_factors$Feedback)
+#' C7T5_factors$Drug     <- factor(C7T5_factors$Drug)
+#'
+#' # This design is balanced, so the factorial ANOVA is order-invariant.
+#' anova(lm(Score ~ Feedback * Drug, data = C7T5_factors))
+#'
 "chapter_7_table_5"
 
 
@@ -455,6 +551,21 @@
 #'
 #' # View the structure
 #' str(chapter_7_table_9)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for factorial ANOVA / model comparison.
+#' # Feedback and Drug are stored as numeric codes so the book's contrast and
+#' # model-comparison examples reproduce exactly. For a factorial ANOVA you
+#' # want them as factors; otherwise a code enters the model as a single
+#' # linear (1 df) term. The "Variables" section does not give level labels,
+#' # so the numeric codes are kept as the factor levels. Build a *copy*
+#' # (suffix "_factors") so the canonical data set is left unchanged.
+#' C7T9_factors <- chapter_7_table_9
+#' C7T9_factors$Feedback <- factor(C7T9_factors$Feedback)
+#' C7T9_factors$Drug     <- factor(C7T9_factors$Drug)
+#'
+#' # This design is balanced, so the factorial ANOVA is order-invariant.
+#' anova(lm(Score ~ Feedback * Drug, data = C7T9_factors))
 #'
 "chapter_7_table_9"
 
@@ -494,6 +605,25 @@
 #'
 #' # View the structure
 #' str(chapter_7_table_11)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for factorial ANOVA / model comparison.
+#' # Diagnosis and Task are stored as numeric codes so the book's contrast
+#' # and model-comparison examples reproduce exactly. For a factorial ANOVA
+#' # you want them as factors; otherwise a code enters the model as a single
+#' # linear (1 df) term. Build a *copy* (suffix "_factors") so the canonical
+#' # data set is left unchanged. Labels (and their order) are taken from the
+#' # "Variables" section / description above.
+#' C7T11_factors <- chapter_7_table_11
+#' C7T11_factors$Diagnosis <- factor(C7T11_factors$Diagnosis, levels = 1:3,
+#'   labels = c("Amnesic", "Huntington's Disease", "Control"))
+#' C7T11_factors$Task <- factor(C7T11_factors$Task, levels = 1:3,
+#'   labels = c("Artificial Grammar", "Classification Learning",
+#'              "Recognition Memory"))
+#'
+#' # This design is balanced, so the factorial ANOVA is order-invariant.
+#' anova(lm(Y ~ Diagnosis * Task, data = C7T11_factors))
+#' # (The book then tests a specific interaction contrast; see Table 7.12.)
 #'
 "chapter_7_table_11"
 
@@ -537,6 +667,26 @@
 #' # View the structure
 #' str(chapter_7_table_15)
 #'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for model-comparison analyses / plotting.
+#' # Sex and Education are stored as numeric codes so the book's examples
+#' # reproduce exactly. Build a *copy* (suffix "_factors") so the canonical
+#' # data set is left unchanged; Salary stays numeric. The level order is
+#' # fixed by the counts in the narrative: the data have 12 cases in Sex == 1
+#' # and 10 in Sex == 2, matching the "12 females and 10 males", and the
+#' # female majority are graduates, so Education == 1 is the degree group.
+#' C7T15_factors <- chapter_7_table_15
+#' C7T15_factors$Sex <- factor(C7T15_factors$Sex, levels = 1:2,
+#'   labels = c("Female", "Male"))
+#' C7T15_factors$Education <- factor(C7T15_factors$Education, levels = 1:2,
+#'   labels = c("Degree", "No Degree"))
+#'
+#' # This is a NONORTHOGONAL (unbalanced) two-way design, so the sums of
+#' # squares are order-dependent; the book reports the appropriate tests.
+#' # Build the factor copy, then follow the book's procedure (e.g.,
+#' # car::Anova() for Type II/III) rather than the default anova(lm()).
+#' str(C7T15_factors)
+#'
 "chapter_7_table_15"
 
 
@@ -577,6 +727,23 @@
 #'
 #' # View the structure
 #' str(chapter_7_table_23)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for model-comparison analyses / plotting.
+#' # Therapy and Severity are stored as numeric codes so the book's examples
+#' # reproduce exactly. The "Variables" section does not give level labels,
+#' # so the numeric codes are kept as the factor levels. Build a *copy*
+#' # (suffix "_factors") so the canonical data set is left unchanged; Score
+#' # stays numeric.
+#' C7T23_factors <- chapter_7_table_23
+#' C7T23_factors$Therapy  <- factor(C7T23_factors$Therapy)
+#' C7T23_factors$Severity <- factor(C7T23_factors$Severity)
+#'
+#' # This is a NONORTHOGONAL (unbalanced) two-way design with post hoc
+#' # blocking, so the sums of squares are order-dependent; the book reports
+#' # the appropriate tests. Build the factor copy, then follow the book's
+#' # procedure (e.g., car::Anova() for Type II/III).
+#' str(C7T23_factors)
 #'
 "chapter_7_table_23"
 
@@ -697,6 +864,22 @@
 #' # View the structure
 #' str(chapter_9_table_7)
 #'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for ANCOVA / model-comparison analyses.
+#' # Condition is stored as a numeric code so the book's contrast and
+#' # model-comparison examples reproduce exactly. For ANCOVA you want it as a
+#' # factor; otherwise the code enters the model as a single linear (1 df)
+#' # term. The covariate (Pre) stays numeric. Build a *copy* (suffix
+#' # "_factors") so the canonical data set is left unchanged. Labels are
+#' # taken from the "Variables" section above.
+#' C9T7_factors <- chapter_9_table_7
+#' C9T7_factors$Condition <- factor(C9T7_factors$Condition, levels = 1:3,
+#'   labels = c("SSRI", "Placebo", "Wait List Control"))
+#'
+#' # ANCOVA: enter the covariate (Pre) first, then the (factor) Condition;
+#' # the adjusted test of Condition appears in the Condition row.
+#' anova(lm(Post ~ Pre + Condition, data = C9T7_factors))
+#'
 "chapter_9_table_7"
 
 
@@ -736,6 +919,22 @@
 #'
 #' # View the structure
 #' str(chapter_9_table_11)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for model-comparison analyses / plotting.
+#' # Block and Task are stored as numeric codes so the book's examples
+#' # reproduce exactly. The "Variables" section does not give level labels,
+#' # so the numeric codes are kept as the factor levels. Build a *copy*
+#' # (suffix "_factors") so the canonical data set is left unchanged. The
+#' # covariate X (age) and the outcome Y stay numeric.
+#' C9T11_factors <- chapter_9_table_11
+#' C9T11_factors$Block <- factor(C9T11_factors$Block)
+#' C9T11_factors$Task  <- factor(C9T11_factors$Task)
+#'
+#' # The book analyzes these data with ANOVA and ANCOVA (Table 9.12); build
+#' # the factor copy, then follow the book's procedure (age, X, is the
+#' # covariate, kept numeric).
+#' str(C9T11_factors)
 #'
 "chapter_9_table_11"
 
@@ -819,6 +1018,23 @@
 #'
 #' # View the structure
 #' str(chapter_10_table_5)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for model-comparison analyses / plotting.
+#' # A (program) and B (school) are stored as numeric codes so the book's
+#' # examples reproduce exactly. Build a *copy* (suffix "_factors") so the
+#' # canonical data set is left unchanged; ACT stays numeric. The narrative
+#' # defines a1 = computer-based and a2 = standard paper-and-pencil; the
+#' # schools (B) are not named, so their numeric codes are kept as levels.
+#' C10T5_factors <- chapter_10_table_5
+#' C10T5_factors$A <- factor(C10T5_factors$A, levels = 1:2,
+#'   labels = c("Computer-Based", "Standard Paper-and-Pencil"))
+#' C10T5_factors$B <- factor(C10T5_factors$B)
+#'
+#' # Here school (B) is a RANDOM factor, so the book fits a mixed /
+#' # random-effects model rather than a fixed-effects ANOVA. Build the factor
+#' # copy, then follow the book's procedure.
+#' str(C10T5_factors)
 #'
 "chapter_10_table_5"
 
@@ -1870,6 +2086,24 @@
 #'
 #' # View the structure
 #' str(chapter_16_table_4)
+#'
+#' # ---------------------------------------------------------------------
+#' # Optional: a factor-coded copy for model-comparison analyses / plotting.
+#' # Condition and Room are stored as numeric codes so the book's examples
+#' # reproduce exactly. Build a *copy* (suffix "_factors") so the canonical
+#' # data set is left unchanged; Cognition, Skill, and Inductive stay
+#' # numeric. Labels for Condition are taken from the description above
+#' # (0 = control, 1 = treatment); Room (classroom) is a nesting id, so its
+#' # numeric codes are kept as levels.
+#' C16T4_factors <- chapter_16_table_4
+#' C16T4_factors$Condition <- factor(C16T4_factors$Condition, levels = 0:1,
+#'   labels = c("Control", "Treatment"))
+#' C16T4_factors$Room <- factor(C16T4_factors$Room)
+#'
+#' # These data come from a nested / mixed-effects design (children within
+#' # classrooms); the book fits the appropriate multilevel model. Build the
+#' # factor copy, then follow the book's procedure.
+#' str(C16T4_factors)
 #'
 "chapter_16_table_4"
 

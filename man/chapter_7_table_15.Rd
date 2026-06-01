@@ -51,6 +51,26 @@ data(C7T15)
 # View the structure
 str(chapter_7_table_15)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for model-comparison analyses / plotting.
+# Sex and Education are stored as numeric codes so the book's examples
+# reproduce exactly. Build a *copy* (suffix "_factors") so the canonical
+# data set is left unchanged; Salary stays numeric. The level order is
+# fixed by the counts in the narrative: the data have 12 cases in Sex == 1
+# and 10 in Sex == 2, matching the "12 females and 10 males", and the
+# female majority are graduates, so Education == 1 is the degree group.
+C7T15_factors <- chapter_7_table_15
+C7T15_factors$Sex <- factor(C7T15_factors$Sex, levels = 1:2,
+  labels = c("Female", "Male"))
+C7T15_factors$Education <- factor(C7T15_factors$Education, levels = 1:2,
+  labels = c("Degree", "No Degree"))
+
+# This is a NONORTHOGONAL (unbalanced) two-way design, so the sums of
+# squares are order-dependent; the book reports the appropriate tests.
+# Build the factor copy, then follow the book's procedure (e.g.,
+# car::Anova() for Type II/III) rather than the default anova(lm()).
+str(C7T15_factors)
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

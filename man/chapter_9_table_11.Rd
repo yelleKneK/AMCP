@@ -50,6 +50,22 @@ data(C9T11)
 # View the structure
 str(chapter_9_table_11)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for model-comparison analyses / plotting.
+# Block and Task are stored as numeric codes so the book's examples
+# reproduce exactly. The "Variables" section does not give level labels,
+# so the numeric codes are kept as the factor levels. Build a *copy*
+# (suffix "_factors") so the canonical data set is left unchanged. The
+# covariate X (age) and the outcome Y stay numeric.
+C9T11_factors <- chapter_9_table_11
+C9T11_factors$Block <- factor(C9T11_factors$Block)
+C9T11_factors$Task  <- factor(C9T11_factors$Task)
+
+# The book analyzes these data with ANOVA and ANCOVA (Table 9.12); build
+# the factor copy, then follow the book's procedure (age, X, is the
+# covariate, kept numeric).
+str(C9T11_factors)
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

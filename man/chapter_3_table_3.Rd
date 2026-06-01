@@ -47,6 +47,22 @@ data(C3T3)
 # View the structure
 str(chapter_3_table_3)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for ANOVA / model-comparison analyses.
+# Condition is stored as a numeric code so the book's contrast and
+# model-comparison examples reproduce exactly. For a one-way ANOVA you
+# generally want it as a factor; otherwise the code enters the model as a
+# single linear (1 df) term. Build a *copy* (suffix "_factors") so the
+# canonical data set is left unchanged. Labels are taken from the
+# "Variables" section above.
+C3T3_factors <- chapter_3_table_3
+C3T3_factors$Condition <- factor(C3T3_factors$Condition, levels = 1:3,
+  labels = c("Pleasant/Elated", "Neutral", "Unpleasant/Depressed"))
+
+# The coding matters: numeric code (1 df) versus factor (2 df).
+anova(lm(Rating ~ Condition, data = chapter_3_table_3))
+anova(lm(Rating ~ Condition, data = C3T3_factors))
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

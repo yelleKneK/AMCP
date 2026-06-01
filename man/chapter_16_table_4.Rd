@@ -53,6 +53,24 @@ data(C16T4)
 # View the structure
 str(chapter_16_table_4)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for model-comparison analyses / plotting.
+# Condition and Room are stored as numeric codes so the book's examples
+# reproduce exactly. Build a *copy* (suffix "_factors") so the canonical
+# data set is left unchanged; Cognition, Skill, and Inductive stay
+# numeric. Labels for Condition are taken from the description above
+# (0 = control, 1 = treatment); Room (classroom) is a nesting id, so its
+# numeric codes are kept as levels.
+C16T4_factors <- chapter_16_table_4
+C16T4_factors$Condition <- factor(C16T4_factors$Condition, levels = 0:1,
+  labels = c("Control", "Treatment"))
+C16T4_factors$Room <- factor(C16T4_factors$Room)
+
+# These data come from a nested / mixed-effects design (children within
+# classrooms); the book fits the appropriate multilevel model. Build the
+# factor copy, then follow the book's procedure.
+str(C16T4_factors)
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

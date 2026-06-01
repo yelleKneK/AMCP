@@ -47,6 +47,23 @@ data(C5T4)
 # View the structure
 str(chapter_5_table_4)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for ANOVA / model-comparison analyses.
+# group is stored as a numeric code so the book's contrast and
+# model-comparison examples reproduce exactly. For a one-way ANOVA you
+# generally want it as a factor; otherwise the code enters the model as a
+# single linear (1 df) term. The "Variables" section does not give level
+# labels, so the numeric codes are kept as the factor levels. Build a
+# *copy* (suffix "_factors") so the canonical data set is left unchanged.
+C5T4_factors <- chapter_5_table_4
+C5T4_factors$group <- factor(C5T4_factors$group)
+
+# The coding matters: numeric code (1 df) versus factor (3 df).
+anova(lm(sbp ~ group, data = chapter_5_table_4))
+anova(lm(sbp ~ group, data = C5T4_factors))
+# (Chapter 5 analyzes these data with planned contrasts, which use numeric
+#  contrast codes; the factor copy is for the omnibus test and plotting.)
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

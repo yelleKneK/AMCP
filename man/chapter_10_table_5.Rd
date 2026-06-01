@@ -53,6 +53,23 @@ data(C10T5)
 # View the structure
 str(chapter_10_table_5)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for model-comparison analyses / plotting.
+# A (program) and B (school) are stored as numeric codes so the book's
+# examples reproduce exactly. Build a *copy* (suffix "_factors") so the
+# canonical data set is left unchanged; ACT stays numeric. The narrative
+# defines a1 = computer-based and a2 = standard paper-and-pencil; the
+# schools (B) are not named, so their numeric codes are kept as levels.
+C10T5_factors <- chapter_10_table_5
+C10T5_factors$A <- factor(C10T5_factors$A, levels = 1:2,
+  labels = c("Computer-Based", "Standard Paper-and-Pencil"))
+C10T5_factors$B <- factor(C10T5_factors$B)
+
+# Here school (B) is a RANDOM factor, so the book fits a mixed /
+# random-effects model rather than a fixed-effects ANOVA. Build the factor
+# copy, then follow the book's procedure.
+str(C10T5_factors)
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

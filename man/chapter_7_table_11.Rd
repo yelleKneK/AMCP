@@ -50,6 +50,25 @@ data(C7T11)
 # View the structure
 str(chapter_7_table_11)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for factorial ANOVA / model comparison.
+# Diagnosis and Task are stored as numeric codes so the book's contrast
+# and model-comparison examples reproduce exactly. For a factorial ANOVA
+# you want them as factors; otherwise a code enters the model as a single
+# linear (1 df) term. Build a *copy* (suffix "_factors") so the canonical
+# data set is left unchanged. Labels (and their order) are taken from the
+# "Variables" section / description above.
+C7T11_factors <- chapter_7_table_11
+C7T11_factors$Diagnosis <- factor(C7T11_factors$Diagnosis, levels = 1:3,
+  labels = c("Amnesic", "Huntington's Disease", "Control"))
+C7T11_factors$Task <- factor(C7T11_factors$Task, levels = 1:3,
+  labels = c("Artificial Grammar", "Classification Learning",
+             "Recognition Memory"))
+
+# This design is balanced, so the factorial ANOVA is order-invariant.
+anova(lm(Y ~ Diagnosis * Task, data = C7T11_factors))
+# (The book then tests a specific interaction contrast; see Table 7.12.)
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

@@ -49,6 +49,22 @@ data(C9T7)
 # View the structure
 str(chapter_9_table_7)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for ANCOVA / model-comparison analyses.
+# Condition is stored as a numeric code so the book's contrast and
+# model-comparison examples reproduce exactly. For ANCOVA you want it as a
+# factor; otherwise the code enters the model as a single linear (1 df)
+# term. The covariate (Pre) stays numeric. Build a *copy* (suffix
+# "_factors") so the canonical data set is left unchanged. Labels are
+# taken from the "Variables" section above.
+C9T7_factors <- chapter_9_table_7
+C9T7_factors$Condition <- factor(C9T7_factors$Condition, levels = 1:3,
+  labels = c("SSRI", "Placebo", "Wait List Control"))
+
+# ANCOVA: enter the covariate (Pre) first, then the (factor) Condition;
+# the adjusted test of Condition appears in the Condition row.
+anova(lm(Post ~ Pre + Condition, data = C9T7_factors))
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

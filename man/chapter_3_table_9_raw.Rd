@@ -48,6 +48,22 @@ data(C3T9R)
 # View the structure
 str(chapter_3_table_9_raw)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for model-comparison analyses / plotting.
+# Group is stored as a numeric code so the book's examples reproduce
+# exactly. To treat it as a grouping factor, build a *copy* (suffix
+# "_factors") so the canonical data set is left unchanged. Labels are
+# taken from the description above (CRA = Community Reinforcement
+# Approach, with [+D] or without [-D] Disulfiram; Std = standard therapy).
+C3T9R_factors <- chapter_3_table_9_raw
+C3T9R_factors$Group <- factor(C3T9R_factors$Group, levels = 1:5,
+  labels = c("T1 CRA-D", "T1 CRA+D", "T1 Std", "T2 CRA-D", "T2 Std"))
+
+# These are the raw scores behind the chapter's summary measures, so the
+# factor copy is mainly for grouping/plotting; Drinks and LgDrinks stay
+# numeric.
+str(C3T9R_factors)
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

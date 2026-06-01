@@ -48,6 +48,21 @@ data(C7T9)
 # View the structure
 str(chapter_7_table_9)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for factorial ANOVA / model comparison.
+# Feedback and Drug are stored as numeric codes so the book's contrast and
+# model-comparison examples reproduce exactly. For a factorial ANOVA you
+# want them as factors; otherwise a code enters the model as a single
+# linear (1 df) term. The "Variables" section does not give level labels,
+# so the numeric codes are kept as the factor levels. Build a *copy*
+# (suffix "_factors") so the canonical data set is left unchanged.
+C7T9_factors <- chapter_7_table_9
+C7T9_factors$Feedback <- factor(C7T9_factors$Feedback)
+C7T9_factors$Drug     <- factor(C7T9_factors$Drug)
+
+# This design is balanced, so the factorial ANOVA is order-invariant.
+anova(lm(Score ~ Feedback * Drug, data = C7T9_factors))
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:

@@ -51,6 +51,23 @@ data(C7T23)
 # View the structure
 str(chapter_7_table_23)
 
+# ---------------------------------------------------------------------
+# Optional: a factor-coded copy for model-comparison analyses / plotting.
+# Therapy and Severity are stored as numeric codes so the book's examples
+# reproduce exactly. The "Variables" section does not give level labels,
+# so the numeric codes are kept as the factor levels. Build a *copy*
+# (suffix "_factors") so the canonical data set is left unchanged; Score
+# stays numeric.
+C7T23_factors <- chapter_7_table_23
+C7T23_factors$Therapy  <- factor(C7T23_factors$Therapy)
+C7T23_factors$Severity <- factor(C7T23_factors$Severity)
+
+# This is a NONORTHOGONAL (unbalanced) two-way design with post hoc
+# blocking, so the sums of squares are order-dependent; the book reports
+# the appropriate tests. Build the factor copy, then follow the book's
+# procedure (e.g., car::Anova() for Type II/III).
+str(C7T23_factors)
+
 }
 \references{
 Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
