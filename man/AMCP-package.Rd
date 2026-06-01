@@ -31,7 +31,7 @@ Note that, for many data sets the coding for factors is numeric. Correspondingly
 the data sets are not always in the most convenient form for analysis, as they are generally entered to match the style in the book. Thus, for some analyses the data may benefit from being parsed, wrangled, or tidied.
 See \code{vignette("factors-and-coding", package = "AMCP")} for recipes that add factor labels without changing the canonical data, and a worked example showing that relabeling reproduces the book's results.
 
-The book illustrates many analyses using the \strong{MBESS} package. These analyses can also be carried out using the \strong{DMAR} package, which we encourage users to install with \code{install.packages("DMAR")}.
+We recommend the \strong{DMAR} package as the companion for carrying out the book's analyses; install it with \code{install.packages("DMAR")}. The book itself illustrates these analyses using the \strong{MBESS} package, which may be used as well.
 
 Note that \url{https://designingexperiments.com/computing/} shows R code (via R Markdown), SPSS syntax and graphical user interface approaches, along with SAS code for implementing many of the analyses in the book, by chapter.
 }
@@ -42,6 +42,14 @@ Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments
 See the web page that accompanies the book here: \url{https://designingexperiments.com}.
 
 For suggested updates, please email Ken Kelley \email{kkelley@nd.edu}.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/yelleKneK/AMCP}
+  \item Report bugs at \url{https://github.com/yelleKneK/AMCP/issues}
+}
+
 }
 \author{
 Ken Kelley \email{kkelley@nd.edu}

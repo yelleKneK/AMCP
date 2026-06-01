@@ -21,11 +21,13 @@ remotes::install_version("AMCP", version = "1.0.2")
 
 ## Related software
 
-The book illustrates many analyses using the **MBESS** package. These analyses can also be carried out using the **DMAR** package, which we encourage you to install:
+We recommend the **DMAR** package as the companion for carrying out the book's analyses — install it with:
 
 ```r
 install.packages("DMAR")
 ```
+
+The book itself illustrates these analyses using the **MBESS** package, which you can use as well.
 
 ## More information
 
