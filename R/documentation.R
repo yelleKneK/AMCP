@@ -1936,10 +1936,10 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{angle0}{participant reaction time at angle 0}
-#'\item{angle4}{participant reaction time at angle 4}
-#'\item{angle8}{participant reaction time at angle 8}
-#'\item{group}{participant group number}
+#'\item{Angle0}{participant reaction time at angle 0}
+#'\item{Angle4}{participant reaction time at angle 4}
+#'\item{Angle8}{participant reaction time at angle 8}
+#'\item{Group}{participant group number}
 #'}
 #'
 #' @docType data
