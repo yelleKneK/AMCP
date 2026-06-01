@@ -28,10 +28,10 @@ The first table in Chapter 15 presents the Hypothetical McCarthy data again (ori
 \section{Variables}{
 
 \describe{
-\item{months30}{McCarthy IQ score for 30-month-old}
-\item{months36}{McCarthy IQ score for 36-month-old}
-\item{months42}{McCarthy IQ score for 42-month-old}
-\item{months48}{McCarthy IQ score for 48-month-old}}
+\item{Months30}{McCarthy IQ score for 30-month-old}
+\item{Months36}{McCarthy IQ score for 36-month-old}
+\item{Months42}{McCarthy IQ score for 42-month-old}
+\item{Months48}{McCarthy IQ score for 48-month-old}}
 }
 
 \section{Synonym}{

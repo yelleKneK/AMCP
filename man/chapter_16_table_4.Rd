@@ -30,12 +30,12 @@ The children with condition values of 0 received the control, whereas the 14 chi
 \section{Variables}{
 
 \describe{
-\item{obs}{observation/participant number}
-\item{room}{participant classroom placement}
-\item{cond}{participant condition (0=control, 1=treatment)}
-\item{cog}{participant cognitive ability score}
-\item{skill}{participant's teacher's teaching skill}
-\item{induct}{induction; scores on the dependent variable}}
+\item{Observation}{observation/participant number}
+\item{Room}{participant classroom placement}
+\item{Condition}{participant condition (0=control, 1=treatment)}
+\item{Cognition}{participant cognitive ability score}
+\item{Skill}{participant's teacher's teaching skill}
+\item{Inductive}{induction; scores on the dependent variable}}
 }
 
 \section{Synonym}{

@@ -30,8 +30,8 @@ For the data set, six individuals were observed under two different conditions. 
 \section{Variables}{
 
 \describe{
-\item{ycond1}{data from the six subjects under treatment condition 1}
-\item{ycond2}{data from the six subjects under treatment condition 2}
+\item{YCondition1}{data from the six subjects under treatment condition 1}
+\item{YCondition2}{data from the six subjects under treatment condition 2}
 }
 }
 

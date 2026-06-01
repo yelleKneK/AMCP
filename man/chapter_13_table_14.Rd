@@ -28,8 +28,8 @@ Table 13.14 shows the slope of the least-squares regression line for each of the
 \section{Variables}{
 
 \describe{
-\item{slope}{slope of the least-squares regression line for data in Table 13.2}
-\item{linear}{Linear D variable for data in Table 13.2}
+\item{Slope}{slope of the least-squares regression line for data in Table 13.2}
+\item{Linear}{Linear D variable for data in Table 13.2}
 }
 }
 

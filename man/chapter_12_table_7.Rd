@@ -28,9 +28,9 @@ Table 12.7 presents scores for the individual subjects for the A effect for the 
 \section{Variables}{
 
 \describe{
-\item{angle0}{mean reaction time for subject at angle factor 0, averaging over noise}
-\item{angle4}{mean reaction time for subject at angle factor 4, averaging over noise}
-\item{angle8}{mean reaction time for subject at angle factor 8, averaging over noise}
+\item{Angle0}{mean reaction time for subject at angle factor 0, averaging over noise}
+\item{Angle4}{mean reaction time for subject at angle factor 4, averaging over noise}
+\item{Angle8}{mean reaction time for subject at angle factor 8, averaging over noise}
 }
 }
 

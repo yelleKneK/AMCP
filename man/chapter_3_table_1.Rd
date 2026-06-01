@@ -28,7 +28,7 @@ Assume that you work in the research office of a large school system. For the la
 \section{Variables}{
 
 \describe{
-\item{iq}{IQ score from the WISC-R}}
+\item{IQ}{IQ score from the WISC-R}}
 }
 
 \section{Synonym}{

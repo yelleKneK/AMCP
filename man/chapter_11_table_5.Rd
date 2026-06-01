@@ -28,10 +28,10 @@ The data show that 12 participants have been observed in each of 4 conditions. T
 \section{Variables}{
 
 \describe{
-\item{months30}{age-normed general cognitive score for 30-month-old}
-\item{months36}{age-normed general cognitive score for 36-month-old}
-\item{months42}{age-normed general cognitive score for 42-month-old}
-\item{months48}{age-normed general cognitive score for 48-month-old}
+\item{Months30}{age-normed general cognitive score for 30-month-old}
+\item{Months36}{age-normed general cognitive score for 36-month-old}
+\item{Months42}{age-normed general cognitive score for 42-month-old}
+\item{Months48}{age-normed general cognitive score for 48-month-old}
 }
 }
 

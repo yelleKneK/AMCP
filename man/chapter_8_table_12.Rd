@@ -28,10 +28,10 @@ This example builds from the hypertension example used in chapter 7 for the two-
 \section{Variables}{
 
 \describe{
-\item{bp}{patient blood pressure}
-\item{drug}{drug given (X,Y,or Z)}
-\item{biofeed}{presence or absence of biofeedback}
-\item{diet}{presence of absence of a diet}
+\item{BP}{patient blood pressure}
+\item{Drug}{drug given (X,Y,or Z)}
+\item{Biofeedback}{presence or absence of biofeedback}
+\item{Diet}{presence of absence of a diet}
 }
 }
 

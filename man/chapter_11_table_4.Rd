@@ -28,10 +28,10 @@ No analyses are conducted for this data set. The traditional view of a repeated-
 \section{Variables}{
 
 \describe{
-\item{ycond1}{a numeric vector}
-\item{ycond2}{a numeric vector}
-\item{ycond3}{a numeric vector}
-\item{ycond4}{a numeric vector}
+\item{YCondition1}{a numeric vector}
+\item{YCondition2}{a numeric vector}
+\item{YCondition3}{a numeric vector}
+\item{YCondition4}{a numeric vector}
 }
 }
 

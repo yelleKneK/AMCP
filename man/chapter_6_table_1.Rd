@@ -28,8 +28,8 @@ Recall scores for 24 children who have been randomly assigned to one of four exp
 \section{Variables}{
 
 \describe{
-\item{recall}{the number of words recalled by the child after the study time expires}
-\item{minutes}{the amount of time, in minutes, the child was permitted to study}}
+\item{Recall}{the number of words recalled by the child after the study time expires}
+\item{Minutes}{the amount of time, in minutes, the child was permitted to study}}
 }
 
 \section{Synonym}{

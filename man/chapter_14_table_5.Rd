@@ -28,11 +28,11 @@ In terms of symbols, let D(1i) represent the linear trend for a given angle. For
 \section{Variables}{
 
 \describe{
-\item{d1}{participant D1 variable}
-\item{d2}{participant D2 variable}
-\item{d3}{participant D3 variable}
-\item{d4}{participant D4 variable}
-\item{d5}{participant D5 variable}
+\item{D1}{participant D1 variable}
+\item{D2}{participant D2 variable}
+\item{D3}{participant D3 variable}
+\item{D4}{participant D4 variable}
+\item{D5}{participant D5 variable}
 }
 }
 

@@ -51,7 +51,7 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{iq}{IQ score from the WISC-R}}
+#'\item{IQ}{IQ score from the WISC-R}}
 #'
 #' @docType data
 #' @name chapter_3_table_1
@@ -392,8 +392,8 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{recall}{the number of words recalled by the child after the study time expires}
-#'\item{minutes}{the amount of time, in minutes, the child was permitted to study}}
+#'\item{Recall}{the number of words recalled by the child after the study time expires}
+#'\item{Minutes}{the amount of time, in minutes, the child was permitted to study}}
 #'
 #' @docType data
 #' @name chapter_6_table_1
@@ -433,8 +433,8 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{group}{a numeric vector between 1 and 4 equal to the drug therapy group}
-#'\item{score}{the blood pressure of one of the individuals in the study}}
+#'\item{Group}{a numeric vector between 1 and 4 equal to the drug therapy group}
+#'\item{Score}{the blood pressure of one of the individuals in the study}}
 #'
 #' @docType data
 #' @name chapter_7_table_1
@@ -472,9 +472,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{score}{blood pressure}
-#'\item{feedback}{the likelihood of there being a biofeedback or drug main effect}
-#'\item{drug}{the level of the drug factor}}
+#'\item{Score}{blood pressure}
+#'\item{Feedback}{the likelihood of there being a biofeedback or drug main effect}
+#'\item{Drug}{the level of the drug factor}}
 #'
 #' @docType data
 #' @name chapter_7_table_5
@@ -525,9 +525,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{score}{blood pressure}
-#'\item{feedback}{the likelihood of there being a biofeedback or drug main effect}
-#'\item{drug}{the level of the drug factor}}
+#'\item{Score}{blood pressure}
+#'\item{Feedback}{the likelihood of there being a biofeedback or drug main effect}
+#'\item{Drug}{the level of the drug factor}}
 #'
 #' @docType data
 #' @name chapter_7_table_9
@@ -639,9 +639,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{sex}{gender (male vs female)}
-#'\item{educ}{education level (degree vs no degree)}
-#'\item{salary}{salary (in thousands)}
+#'\item{Sex}{gender (male vs female)}
+#'\item{Education}{education level (degree vs no degree)}
+#'\item{Salary}{salary (in thousands)}
 #'}
 #'
 #' @docType data
@@ -700,9 +700,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{therapy}{the type of therapy}
-#'\item{severity}{the severity of the therapy}
-#'\item{score}{the score of the individual}
+#'\item{Therapy}{the type of therapy}
+#'\item{Severity}{the severity of the therapy}
+#'\item{Score}{the score of the individual}
 #'}
 #'
 #' @docType data
@@ -756,10 +756,10 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{bp}{patient blood pressure}
-#'\item{drug}{drug given (X,Y,or Z)}
-#'\item{biofeed}{presence or absence of biofeedback}
-#'\item{diet}{presence of absence of a diet}
+#'\item{BP}{patient blood pressure}
+#'\item{Drug}{drug given (X,Y,or Z)}
+#'\item{Biofeedback}{presence or absence of biofeedback}
+#'\item{Diet}{presence of absence of a diet}
 #'}
 #'
 #' @docType data
@@ -798,9 +798,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{group}{the group (treatment group vs wait-list control group)}
-#'\item{x}{the weight lost by the control group}
-#'\item{y}{the weight lost by the treatment group}}
+#'\item{Group}{the group (treatment group vs wait-list control group)}
+#'\item{X}{the weight lost by the control group}
+#'\item{Y}{the weight lost by the treatment group}}
 #'
 #' @docType data
 #' @name chapter_9_table_1
@@ -836,9 +836,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{cond}{the treatment condition (SSRI, Placebo, Wait List Control)}
-#'\item{pre}{the measure of depression before the experiment}
-#'\item{post}{the measure of depression after the experiment}
+#'\item{Condition}{the treatment condition (SSRI, Placebo, Wait List Control)}
+#'\item{Pre}{the measure of depression before the experiment}
+#'\item{Post}{the measure of depression after the experiment}
 #'}
 #'
 #' @docType data
@@ -891,10 +891,10 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{block}{a numeric vector between 1 and 3, equal to the block of elderly participants (6 per block)}
-#'\item{task}{the task given}
-#'\item{x}{age}
-#'\item{y}{error scores}
+#'\item{Block}{a numeric vector between 1 and 3, equal to the block of elderly participants (6 per block)}
+#'\item{Task}{the task given}
+#'\item{X}{age}
+#'\item{Y}{error scores}
 #'}
 #'
 #' @docType data
@@ -947,9 +947,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{group}{the group (treatment group vs wait-list control group)}
-#'\item{x}{the weight lost by the control group}
-#'\item{y}{the weight lost by the treatment group}
+#'\item{Group}{the group (treatment group vs wait-list control group)}
+#'\item{X}{the weight lost by the control group}
+#'\item{Y}{the weight lost by the treatment group}
 #'}
 #'
 #' @docType data
@@ -991,9 +991,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{a}{type of study program}
-#'\item{b}{the particular school}
-#'\item{act}{the individual's ACT score}
+#'\item{A}{type of study program}
+#'\item{B}{the particular school}
+#'\item{ACT}{the individual's ACT score}
 #'}
 #'
 #' @docType data
@@ -1088,8 +1088,8 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{ycond1}{data from the six subjects under treatment condition 1}
-#'\item{ycond2}{data from the six subjects under treatment condition 2}
+#'\item{YCondition1}{data from the six subjects under treatment condition 1}
+#'\item{YCondition2}{data from the six subjects under treatment condition 2}
 #'}
 #'
 #' @docType data
@@ -1127,10 +1127,10 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{ycond1}{a numeric vector}
-#'\item{ycond2}{a numeric vector}
-#'\item{ycond3}{a numeric vector}
-#'\item{ycond4}{a numeric vector}
+#'\item{YCondition1}{a numeric vector}
+#'\item{YCondition2}{a numeric vector}
+#'\item{YCondition3}{a numeric vector}
+#'\item{YCondition4}{a numeric vector}
 #'}
 #'
 #' @docType data
@@ -1168,10 +1168,10 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{months30}{age-normed general cognitive score for 30-month-old}
-#'\item{months36}{age-normed general cognitive score for 36-month-old}
-#'\item{months42}{age-normed general cognitive score for 42-month-old}
-#'\item{months48}{age-normed general cognitive score for 48-month-old}
+#'\item{Months30}{age-normed general cognitive score for 30-month-old}
+#'\item{Months36}{age-normed general cognitive score for 36-month-old}
+#'\item{Months42}{age-normed general cognitive score for 42-month-old}
+#'\item{Months48}{age-normed general cognitive score for 48-month-old}
 #'}
 #'
 #' @docType data
@@ -1210,9 +1210,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{subject}{a numeric vector}
-#'\item{judge}{judge number; of 3}
-#'\item{rating}{a numeric vector}
+#'\item{Subject}{a numeric vector}
+#'\item{Judge}{judge number; of 3}
+#'\item{Rating}{a numeric vector}
 #'}
 #'
 #' @docType data
@@ -1291,12 +1291,12 @@
 #'
 #' @section Variables:
 #'\describe{
-#'    \item{abs0}{reaction time w/ noise absent, angle 0}
-#'    \item{abs4}{reaction time w/ noise absent, angle 4}
-#'    \item{abs8}{reaction time w/ noise absent, angle 8}
-#'    \item{pres0}{reaction time w/ noise present, angle 0}
-#'    \item{pres4}{reaction time w/ noise present, angle 4}
-#'    \item{pres8}{reaction time w/ noise present, angle 8}
+#'    \item{Absent0}{reaction time w/ noise absent, angle 0}
+#'    \item{Absent4}{reaction time w/ noise absent, angle 4}
+#'    \item{Absent8}{reaction time w/ noise absent, angle 8}
+#'    \item{Present0}{reaction time w/ noise present, angle 0}
+#'    \item{Present4}{reaction time w/ noise present, angle 4}
+#'    \item{Present8}{reaction time w/ noise present, angle 8}
 #'}
 #'
 #' @docType data
@@ -1334,9 +1334,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{angle0}{mean reaction time for subject at angle factor 0, averaging over noise}
-#'\item{angle4}{mean reaction time for subject at angle factor 4, averaging over noise}
-#'\item{angle8}{mean reaction time for subject at angle factor 8, averaging over noise}
+#'\item{Angle0}{mean reaction time for subject at angle factor 0, averaging over noise}
+#'\item{Angle4}{mean reaction time for subject at angle factor 4, averaging over noise}
+#'\item{Angle8}{mean reaction time for subject at angle factor 8, averaging over noise}
 #'}
 #'
 #' @docType data
@@ -1373,8 +1373,8 @@
 #'
 #' @section Variables:
 #'\describe{
-#'    \item{noiseabs}{mean reaction time for subject without noise, averaging over angle}
-#'    \item{noiseprs}{mean reaction time for subject with noise, averaging over angle}
+#'    \item{NoiseAbsent}{mean reaction time for subject without noise, averaging over angle}
+#'    \item{NoisePresent}{mean reaction time for subject with noise, averaging over angle}
 #'}
 #'
 #' @docType data
@@ -1411,9 +1411,9 @@
 #'
 #' #' @section Variables:
 #'\describe{
-#'\item{angle0}{reaction time when noise is present minus reaction time when noise is absent at angle 0}
-#'\item{angle4}{reaction time when noise is present minus reaction time when noise is absent at angle 4}
-#'\item{angle8}{reaction time when noise is present minus reaction time when noise is absent at angle 8}
+#'\item{Angle0}{reaction time when noise is present minus reaction time when noise is absent at angle 0}
+#'\item{Angle4}{reaction time when noise is present minus reaction time when noise is absent at angle 4}
+#'\item{Angle8}{reaction time when noise is present minus reaction time when noise is absent at angle 8}
 #'}
 #'
 #' @docType data
@@ -1450,9 +1450,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{angle0}{reaction time when noise is present minus reaction time when noise is absent at angle 0}
-#'\item{angle4}{reaction time when noise is present minus reaction time when noise is absent at angle 4}
-#'\item{angle8}{reaction time when noise is present minus reaction time when noise is absent at angle 8}
+#'\item{Angle0}{reaction time when noise is present minus reaction time when noise is absent at angle 0}
+#'\item{Angle4}{reaction time when noise is present minus reaction time when noise is absent at angle 4}
+#'\item{Angle8}{reaction time when noise is present minus reaction time when noise is absent at angle 8}
 #'}
 #'
 #' @docType data
@@ -1491,11 +1491,11 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{dv}{dependent variable; the number of aggressive behaviors in a time period}
-#'\item{subject}{one pair of monkeys (6 total)}
-#'\item{time}{time period}
-#'\item{cond}{treatment condition}
-#'\item{square}{a numeric vector}
+#'\item{DV}{dependent variable; the number of aggressive behaviors in a time period}
+#'\item{Subject}{one pair of monkeys (6 total)}
+#'\item{Time}{time period}
+#'\item{Condition}{treatment condition}
+#'\item{Square}{a numeric vector}
 #'}
 #'
 #' @docType data
@@ -1535,8 +1535,8 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{time1}{participant score at time 1}
-#'\item{time2}{participant score at time 2}
+#'\item{Time1}{participant score at time 1}
+#'\item{Time2}{participant score at time 2}
 #'}
 #'
 #' @docType data
@@ -1574,9 +1574,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{time1}{participant score at time 1}
-#'\item{time2}{participant score at time 2}
-#'\item{time3}{participant score at time 3}
+#'\item{Time1}{participant score at time 1}
+#'\item{Time2}{participant score at time 2}
+#'\item{Time3}{participant score at time 3}
 #'}
 #'
 #' @docType data
@@ -1614,10 +1614,10 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{months30}{hypothetical McCarthy IQ for 30-month-old individuals}
-#'\item{months36}{hypothetical McCarthy IQ for 36-month-old individuals}
-#'\item{months42}{hypothetical McCarthy IQ for 42-month-old individuals}
-#'\item{months48}{hypothetical McCarthy IQ for 48-month-old individuals}
+#'\item{Months30}{hypothetical McCarthy IQ for 30-month-old individuals}
+#'\item{Months36}{hypothetical McCarthy IQ for 36-month-old individuals}
+#'\item{Months42}{hypothetical McCarthy IQ for 42-month-old individuals}
+#'\item{Months48}{hypothetical McCarthy IQ for 48-month-old individuals}
 #'}
 #'
 #' @docType data
@@ -1693,8 +1693,8 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{slope}{slope of the least-squares regression line for data in Table 13.2}
-#'\item{linear}{Linear D variable for data in Table 13.2}
+#'\item{Slope}{slope of the least-squares regression line for data in Table 13.2}
+#'\item{Linear}{Linear D variable for data in Table 13.2}
 #'}
 #'
 #' @docType data
@@ -1731,10 +1731,10 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{abs0}{reaction time for participant without noise and at angle 0}
-#'\item{abs8}{reaction time for participant without noise and at angle 8}
-#'\item{pres0}{reaction time for participant with noise and at angle 0}
-#'\item{pres8}{reaction time for participant with noise and at angle 8}
+#'\item{Absent0}{reaction time for participant without noise and at angle 0}
+#'\item{Absent8}{reaction time for participant without noise and at angle 8}
+#'\item{Present0}{reaction time for participant with noise and at angle 0}
+#'\item{Present8}{reaction time for participant with noise and at angle 8}
 #'}
 #'
 #' @docType data
@@ -1773,9 +1773,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{d1}{participant D1 difference score averaged over noise}
-#'\item{d2}{participant D2 difference score averaged over noise}
-#'\item{d3}{participant D3 difference score averaged over noise}
+#'\item{D1}{participant D1 difference score averaged over noise}
+#'\item{D2}{participant D2 difference score averaged over noise}
+#'\item{D3}{participant D3 difference score averaged over noise}
 #'}
 #'
 #' @docType data
@@ -1812,12 +1812,12 @@
 #'
 #' @section Variables:
 #'\describe{
-#'    \item{abs0}{participant reaction time without noise and with angle 0}
-#'    \item{abs4}{participant reaction time without noise and with angle 4}
-#'    \item{abs8}{participant reaction time without noise and with angle 8}
-#'    \item{pres0}{participant reaction time with noise and with angle 0}
-#'    \item{pres4}{participant reaction time with noise and with angle 4}
-#'    \item{pres8}{participant reaction time with noise and with angle 8}
+#'    \item{Absent0}{participant reaction time without noise and with angle 0}
+#'    \item{Absent4}{participant reaction time without noise and with angle 4}
+#'    \item{Absent8}{participant reaction time without noise and with angle 8}
+#'    \item{Present0}{participant reaction time with noise and with angle 0}
+#'    \item{Present4}{participant reaction time with noise and with angle 4}
+#'    \item{Present8}{participant reaction time with noise and with angle 8}
 #'}
 #'
 #' @docType data
@@ -1854,11 +1854,11 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{d1}{participant D1 variable}
-#'\item{d2}{participant D2 variable}
-#'\item{d3}{participant D3 variable}
-#'\item{d4}{participant D4 variable}
-#'\item{d5}{participant D5 variable}
+#'\item{D1}{participant D1 variable}
+#'\item{D2}{participant D2 variable}
+#'\item{D3}{participant D3 variable}
+#'\item{D4}{participant D4 variable}
+#'\item{D5}{participant D5 variable}
 #'}
 #'
 #' @docType data
@@ -1897,9 +1897,9 @@
 #'
 #' @section Variables:
 #'\describe{
-#'\item{angle0}{participant reaction time at angle 0}
-#'\item{angle8}{participant reaction time at angle 8}
-#'\item{group}{participant age (young or old)}
+#'\item{Angle0}{participant reaction time at angle 0}
+#'\item{Angle8}{participant reaction time at angle 8}
+#'\item{Group}{participant age (young or old)}
 #'}
 #'
 #' @docType data
@@ -1977,10 +1977,10 @@
 #'
 #'@section Variables:
 #' \describe{
-#' \item{months30}{McCarthy IQ score for 30-month-old}
-#' \item{months36}{McCarthy IQ score for 36-month-old}
-#' \item{months42}{McCarthy IQ score for 42-month-old}
-#' \item{months48}{McCarthy IQ score for 48-month-old}}
+#' \item{Months30}{McCarthy IQ score for 30-month-old}
+#' \item{Months36}{McCarthy IQ score for 36-month-old}
+#' \item{Months42}{McCarthy IQ score for 42-month-old}
+#' \item{Months48}{McCarthy IQ score for 48-month-old}}
 #'
 #'
 #' @docType data
@@ -2017,9 +2017,9 @@
 #'
 #'@section Variables:
 #' \describe{
-#' \item{severity}{severity rating assigned to client by trainee}
-#' \item{trainee}{trainee}
-#' \item{gender}{gender of trainee}}
+#' \item{Severity}{severity rating assigned to client by trainee}
+#' \item{Trainee}{trainee}
+#' \item{Gender}{gender of trainee}}
 #'
 #' @docType data
 #' @name chapter_16_table_1
@@ -2057,12 +2057,12 @@
 #'
 #'@section Variables:
 #' \describe{
-#' \item{obs}{observation/participant number}
-#' \item{room}{participant classroom placement}
-#' \item{cond}{participant condition (0=control, 1=treatment)}
-#' \item{cog}{participant cognitive ability score}
-#' \item{skill}{participant's teacher's teaching skill}
-#' \item{induct}{induction; scores on the dependent variable}}
+#' \item{Observation}{observation/participant number}
+#' \item{Room}{participant classroom placement}
+#' \item{Condition}{participant condition (0=control, 1=treatment)}
+#' \item{Cognition}{participant cognitive ability score}
+#' \item{Skill}{participant's teacher's teaching skill}
+#' \item{Inductive}{induction; scores on the dependent variable}}
 #'
 #' @docType data
 #' @name chapter_16_table_4

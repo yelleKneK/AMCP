@@ -30,9 +30,9 @@ The data represents the relative effectiveness of three forms of psychotherapy f
 \section{Variables}{
 
 \describe{
-\item{therapy}{the type of therapy}
-\item{severity}{the severity of the therapy}
-\item{score}{the score of the individual}
+\item{Therapy}{the type of therapy}
+\item{Severity}{the severity of the therapy}
+\item{Score}{the score of the individual}
 }
 }
 

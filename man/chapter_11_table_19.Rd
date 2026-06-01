@@ -30,9 +30,9 @@ As is pointed out in the book, the structure of Table 11.19 is analogous to that
 \section{Variables}{
 
 \describe{
-\item{subject}{a numeric vector}
-\item{judge}{judge number; of 3}
-\item{rating}{a numeric vector}
+\item{Subject}{a numeric vector}
+\item{Judge}{judge number; of 3}
+\item{Rating}{a numeric vector}
 }
 }
 

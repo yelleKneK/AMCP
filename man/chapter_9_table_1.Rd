@@ -30,9 +30,9 @@ The data represents a pre-post design, where a training program designed to assi
 \section{Variables}{
 
 \describe{
-\item{group}{the group (treatment group vs wait-list control group)}
-\item{x}{the weight lost by the control group}
-\item{y}{the weight lost by the treatment group}}
+\item{Group}{the group (treatment group vs wait-list control group)}
+\item{X}{the weight lost by the control group}
+\item{Y}{the weight lost by the treatment group}}
 }
 
 \section{Synonym}{

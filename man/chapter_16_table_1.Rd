@@ -28,9 +28,9 @@ The first table in Chapter 16 presents the Severity Ratings by Clinical Trainees
 \section{Variables}{
 
 \describe{
-\item{severity}{severity rating assigned to client by trainee}
-\item{trainee}{trainee}
-\item{gender}{gender of trainee}}
+\item{Severity}{severity rating assigned to client by trainee}
+\item{Trainee}{trainee}
+\item{Gender}{gender of trainee}}
 }
 
 \section{Synonym}{

@@ -28,12 +28,12 @@ Suppose a perceptual psychologist studying the visual system was interested in d
 \section{Variables}{
 
 \describe{
-   \item{abs0}{participant reaction time without noise and with angle 0}
-   \item{abs4}{participant reaction time without noise and with angle 4}
-   \item{abs8}{participant reaction time without noise and with angle 8}
-   \item{pres0}{participant reaction time with noise and with angle 0}
-   \item{pres4}{participant reaction time with noise and with angle 4}
-   \item{pres8}{participant reaction time with noise and with angle 8}
+   \item{Absent0}{participant reaction time without noise and with angle 0}
+   \item{Absent4}{participant reaction time without noise and with angle 4}
+   \item{Absent8}{participant reaction time without noise and with angle 8}
+   \item{Present0}{participant reaction time with noise and with angle 0}
+   \item{Present4}{participant reaction time with noise and with angle 4}
+   \item{Present8}{participant reaction time with noise and with angle 8}
 }
 }
 

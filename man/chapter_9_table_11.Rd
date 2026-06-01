@@ -28,10 +28,10 @@ The question of interest in the present situation assumes that there are three b
 \section{Variables}{
 
 \describe{
-\item{block}{a numeric vector between 1 and 3, equal to the block of elderly participants (6 per block)}
-\item{task}{the task given}
-\item{x}{age}
-\item{y}{error scores}
+\item{Block}{a numeric vector between 1 and 3, equal to the block of elderly participants (6 per block)}
+\item{Task}{the task given}
+\item{X}{age}
+\item{Y}{error scores}
 }
 }
 

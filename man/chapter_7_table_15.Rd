@@ -30,9 +30,9 @@ The data in Table 7.15 presents hypothetical data (in thousands) for 12 females 
 \section{Variables}{
 
 \describe{
-\item{sex}{gender (male vs female)}
-\item{educ}{education level (degree vs no degree)}
-\item{salary}{salary (in thousands)}
+\item{Sex}{gender (male vs female)}
+\item{Education}{education level (degree vs no degree)}
+\item{Salary}{salary (in thousands)}
 }
 }
 

@@ -30,9 +30,9 @@ The following data is a generalization of the blood pressure data given in Table
 \section{Variables}{
 
 \describe{
-\item{score}{blood pressure}
-\item{feedback}{the likelihood of there being a biofeedback or drug main effect}
-\item{drug}{the level of the drug factor}}
+\item{Score}{blood pressure}
+\item{Feedback}{the likelihood of there being a biofeedback or drug main effect}
+\item{Drug}{the level of the drug factor}}
 }
 
 \section{Synonym}{

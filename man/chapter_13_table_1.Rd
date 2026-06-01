@@ -30,8 +30,8 @@ Table 13.1 presents hypothetical data. The null hypothesis to be tested is that 
 \section{Variables}{
 
 \describe{
-\item{time1}{participant score at time 1}
-\item{time2}{participant score at time 2}
+\item{Time1}{participant score at time 1}
+\item{Time2}{participant score at time 2}
 }
 }
 

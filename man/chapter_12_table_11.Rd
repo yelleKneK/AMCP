@@ -27,9 +27,9 @@ A third covariance matrix is relevant for the AB interaction because this effect
 
 #' @section Variables:
 \describe{
-\item{angle0}{reaction time when noise is present minus reaction time when noise is absent at angle 0}
-\item{angle4}{reaction time when noise is present minus reaction time when noise is absent at angle 4}
-\item{angle8}{reaction time when noise is present minus reaction time when noise is absent at angle 8}
+\item{Angle0}{reaction time when noise is present minus reaction time when noise is absent at angle 0}
+\item{Angle4}{reaction time when noise is present minus reaction time when noise is absent at angle 4}
+\item{Angle8}{reaction time when noise is present minus reaction time when noise is absent at angle 8}
 }
 }
 \section{Synonym}{

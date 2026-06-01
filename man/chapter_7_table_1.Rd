@@ -32,8 +32,8 @@ As before, we can perform a one-way ANOVA via the One-Way ANOVA procedure to rep
 \section{Variables}{
 
 \describe{
-\item{group}{a numeric vector between 1 and 4 equal to the drug therapy group}
-\item{score}{the blood pressure of one of the individuals in the study}}
+\item{Group}{a numeric vector between 1 and 4 equal to the drug therapy group}
+\item{Score}{the blood pressure of one of the individuals in the study}}
 }
 
 \section{Synonym}{

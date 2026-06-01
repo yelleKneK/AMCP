@@ -30,11 +30,11 @@ To summarize, the data in Table 12.21 consists of hypothetical aggressiveness sc
 \section{Variables}{
 
 \describe{
-\item{dv}{dependent variable; the number of aggressive behaviors in a time period}
-\item{subject}{one pair of monkeys (6 total)}
-\item{time}{time period}
-\item{cond}{treatment condition}
-\item{square}{a numeric vector}
+\item{DV}{dependent variable; the number of aggressive behaviors in a time period}
+\item{Subject}{one pair of monkeys (6 total)}
+\item{Time}{time period}
+\item{Condition}{treatment condition}
+\item{Square}{a numeric vector}
 }
 }
 

@@ -29,12 +29,12 @@ The data in Table 12.1 consist of reaction time scores for 10 participants where
 \section{Variables}{
 
 \describe{
-   \item{abs0}{reaction time w/ noise absent, angle 0}
-   \item{abs4}{reaction time w/ noise absent, angle 4}
-   \item{abs8}{reaction time w/ noise absent, angle 8}
-   \item{pres0}{reaction time w/ noise present, angle 0}
-   \item{pres4}{reaction time w/ noise present, angle 4}
-   \item{pres8}{reaction time w/ noise present, angle 8}
+   \item{Absent0}{reaction time w/ noise absent, angle 0}
+   \item{Absent4}{reaction time w/ noise absent, angle 4}
+   \item{Absent8}{reaction time w/ noise absent, angle 8}
+   \item{Present0}{reaction time w/ noise present, angle 0}
+   \item{Present4}{reaction time w/ noise present, angle 4}
+   \item{Present8}{reaction time w/ noise present, angle 8}
 }
 }
 

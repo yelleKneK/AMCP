@@ -30,9 +30,9 @@ For the hypothetical data contained in Table 14.1, Table 14.3 gives the set of D
 \section{Variables}{
 
 \describe{
-\item{d1}{participant D1 difference score averaged over noise}
-\item{d2}{participant D2 difference score averaged over noise}
-\item{d3}{participant D3 difference score averaged over noise}
+\item{D1}{participant D1 difference score averaged over noise}
+\item{D2}{participant D2 difference score averaged over noise}
+\item{D3}{participant D3 difference score averaged over noise}
 }
 }
 

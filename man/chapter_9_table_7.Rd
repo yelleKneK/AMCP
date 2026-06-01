@@ -28,9 +28,9 @@ The data shown in Table 9.7 represents a hypothetical three-group study assessin
 \section{Variables}{
 
 \describe{
-\item{cond}{the treatment condition (SSRI, Placebo, Wait List Control)}
-\item{pre}{the measure of depression before the experiment}
-\item{post}{the measure of depression after the experiment}
+\item{Condition}{the treatment condition (SSRI, Placebo, Wait List Control)}
+\item{Pre}{the measure of depression before the experiment}
+\item{Post}{the measure of depression after the experiment}
 }
 }
 

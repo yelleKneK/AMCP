@@ -28,9 +28,9 @@ For the hypothetical data contained in Table 13.2, eight participants were measu
 \section{Variables}{
 
 \describe{
-\item{time1}{participant score at time 1}
-\item{time2}{participant score at time 2}
-\item{time3}{participant score at time 3}
+\item{Time1}{participant score at time 1}
+\item{Time2}{participant score at time 2}
+\item{Time3}{participant score at time 3}
 }
 }
 

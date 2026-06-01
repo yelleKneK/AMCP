@@ -28,8 +28,8 @@ A different covariance matrix is relevant for the B main effect because the B ef
 \section{Variables}{
 
 \describe{
-   \item{noiseabs}{mean reaction time for subject without noise, averaging over angle}
-   \item{noiseprs}{mean reaction time for subject with noise, averaging over angle}
+   \item{NoiseAbsent}{mean reaction time for subject without noise, averaging over angle}
+   \item{NoisePresent}{mean reaction time for subject with noise, averaging over angle}
 }
 }
 

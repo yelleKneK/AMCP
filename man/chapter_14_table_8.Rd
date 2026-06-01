@@ -30,9 +30,9 @@ In any two factor design, the effects to be tested are typically the two main ef
 \section{Variables}{
 
 \describe{
-\item{angle0}{participant reaction time at angle 0}
-\item{angle8}{participant reaction time at angle 8}
-\item{group}{participant age (young or old)}
+\item{Angle0}{participant reaction time at angle 0}
+\item{Angle8}{participant reaction time at angle 8}
+\item{Group}{participant age (young or old)}
 }
 }
 

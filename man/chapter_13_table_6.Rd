@@ -28,10 +28,10 @@ Table 13.6 presents the hypothetical McCarthy IQ scores for 12 subjects (ages 30
 \section{Variables}{
 
 \describe{
-\item{months30}{hypothetical McCarthy IQ for 30-month-old individuals}
-\item{months36}{hypothetical McCarthy IQ for 36-month-old individuals}
-\item{months42}{hypothetical McCarthy IQ for 42-month-old individuals}
-\item{months48}{hypothetical McCarthy IQ for 48-month-old individuals}
+\item{Months30}{hypothetical McCarthy IQ for 30-month-old individuals}
+\item{Months36}{hypothetical McCarthy IQ for 36-month-old individuals}
+\item{Months42}{hypothetical McCarthy IQ for 42-month-old individuals}
+\item{Months48}{hypothetical McCarthy IQ for 48-month-old individuals}
 }
 }
 

@@ -32,9 +32,9 @@ The primary hypothesis of interest is whether the standard paper-and-pencil and 
 \section{Variables}{
 
 \describe{
-\item{a}{type of study program}
-\item{b}{the particular school}
-\item{act}{the individual's ACT score}
+\item{A}{type of study program}
+\item{B}{the particular school}
+\item{ACT}{the individual's ACT score}
 }
 }
 
