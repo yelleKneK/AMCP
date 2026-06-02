@@ -27,6 +27,9 @@ Suppose that we are interested in comparing the effects of three drugs (A, B, an
 
 To summarize, the data in Table 12.29 consists of hypothetical aggressiveness scores for 6 monkeys who have been exposed to three types of drugs (A, B, and C). In order to control for potential order effects, a Latin square design is utilized. In particular, two randomly constituted squares are formed with three monkeys randomly assigned to each square and also randomly assigned to the particular row of the square that assigns the order that they are exposed to treatment.
 }
+\note{
+Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 12.21 (\code{chapter_12_table_21} / \code{C12T21}). The data are unchanged.
+}
 \section{Variables}{
 
 \describe{

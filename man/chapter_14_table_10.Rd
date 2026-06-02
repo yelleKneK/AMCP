@@ -25,6 +25,9 @@ The data used in Chapter 14, Table 10
 \details{
 Table 14.10 presents the M, D1, and D2 transformed scores formed from the three-angle reaction-time data of Table 14.9. For each participant, M is the mean reaction time across the 0-degree, 4-degree, and 8-degree angle conditions; D1 is the linear trend across angle (8 degrees minus 0 degrees); and D2 is the quadratic trend across angle (0 degrees minus twice 4 degrees plus 8 degrees). These transformed variables support the multivariate approach to the design: D1 and D2 are used to test the main effect of angle and the age-by-angle interaction, while M carries the between-subjects information used to test the main effect of age. The young-participant means are M = 569, D1 = 168, and D2 = -48; the old-participant means are M = 663, D1 = 249, and D2 = 27; and the grand means are M = 616, D1 = 208.5, and D2 = -10.5.
 }
+\note{
+New in the 4th edition. In the 3rd edition (AMCP 1.x) the name \code{chapter_14_table_10} referred to the reaction-time data now in \code{chapter_14_table_9}; it now holds the \emph{M}, \emph{D1}, and \emph{D2} transformed scores of the 4th edition's Table 14.10.
+}
 \section{Variables}{
 
 \describe{

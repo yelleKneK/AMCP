@@ -27,6 +27,9 @@ The following hypothetical salary data represents a nonorthogonal two-by-two fac
 
 The data in Table 7.16 presents hypothetical data (in thousands) for 12 females and 10 males who have just been hired by the organization. The mean salary for the 12 females is $22,333, whereas the mean for the 10 males is $22,100. The data in Table 7.16 also contains information about an additional characteristic of employees, namely whether they received a college degree. It is clear from the data that a majority of the new female employees are college graduates, whereas a majority of the males are not.
 }
+\note{
+Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 7.15 (\code{chapter_7_table_15} / \code{C7T15}). The data are unchanged.
+}
 \section{Variables}{
 
 \describe{

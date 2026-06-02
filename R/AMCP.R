@@ -33,7 +33,24 @@
 #'
 #' See the web page that accompanies the book here: \url{https://designingexperiments.com}.
 #'
-#' For suggested updates, please email Ken Kelley \email{kkelley@nd.edu}.
+#' For suggested updates, please email Ken Kelley (\email{kkelley@nd.edu}); see also \url{https://kenkelley.org}.
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #'
 "_PACKAGE"
+
+
+# Startup message: flag the edition mapping so readers of the 3rd edition are
+# not misled by a table number that changed for the 4th. Short and suppressible
+# (packageStartupMessage); the per-table Notes and NEWS carry the detail.
+.onAttach <- function(libname, pkgname) {
+  packageStartupMessage(
+    "AMCP ", utils::packageVersion(pkgname),
+    " maps to the 4th edition (2026) of Maxwell, Delaney, &\n",
+    "Kelley, \"Designing Experiments and Analyzing Data\" (Routledge). Some\n",
+    "tables were renumbered or removed from the 3rd edition (2018); see the\n",
+    "help-page Notes and news(package = \"AMCP\").\n",
+    "\n",
+    "If you are using the 3rd edition (2018), install the last 1.x release:\n",
+    "    remotes::install_version(\"AMCP\", \"1.0.2\")"
+  )
+}

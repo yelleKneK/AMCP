@@ -8,7 +8,7 @@
 \alias{c7t9}
 \title{The data used in Chapter 7, Table 9}
 \format{
-An object of class \code{data.frame} with 36 rows and 3 columns.
+An object of class \code{data.frame} with 6 rows and 3 columns.
 }
 \source{
 \url{https://designingexperiments.com/data/}
@@ -23,14 +23,17 @@ data(chapter_7_table_9)
 The data used in Chapter 7, Table 9
 }
 \details{
-The following data is a generalization of the blood pressure data given in Table 7.5 (which itself was a generalization of the data given in Table 7.1). After the interaction is found to be significant, a common recommendation is to examine simple main effects. Recall that a simple main effect is the main effect of one factor given a fixed level of another factor. In this case interest is in determining if there are any differences in drugs (a) given biofeedback and (b) given no biofeedback.
+Table 7.9 gives one additional observation for each of the six cells of the 2 (biofeedback: present or absent) by 3 (drug: X, Y, or Z) blood pressure design whose first five observations per cell appear in Table 7.5 (\code{chapter_7_table_5}). The additional observations are listed in the same cell order as Table 7.5: biofeedback paired with drug X, Y, and Z, followed by drugs X, Y, and Z administered alone. Stacking these six values onto Table 7.5 yields six observations per cell, and the cell means and marginal means of the combined data are those reported in Table 7.10 (reproduced in the examples below).
+}
+\note{
+This data set's content changed for the 4th edition. In AMCP 1.x (3rd edition) it held a 36-row combined data set; it now holds the six \emph{additional} observations reported in the 4th edition's Table 7.9 (see Details).
 }
 \section{Variables}{
 
 \describe{
 \item{Score}{blood pressure}
-\item{Feedback}{the likelihood of there being a biofeedback or drug main effect}
-\item{Drug}{the level of the drug factor}}
+\item{Feedback}{biofeedback condition (1 = present, 2 = absent, that is, drug administered alone)}
+\item{Drug}{drug administered (1 = drug X, 2 = drug Y, 3 = drug Z)}}
 }
 
 \section{Synonym}{
@@ -49,19 +52,22 @@ data(C7T9)
 str(chapter_7_table_9)
 
 # ---------------------------------------------------------------------
-# Optional: a factor-coded copy for factorial ANOVA / model comparison.
-# Feedback and Drug are stored as numeric codes so the book's contrast and
-# model-comparison examples reproduce exactly. For a factorial ANOVA you
-# want them as factors; otherwise a code enters the model as a single
-# linear (1 df) term. The "Variables" section does not give level labels,
-# so the numeric codes are kept as the factor levels. Build a *copy*
-# (suffix "_factors") so the canonical data set is left unchanged.
-C7T9_factors <- chapter_7_table_9
-C7T9_factors$Feedback <- factor(C7T9_factors$Feedback)
-C7T9_factors$Drug     <- factor(C7T9_factors$Drug)
+# Table 7.9 supplies one additional observation for each of the six cells
+# of the 2 (Feedback) x 3 (Drug) design in Table 7.5 (chapter_7_table_5).
+# Stacking it onto Table 7.5 gives six observations per cell; the cell and
+# marginal means of the combined data are those reported in Table 7.10.
+data(chapter_7_table_5)
+combined <- rbind(chapter_7_table_5, chapter_7_table_9)
 
-# This design is balanced, so the factorial ANOVA is order-invariant.
-anova(lm(Score ~ Feedback * Drug, data = C7T9_factors))
+# Cell means: a 2 (Feedback) x 3 (Drug) table -- Table 7.10
+#   Feedback 1 = biofeedback present, 2 = absent; Drug 1 = X, 2 = Y, 3 = Z
+tapply(combined$Score,
+       list(Feedback = combined$Feedback, Drug = combined$Drug), mean)
+
+# Marginal means and grand mean (also given in Table 7.10)
+tapply(combined$Score, combined$Feedback, mean)  # 187 (present), 199 (absent)
+tapply(combined$Score, combined$Drug, mean)      # 178 (X), 202 (Y), 199 (Z)
+mean(combined$Score)                             # 193 (grand mean)
 
 }
 \references{

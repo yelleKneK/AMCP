@@ -46,6 +46,32 @@ test_that("chapter_7_table_11 is the 3x3 diagnosis-by-task design", {
   expect_identical(sort(unique(d$Task)), 1:3)
 })
 
+test_that("chapter_7_table_9 is the six additional blood-pressure observations", {
+  # Book Table 7.9 ("Additional Observations for Table 7.5 Data"): one extra
+  # observation for each of the six cells of the 2 (Feedback) x 3 (Drug)
+  # design in Table 7.5, in the same cell order (Feedback slowest).
+  d9 <- get1("chapter_7_table_9")
+  expect_equal(dim(d9), c(6L, 3L))
+  expect_identical(names(d9), c("Score", "Feedback", "Drug"))
+  expect_identical(d9$Score,    c(158L, 209L, 194L, 198L, 195L, 204L))
+  expect_identical(d9$Feedback, c(1L, 1L, 1L, 2L, 2L, 2L))
+  expect_identical(d9$Drug,     c(1L, 2L, 3L, 1L, 2L, 3L))
+
+  # Stacking onto Table 7.5 gives six observations per cell; the cell and
+  # marginal means of the combined data are those reported in Table 7.10.
+  d5 <- get1("chapter_7_table_5")
+  combined <- rbind(d5, d9)
+  expect_equal(dim(combined), c(36L, 3L))
+  cm <- tapply(combined$Score, list(combined$Feedback, combined$Drug), mean)
+  expect_equal(as.vector(cm["1", ]), c(168, 204, 189))  # biofeedback present
+  expect_equal(as.vector(cm["2", ]), c(188, 200, 209))  # biofeedback absent
+  expect_equal(as.vector(tapply(combined$Score, combined$Feedback, mean)),
+               c(187, 199))                              # Feedback marginals
+  expect_equal(as.vector(tapply(combined$Score, combined$Drug, mean)),
+               c(178, 202, 199))                         # Drug marginals
+  expect_equal(mean(combined$Score), 193)                # grand mean
+})
+
 test_that("chapter_10_table_9 is gender / nested-trainee / severity", {
   d <- get1("chapter_10_table_9")
   expect_equal(dim(d), c(24L, 3L))

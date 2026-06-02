@@ -294,42 +294,6 @@
 "chapter_4_table_1"
 
 
-#' The data used in Chapter 4, Table 7
-#'
-#' The data used in Chapter 4, Table 7
-#'
-#' Data used to demonstrate another property of orthogonal contrasts. The demonstrated principle is that the sums of squares of nonorthogonal contrasts are not additive, yet the sums of squares of orthogonal contrasts can be added to determine the magnitude of the sum of squares they jointly account for.
-#'
-#' @section Variables:
-#'\describe{
-#'\item{dv}{dependent variable}
-#'\item{group}{Group number: 1, 2, or 3}}
-#'
-#' @docType data
-#' @name chapter_4_table_7
-#' @aliases C4T7 chapter_4_table_7 Chapter_4_Table_7 c4t7
-#' @author Ken Kelley \email{kkelley@nd.edu}
-#' @source \url{https://designingexperiments.com/data/}
-#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
-#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
-#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
-#' @keywords datasets
-#' @usage data(chapter_4_table_7)
-#' @section Synonym:
-#' C4T7
-#' @examples
-#' # Load the data
-#' data(chapter_4_table_7)
-#'
-#' # Or, alternatively load the data as
-#' data(C4T7)
-#'
-#' # View the structure
-#' str(chapter_4_table_7)
-#'
-"chapter_4_table_7"
-
 #' The data used in Chapter 5, Table 4
 #'
 #' The data used in Chapter 5, Table 4
@@ -473,8 +437,8 @@
 #' @section Variables:
 #'\describe{
 #'\item{Score}{blood pressure}
-#'\item{Feedback}{the likelihood of there being a biofeedback or drug main effect}
-#'\item{Drug}{the level of the drug factor}}
+#'\item{Feedback}{biofeedback condition (1 = present, 2 = absent, that is, drug administered alone)}
+#'\item{Drug}{drug administered (1 = drug X, 2 = drug Y, 3 = drug Z)}}
 #'
 #' @docType data
 #' @name chapter_7_table_5
@@ -521,15 +485,16 @@
 #'
 #' The data used in Chapter 7, Table 9
 #'
-#' The following data is a generalization of the blood pressure data given in Table 7.5 (which itself was a generalization of the data given in Table 7.1). After the interaction is found to be significant, a common recommendation is to examine simple main effects. Recall that a simple main effect is the main effect of one factor given a fixed level of another factor. In this case interest is in determining if there are any differences in drugs (a) given biofeedback and (b) given no biofeedback.
+#' Table 7.9 gives one additional observation for each of the six cells of the 2 (biofeedback: present or absent) by 3 (drug: X, Y, or Z) blood pressure design whose first five observations per cell appear in Table 7.5 (\code{chapter_7_table_5}). The additional observations are listed in the same cell order as Table 7.5: biofeedback paired with drug X, Y, and Z, followed by drugs X, Y, and Z administered alone. Stacking these six values onto Table 7.5 yields six observations per cell, and the cell means and marginal means of the combined data are those reported in Table 7.10 (reproduced in the examples below).
 #'
 #' @section Variables:
 #'\describe{
 #'\item{Score}{blood pressure}
-#'\item{Feedback}{the likelihood of there being a biofeedback or drug main effect}
-#'\item{Drug}{the level of the drug factor}}
+#'\item{Feedback}{biofeedback condition (1 = present, 2 = absent, that is, drug administered alone)}
+#'\item{Drug}{drug administered (1 = drug X, 2 = drug Y, 3 = drug Z)}}
 #'
 #' @docType data
+#' @note This data set's content changed for the 4th edition. In AMCP 1.x (3rd edition) it held a 36-row combined data set; it now holds the six \emph{additional} observations reported in the 4th edition's Table 7.9 (see Details).
 #' @name chapter_7_table_9
 #' @aliases C7T9 chapter_7_table_9 Chapter_7_Table_9 c7t9
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -553,19 +518,22 @@
 #' str(chapter_7_table_9)
 #'
 #' # ---------------------------------------------------------------------
-#' # Optional: a factor-coded copy for factorial ANOVA / model comparison.
-#' # Feedback and Drug are stored as numeric codes so the book's contrast and
-#' # model-comparison examples reproduce exactly. For a factorial ANOVA you
-#' # want them as factors; otherwise a code enters the model as a single
-#' # linear (1 df) term. The "Variables" section does not give level labels,
-#' # so the numeric codes are kept as the factor levels. Build a *copy*
-#' # (suffix "_factors") so the canonical data set is left unchanged.
-#' C7T9_factors <- chapter_7_table_9
-#' C7T9_factors$Feedback <- factor(C7T9_factors$Feedback)
-#' C7T9_factors$Drug     <- factor(C7T9_factors$Drug)
+#' # Table 7.9 supplies one additional observation for each of the six cells
+#' # of the 2 (Feedback) x 3 (Drug) design in Table 7.5 (chapter_7_table_5).
+#' # Stacking it onto Table 7.5 gives six observations per cell; the cell and
+#' # marginal means of the combined data are those reported in Table 7.10.
+#' data(chapter_7_table_5)
+#' combined <- rbind(chapter_7_table_5, chapter_7_table_9)
 #'
-#' # This design is balanced, so the factorial ANOVA is order-invariant.
-#' anova(lm(Score ~ Feedback * Drug, data = C7T9_factors))
+#' # Cell means: a 2 (Feedback) x 3 (Drug) table -- Table 7.10
+#' #   Feedback 1 = biofeedback present, 2 = absent; Drug 1 = X, 2 = Y, 3 = Z
+#' tapply(combined$Score,
+#'        list(Feedback = combined$Feedback, Drug = combined$Drug), mean)
+#'
+#' # Marginal means and grand mean (also given in Table 7.10)
+#' tapply(combined$Score, combined$Feedback, mean)  # 187 (present), 199 (absent)
+#' tapply(combined$Score, combined$Drug, mean)      # 178 (X), 202 (Y), 199 (Z)
+#' mean(combined$Score)                             # 193 (grand mean)
 #'
 "chapter_7_table_9"
 
@@ -645,6 +613,7 @@
 #'}
 #'
 #' @docType data
+#' @note Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 7.15 (\code{chapter_7_table_15} / \code{C7T15}). The data are unchanged.
 #' @name chapter_7_table_16
 #' @aliases C7T16 chapter_7_table_16 Chapter_7_Table_16 c7t16
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -706,6 +675,7 @@
 #'}
 #'
 #' @docType data
+#' @note Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 7.23 (\code{chapter_7_table_23} / \code{C7T23}). The data are unchanged.
 #' @name chapter_7_table_24
 #' @aliases C7T24 chapter_7_table_24 Chapter_7_Table_24 c7t24
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -898,6 +868,7 @@
 #'}
 #'
 #' @docType data
+#' @note Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 9.11 (\code{chapter_9_table_11} / \code{C9T11}). The data are unchanged.
 #' @name chapter_9_table_12
 #' @aliases C9T12 chapter_9_table_12 Chapter_9_Table_12 c9t12
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -1499,6 +1470,7 @@
 #'}
 #'
 #' @docType data
+#' @note Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 12.21 (\code{chapter_12_table_21} / \code{C12T21}). The data are unchanged.
 #' @name chapter_12_table_29
 #' @aliases C12T29 chapter_12_table_29 Chapter_12_Table_29 c12t29
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -1660,6 +1632,7 @@
 #'}
 #'
 #' @docType data
+#' @note Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 13.12 (\code{chapter_13_table_12} / \code{C13T12}). The data are unchanged.
 #' @name chapter_13_table_10
 #' @aliases C13T10 chapter_13_table_10 Chapter_13_Table_10 c13t10
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -1883,6 +1856,7 @@
 #'}
 #'
 #' @docType data
+#' @note Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these reaction-time data were Table 14.8 (\code{chapter_14_table_8} / \code{C14T8}). The data are unchanged, but note that \code{chapter_14_table_8} now holds different (transformed-score) data.
 #' @name chapter_14_table_7
 #' @aliases C14T7 chapter_14_table_7 Chapter_14_Table_7 c14t7
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -1922,6 +1896,7 @@
 #'}
 #'
 #' @docType data
+#' @note New in the 4th edition. In the 3rd edition (AMCP 1.x) the name \code{chapter_14_table_8} referred to the reaction-time data now in \code{chapter_14_table_7}; it now holds the \emph{M} and \emph{D} transformed scores of the 4th edition's Table 14.8.
 #' @name chapter_14_table_8
 #' @aliases C14T8 chapter_14_table_8 Chapter_14_Table_8 c14t8
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -1962,6 +1937,7 @@
 #'}
 #'
 #' @docType data
+#' @note Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these reaction-time data were Table 14.10 (\code{chapter_14_table_10} / \code{C14T10}). The data are unchanged, but note that \code{chapter_14_table_10} now holds different (transformed-score) data.
 #' @name chapter_14_table_9
 #' @aliases C14T9 chapter_14_table_9 Chapter_14_Table_9 c14t9
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -2002,6 +1978,7 @@
 #'}
 #'
 #' @docType data
+#' @note New in the 4th edition. In the 3rd edition (AMCP 1.x) the name \code{chapter_14_table_10} referred to the reaction-time data now in \code{chapter_14_table_9}; it now holds the \emph{M}, \emph{D1}, and \emph{D2} transformed scores of the 4th edition's Table 14.10.
 #' @name chapter_14_table_10
 #' @aliases C14T10 chapter_14_table_10 Chapter_14_Table_10 c14t10
 #' @author Ken Kelley \email{kkelley@nd.edu}

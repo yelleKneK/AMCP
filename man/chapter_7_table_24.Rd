@@ -27,6 +27,9 @@ Suppose that a clinical psychologist is interested in comparing the relative eff
 
 The data represents the relative effectiveness of three forms of psychotherapy for alleviating depression. Fifteen individuals were randomly assigned to one of three groups. After the fact, these individuals where placed into one of three categories based on the severity of their depression. Thus, this data set represents a 3 by 3 nonorthogonal factorial design with post hoc blocking.
 }
+\note{
+Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 7.23 (\code{chapter_7_table_23} / \code{C7T23}). The data are unchanged.
+}
 \section{Variables}{
 
 \describe{

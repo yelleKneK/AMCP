@@ -41,11 +41,13 @@ Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments
 
 See the web page that accompanies the book here: \url{https://designingexperiments.com}.
 
-For suggested updates, please email Ken Kelley \email{kkelley@nd.edu}.
+For suggested updates, please email Ken Kelley (\email{kkelley@nd.edu}); see also \url{https://kenkelley.org}.
 }
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://designingexperiments.com/}
+  \item \url{https://kenkelley.org/}
   \item \url{https://github.com/yelleKneK/AMCP}
   \item Report bugs at \url{https://github.com/yelleKneK/AMCP/issues}
 }

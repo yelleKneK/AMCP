@@ -27,6 +27,9 @@ For the hypothetical data contained in Table 14.7, a perceptual psychologist is 
 
 In any two factor design, the effects to be tested are typically the two main effects and the two-way interaction. In our example, then, we test the main effect of age (designated A), the main effect of angle (designated B), and the interaction of age and angle.
 }
+\note{
+Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these reaction-time data were Table 14.8 (\code{chapter_14_table_8} / \code{C14T8}). The data are unchanged, but note that \code{chapter_14_table_8} now holds different (transformed-score) data.
+}
 \section{Variables}{
 
 \describe{

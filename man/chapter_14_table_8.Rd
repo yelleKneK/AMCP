@@ -25,6 +25,9 @@ The data used in Chapter 14, Table 8
 \details{
 Table 14.8 presents the M and D transformed scores formed from the two-angle reaction-time data of Table 14.7. For each participant, M is the mean reaction time across the 0-degree and 8-degree angle conditions, and D is the difference between the two conditions (8 degrees minus 0 degrees). In the multivariate (within-subjects) approach to this two-way design, the M scores carry the between-subjects information used to test the main effect of age, while the D scores carry the within-subjects information used to test the main effect of angle and the age-by-angle interaction. The mean M and D for the young participants are 561 and 168; the corresponding means for the old participants are 667.5 and 249.
 }
+\note{
+New in the 4th edition. In the 3rd edition (AMCP 1.x) the name \code{chapter_14_table_8} referred to the reaction-time data now in \code{chapter_14_table_7}; it now holds the \emph{M} and \emph{D} transformed scores of the 4th edition's Table 14.8.
+}
 \section{Variables}{
 
 \describe{

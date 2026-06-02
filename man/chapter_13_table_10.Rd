@@ -25,6 +25,9 @@ The data used in Chapter 13, Table 10
 \details{
 For the hypothetical data contained in Table 13.2, the linear and quadratic D variables were formed by making use of the appropriate coefficients from Appendix Table A.10. Because the eight participants were measured at three occasions, both a linear and a quadratic effect can be tested. The question of interest in this instance is: "is there a linear and/or quadratic trend exhibited by the group over time?" Recall that in the book it was shown that the D variables for linear and quadratic effects led to an omnibus F test of 19.148, which was a value previously obtained for the omnibus effect. Because the particular values chosen for the D variables do not matter (unless it leads to a linear combination of columns), we will focus only on the tests of the individual contrasts when analyzing the data given in Table 13.10. Because columns one and two already represent the linear and quadratic effect respectively, all that needs to be done is to test the mean of the column in order to determine if it differs from zero.
 }
+\note{
+Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 13.12 (\code{chapter_13_table_12} / \code{C13T12}). The data are unchanged.
+}
 \section{Variables}{
 
 \describe{

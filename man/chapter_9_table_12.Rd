@@ -25,6 +25,9 @@ The data used in Chapter 9, Table 12
 \details{
 The question of interest in the present situation assumes that there are three blocks of elderly participants, six per block. The elderly participants are sorted into the three blocks as a function of their age. The purpose of the study was to assess the effect of age on motor control, measured by the number of errors on a certain task (where there were three tasks). The goal here is to replicate the results from the top portion of Table 9.12 (At this point performing the ANOVA and the ANCOVA also included in Table 9.12 should be straightforward.
 }
+\note{
+Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 9.11 (\code{chapter_9_table_11} / \code{C9T11}). The data are unchanged.
+}
 \section{Variables}{
 
 \describe{

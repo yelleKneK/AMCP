@@ -31,6 +31,20 @@ A Model Comparison Perspective* (2026, Routledge).
   linear-trend scores correspond to a 3rd-edition table that is not part of the
   4th edition; the linear-trend values it tabulated remain available as the
   `Linear` column of `chapter_13_table_10`.
+* Removed `chapter_4_table_7` (and its alias `C4T7`). It held data for a
+  3rd-edition demonstration that the sums of squares of orthogonal contrasts are
+  additive while those of nonorthogonal contrasts are not; in the 4th edition
+  that demonstration moved to the online supplement
+  (designingexperiments.com/supplements), so the data set no longer corresponds
+  to a printed table. The 4th edition's printed Table 4.7 is the Exercise 11
+  data, which is already shipped as `chapter_4_exercise_11`.
+* Corrected the content of `chapter_7_table_9` (and its alias `C7T9`). It had
+  held a 36-row combined data set (the Table 7.5 blood-pressure data with a
+  sixth observation appended to each cell). The 4th edition's Table 7.9 is
+  instead the six *additional* observations themselves (one per cell), so the
+  data set now holds those six rows. Stacking them onto `chapter_7_table_5`
+  with `rbind()` recreates the six-per-cell data whose cell and marginal means
+  are reported in Table 7.10.
 * For the data exactly as distributed with the 3rd edition (2018),
   install the archived CRAN release 1.0.2:
   `remotes::install_version("AMCP", "1.0.2")`.
@@ -46,6 +60,18 @@ A Model Comparison Perspective* (2026, Routledge).
 * The `chapter_13_table_10` examples now show how its linear and quadratic D
   variables are formed from the raw three-level data of `chapter_13_table_2`
   using the orthogonal-polynomial coefficients of Appendix Table A.10.
+* The `chapter_7_table_9` examples now show how its six additional observations
+  combine with `chapter_7_table_5` to reproduce the cell and marginal means of
+  Table 7.10.
+* Gave the `Feedback` and `Drug` variables of `chapter_7_table_5` and
+  `chapter_7_table_9` informative level labels (Feedback: 1 = biofeedback
+  present, 2 = absent; Drug: 1 = X, 2 = Y, 3 = Z), matching the labels used in
+  the book's Table 7.10.
+* Every table that was renumbered, corrected, removed, or added for the 4th
+  edition now carries a `Note` on its help page identifying the change (and,
+  for a renumbered or reused name, the corresponding 3rd-edition name), so
+  readers coming from the 3rd edition are not misled by a shifted or reused
+  table number.
 
 ## Infrastructure
 
@@ -59,3 +85,9 @@ A Model Comparison Perspective* (2026, Routledge).
   canonical data, including a worked example confirming that relabeling
   reproduces the book's results.
 * Added a package `CITATION` file.
+* On attach, the package prints a short startup message noting that version 2.x
+  maps to the 4th edition (2026), pointing to `news(package = "AMCP")` for the
+  list of changed tables, and directing 3rd-edition (2018) users to the archived
+  `remotes::install_version("AMCP", "1.0.2")`.
+* Added the maintainer's web site (<https://kenkelley.org/>) and the book
+  companion site to the package `URL` field.

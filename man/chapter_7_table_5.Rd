@@ -31,8 +31,8 @@ The following data is a generalization of the blood pressure data given in Table
 
 \describe{
 \item{Score}{blood pressure}
-\item{Feedback}{the likelihood of there being a biofeedback or drug main effect}
-\item{Drug}{the level of the drug factor}}
+\item{Feedback}{biofeedback condition (1 = present, 2 = absent, that is, drug administered alone)}
+\item{Drug}{drug administered (1 = drug X, 2 = drug Y, 3 = drug Z)}}
 }
 
 \section{Synonym}{

@@ -15,7 +15,7 @@ Description: Data sets that accompany the book "Designing experiments and
     the book itself using the 'MBESS' package, which may be used as well. The
     book's companion website is available at
     <https://designingexperiments.com/>.
-URL: https://github.com/yelleKneK/AMCP
+URL: https://designingexperiments.com/, https://kenkelley.org/, https://github.com/yelleKneK/AMCP
 BugReports: https://github.com/yelleKneK/AMCP/issues
 License: GPL (>= 3)
 Encoding: UTF-8

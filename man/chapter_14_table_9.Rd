@@ -25,6 +25,9 @@ The data used in Chapter 14, Table 9
 \details{
 These data are identical to those analyzed in chapter 12 (see Tables 12.7 and 12.15) to facilitate comparisons of the multivariate approach and the mixed-model approach.The hypothetical data contained in Table 14.9 contains an additional level of angle (four degrees) that was not considered in Table 14.7.
 }
+\note{
+Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these reaction-time data were Table 14.10 (\code{chapter_14_table_10} / \code{C14T10}). The data are unchanged, but note that \code{chapter_14_table_10} now holds different (transformed-score) data.
+}
 \section{Variables}{
 
 \describe{
