@@ -17,7 +17,8 @@ A Model Comparison Perspective* (2026, Routledge).
   `chapter_7_table_15` becomes `chapter_7_table_16`, `chapter_7_table_23`
   becomes `chapter_7_table_24`, `chapter_9_table_11` becomes
   `chapter_9_table_12`, `chapter_12_table_21` becomes `chapter_12_table_29`,
-  `chapter_13_table_12` becomes `chapter_13_table_10`, and the split-plot
+  `chapter_13_table_5` becomes `chapter_13_table_6`, `chapter_13_table_12`
+  becomes `chapter_13_table_10`, and the split-plot
   reaction-time tables `chapter_14_table_8` and `chapter_14_table_10`
   become `chapter_14_table_7` and `chapter_14_table_9`. Only the names
   changed; the data values are identical. The short aliases were renamed to

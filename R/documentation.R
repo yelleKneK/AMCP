@@ -1593,6 +1593,7 @@
 #'}
 #'
 #' @docType data
+#' @note Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 13.5 (\code{chapter_13_table_5} / \code{C13T5}). The data are unchanged.
 #' @name chapter_13_table_6
 #' @aliases C13T6 chapter_13_table_6 Chapter_13_Table_6 c13t6
 #' @author Ken Kelley \email{kkelley@nd.edu}

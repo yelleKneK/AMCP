@@ -25,6 +25,9 @@ The data used in Chapter 13, Table 6
 \details{
 Table 13.6 presents the hypothetical McCarthy IQ scores for 12 subjects (ages 30, 36, 42, or 48 months). The McCarthy data contained in Table 13.6, which was previously analyzed in Table 11.5, is now analyzed using the multivariate approach to repeated measures.
 }
+\note{
+Renumbered for the 4th edition: in the 3rd edition (AMCP 1.x) these data were Table 13.5 (\code{chapter_13_table_5} / \code{C13T5}). The data are unchanged.
+}
 \section{Variables}{
 
 \describe{
