@@ -2,17 +2,17 @@
 
 AMCP provides all of the data sets used in Maxwell, Delaney, & Kelley's *Designing Experiments and Analyzing Data: A Model Comparison Perspective* (Routledge). There are no functions in this package — it contains data only.
 
-**Beginning with AMCP 2.0, the package is tailored to the 4th edition (Maxwell, Delaney, & Kelley, 2026).**
+**The package's major version tracks the edition of the book: AMCP 2.x is for the book's 4th edition (Maxwell, Delaney, & Kelley, 2026), and AMCP 1.x is for the book's 3rd edition (2018).**
 
 ## Installation
 
-Install the current (4th-edition) version from CRAN:
+Install the current release (AMCP 2.x, for the book's **4th edition**) from CRAN:
 
 ```r
 install.packages("AMCP")
 ```
 
-If you want the data as distributed with the **3rd edition (2018)**, install the archived version from CRAN:
+If you are using the book's **3rd edition (2018)**, install the last 1.x release from CRAN instead, which ships the data as distributed with that edition:
 
 ```r
 # install.packages("remotes")
