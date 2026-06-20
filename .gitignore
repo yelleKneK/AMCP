@@ -8,3 +8,6 @@
 *.Rcheck/
 .claude/
 CLAUDE.md
+doc/
+Meta/
+inst/doc/
