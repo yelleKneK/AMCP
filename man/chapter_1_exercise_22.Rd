@@ -8,7 +8,7 @@
 \alias{c1e22}
 \title{The data used in Chapter 1, Exercise 22}
 \format{
-An object of class \code{data.frame} with 11 rows and 3 columns.
+An object of class \code{data.frame} with 15 rows and 3 columns.
 }
 \source{
 \url{https://designingexperiments.com/data/}

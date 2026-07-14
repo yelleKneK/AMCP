@@ -46,6 +46,35 @@ A Model Comparison Perspective* (2026, Routledge).
   data set now holds those six rows. Stacking them onto `chapter_7_table_5`
   with `rbind()` recreates the six-per-cell data whose cell and marginal means
   are reported in Table 7.10.
+* Added five data sets that appear in the 4th edition but had not shipped
+  previously, each under a long name and short alias:
+  `chapter_4_exercise_18` (`C4E18`, four-therapy agoraphobia fear scores),
+  `chapter_4_exercise_21` (`C4E21`, the Kroes et al. (2014) three-group ECT
+  memory data), `chapter_6_exercise_11` (`C6E11`, drug-dosage maze errors),
+  `chapter_7_exercise_21` (`C7E21`, the oxytocin-by-gender trust study), and
+  `chapter_13_table_5` (`C13T5`). `chapter_13_table_5` is Table 13.5 of the 4th
+  edition ("Two Sets of Hypothetical Data to Illustrate How a Determinant
+  Reflects Generalized Variance"); it holds only the two D (difference) variables
+  for each of the two data sets, because the book gives only those derived scores
+  and not the raw data they were computed from. (In the 4th edition the
+  3rd-edition Table 13.5 was renumbered to Table 13.6, shipped as
+  `chapter_13_table_6`.)
+* Corrected the salaries in `chapter_7_exercise_18` (and its alias `C7E18`).
+  Every value had been 40 (thousand) too low relative to the 4th edition's
+  Exercise 18 table; the salaries now match the book exactly (Assistant-rank
+  females 73, 76, 75, 78, 82, 77; and so on). The `level` and `gender` codes
+  are unchanged.
+* Corrected the column names of `chapter_14_exercise_10` (and its alias
+  `C14E10`). The data are the Kosslyn grids-versus-brackets by left-versus-right
+  hemisphere reaction times (the same data as `chapter_12_exercise_9`), but the
+  columns had been mislabeled `Angle0`, `Angle4`, `Angle8`, `Group` (copied from
+  the split-plot angle example); they are now `GridLeft`, `GridRight`,
+  `BraceLeft`, `BraceRight`. The values are unchanged.
+* Renamed the second cognitive-measure column of `chapter_15_exercise_19`
+  (and its alias `C15E19`) from `Cognitive73` to `Cognitive72`. The three
+  columns record ability at ages 70, 72, and 74 (as the companion
+  `chapter_15_exercise_19_univariate` records with `Age` = 70/72/74), so the
+  middle column's name was corrected to match; the data values are unchanged.
 * For the data exactly as distributed with the 3rd edition (2018),
   install the archived CRAN release 1.0.2:
   `remotes::install_version("AMCP", "1.0.2")`.
@@ -73,6 +102,11 @@ A Model Comparison Perspective* (2026, Routledge).
   for a renumbered or reused name, the corresponding 3rd-edition name), so
   readers coming from the 3rd edition are not misled by a shifted or reused
   table number.
+* Made the help text self-contained by removing references to specific
+  statistical software (for example, notes that an analysis had been carried
+  out in a particular package, or that a procedure was unavailable in one);
+  the surviving prose describes the analyses in tool-neutral, model-comparison
+  terms so the documentation stands on its own.
 
 ## Infrastructure
 

@@ -24,10 +24,10 @@ Data from Chapter 14 Exercise 10 of \emph{Designing Experiments and Analyzing Da
 }
 \details{
 \itemize{
-\item Angle0.
-\item Angle4.
-\item Angle8.
-\item Group.}
+\item GridLeft.
+\item GridRight.
+\item BraceLeft.
+\item BraceRight.}
 }
 \section{Synonym}{
 

@@ -23,7 +23,7 @@ data(chapter_15_table_1)
 The data used in Chapter 15, Table 1
 }
 \details{
-The first table in Chapter 15 presents the Hypothetical McCarthy data again (originally shown in Table 11.5). This data set is used throughout the chapter as the to illustrate the discussion given on the mixed model. At the time of this writing the mixed model procedure is SPSS is not as fully developed the SAS analog PROC MIXED. For this reason no analyses using SPSS are provided to replicate the analyses given in Chapter 15.
+The first table in Chapter 15 presents the Hypothetical McCarthy data again (originally shown in Table 11.5). This data set is used throughout the chapter to illustrate the discussion given on the mixed model.
 }
 \section{Variables}{
 

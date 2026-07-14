@@ -26,7 +26,7 @@ Data from Chapter 15 Exercise 19 of \emph{Designing Experiments and Analyzing Da
 \itemize{
 \item Subject.
 \item Cognitive70.
-\item Cognitive73.
+\item Cognitive72.
 \item Cognitive74.}
 }
 \section{Synonym}{

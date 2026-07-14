@@ -541,7 +541,7 @@
 #'
 #' The data used in Chapter 7, Table 11
 #'
-#' Table 7.11 presents this hypothetical data for 15 amnesiacs, 15 Huntington individuals, and 15 controls. The data represents a two way factorial design where diagnosis and task are fully crossed, each with three levels. Of interest for the results displayed in Table 7.12 is whether the interaction contrast specified in Figure 7.3 and 7.4 is statistically significant. Namely the question pertains to whether the relationship of the mean of grammar and classification versus recognition differs for those in the amnesic and Huntington's group. The procedure SPSS syntax procedure MANOVA is very general and can handle many types of analyses. Interaction contrasts are easily performed in this procedure.
+#' Table 7.11 presents this hypothetical data for 15 amnesiacs, 15 Huntington individuals, and 15 controls. The data represents a two way factorial design where diagnosis and task are fully crossed, each with three levels. Of interest for the results displayed in Table 7.12 is whether the interaction contrast specified in Figure 7.3 and 7.4 is statistically significant. Namely the question pertains to whether the relationship of the mean of grammar and classification versus recognition differs for those in the amnesic and Huntington's group. Interaction contrasts of this kind are readily specified and tested within the model comparison framework.
 #'
 #' Consider an example of a cognitive neuroscience study of patient groups. Specifically, suppose that a certain theory implies that amnesic patients will have a deficit in explicit memory but not in implicit memory. According to this theory, Huntington patients, on the other hand, will be just the opposite: They will have no deficit in explicit memory, but will have a deficit in implicit memory. Further suppose that a study is designed yielding a 3x3 factorial design to test this theory. The rows of this study will represent three types of individuals: amnesic patients, Huntington patients, and a control group of individuals with no known neurological disorder. Each research participant will be randomly assigned to one of three tasks: (1) artificial grammar task, which consists of classifying letter sequences as either following or not following grammatical rules; (2) classification learning task, which consists of classifying hypothetical patients as either having or not having a certain disease based on symptoms probabilistically related to the disease; and (3) recognition memory task, which consists of recognizing particular stimuli as stimuli that have previously been presented during the task.
 #'
@@ -1177,7 +1177,7 @@
 #'
 #' Table 11.19 duplicates a table from Shrout and Fleiss showing hypothetical data obtained from four judges, each of whom has rated six targets (i.e., subjects). For the present (hypothetical) data set (taken from Shrout and Fleiss, 1979) consists of six participants who are ranked by four judges.
 #'
-#' As is pointed out in the book, the structure of Table 11.19 is analogous to that of Table 11.5 (repeated measures). However, notice that in the data file that the data are entered differently. For the repeated measures design (e.g., Table 11.5), each row corresponded to a different participant, while each column corresponded with another measurement. The main reason for the difference in how the data was entered is mainly because of the procedures used to analyze the data. SPSS and SAS allow repeated measures data to be entered in a "participants by occasions" fashion, whereas in order to get the appropriate mean squares to carryout the intraclass correlations for the data given in Table 11.19, a mixed-effects (one fixed factor and one random factor) ANOVA needs to be performed.
+#' As is pointed out in the book, the structure of Table 11.19 is analogous to that of Table 11.5 (repeated measures). However, notice that in the data file that the data are entered differently. For the repeated measures design (e.g., Table 11.5), each row corresponded to a different participant, while each column corresponded with another measurement. The main reason for the difference in how the data was entered is mainly because of the procedures used to analyze the data. Repeated measures data are often entered in a "participants by occasions" fashion, whereas in order to get the appropriate mean squares to carry out the intraclass correlations for the data given in Table 11.19, a mixed-effects (one fixed factor and one random factor) ANOVA needs to be performed.
 #'
 #' @section Variables:
 #'\describe{
@@ -1577,6 +1577,63 @@
 "chapter_13_table_2"
 
 
+#' The data used in Chapter 13, Table 5
+#'
+#' Data from Table 13.5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). Two sets of hypothetical data, each consisting of two \eqn{D} (difference) variables, used to illustrate how a determinant reflects generalized variance.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{SetA_D1}{first D variable for data set (a)}
+#'\item{SetA_D2}{second D variable for data set (a)}
+#'\item{SetB_D1}{first D variable for data set (b); identical to \code{SetA_D1}}
+#'\item{SetB_D2}{second D variable for data set (b); the same values as \code{SetA_D2} but paired with different D1 scores}
+#'}
+#'
+#' @section Note:
+#' The \eqn{D_1} and \eqn{D_2} variables are \strong{derived} scores (difference
+#' scores). The book presents only these \eqn{D} values, not the raw data from
+#' which they were computed, so this data set contains only the D1 and D2 values
+#' and no underlying observations. Data sets (a) and (b) share identical D1 and
+#' D2 values, but paired differently: each variable by itself has the same sum
+#' (0) and sum of squares (56.00 for D1, 56.38 for D2) in both sets, yet the two
+#' sets differ in generalized variance. The determinant of the \eqn{2 \times 2}
+#' matrix of D1 and D2 sums of squares and cross-products is 21.28 for data set
+#' (a) and 3157.03 for data set (b).
+#'
+#' In the 4th edition the 3rd-edition Table 13.5 (the McCarthy repeated-measures
+#' data) was renumbered to Table 13.6, which is shipped as
+#' \code{chapter_13_table_6}.
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_13_table_5
+#' @aliases chapter_13_table_5 Chapter_13_Table_5 C13T5 c13t5
+#' @keywords datasets
+#' @usage data(chapter_13_table_5)
+#' @section Synonym:
+#' C13T5
+#' @examples
+#' # Load the data
+#' data(chapter_13_table_5)
+#'
+#' # Or, alternatively load the data as
+#' data(C13T5)
+#'
+#' # View the structure
+#' str(chapter_13_table_5)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_13_table_5)
+#'
+"chapter_13_table_5"
+
+
 
 #' The data used in Chapter 13, Table 6
 #'
@@ -1723,7 +1780,7 @@
 #'
 #' Using the data in Table 14.1, we could average scores for each participant individually because the noise factor we need to average over is a within-subjects factor. For example, participant 1's average 0 degree score is 450, whereas his or her 8 degree score is 630. This participant's reaction time averages 180 msec longer (630 vs 450) for the 8 degree condition than the 0 degree condition. If the other 9 participants' data show a similar pattern, we would infer that there is indeed a main effect due to angle.
 #'
-#' For the hypothetical data contained in Table 14.1, Table 14.3 gives the set of D variables. The D variables are subsequently used to analyze the data given in Table 14.1. Recall that we analyzed the data contained in Table 14.1 directly using SPSS without (explicitly) forming D variables. Although obtaining the results of the main effects is easily accomplished using the data directly, forming and then analyzing D variables directly also has its benefits (which are delineated in the chapter). Below we analyze the D variables contained in Table 14.3. As expected, our results will match those previously obtained when we analyzed the raw data (i.e., skipping the step of explicitly forming D variables). However, the method to be outlined here provides a different way to accomplish the same goal. We will soon see that analyzing the data by explicitly forming D variables has its advantages.The first column of Table 14.3 (D1) shows these scores for all 10 participants. Indeed, all 10 participants have an average 8 degree reaction time that is slower than their average 0 degree reaction time. Such consistency strongly supports the existence of an angle main effect.
+#' For the hypothetical data contained in Table 14.1, Table 14.3 gives the set of D variables. The D variables are subsequently used to analyze the data given in Table 14.1. Recall that we analyzed the data contained in Table 14.1 directly without (explicitly) forming D variables. Although obtaining the results of the main effects is easily accomplished using the data directly, forming and then analyzing D variables directly also has its benefits (which are delineated in the chapter). Below we analyze the D variables contained in Table 14.3. As expected, our results will match those previously obtained when we analyzed the raw data (i.e., skipping the step of explicitly forming D variables). However, the method to be outlined here provides a different way to accomplish the same goal. We will soon see that analyzing the data by explicitly forming D variables has its advantages.The first column of Table 14.3 (D1) shows these scores for all 10 participants. Indeed, all 10 participants have an average 8 degree reaction time that is slower than their average 0 degree reaction time. Such consistency strongly supports the existence of an angle main effect.
 #'
 #' @section Variables:
 #'\describe{
@@ -2010,7 +2067,7 @@
 #'
 #' The data used in Chapter 15, Table 1
 #'
-#' The first table in Chapter 15 presents the Hypothetical McCarthy data again (originally shown in Table 11.5). This data set is used throughout the chapter as the to illustrate the discussion given on the mixed model. At the time of this writing the mixed model procedure is SPSS is not as fully developed the SAS analog PROC MIXED. For this reason no analyses using SPSS are provided to replicate the analyses given in Chapter 15.
+#' The first table in Chapter 15 presents the Hypothetical McCarthy data again (originally shown in Table 11.5). This data set is used throughout the chapter to illustrate the discussion given on the mixed model.
 #'
 #'@section Variables:
 #' \describe{
@@ -2054,9 +2111,9 @@
 #'
 #'@section Variables:
 #' \describe{
-#' \item{Severity}{severity rating assigned to client by trainee}
-#' \item{Trainee}{trainee}
-#' \item{Gender}{gender of trainee}}
+#' \item{Trainee}{trainee, nested within gender}
+#' \item{Gender}{gender of trainee}
+#' \item{Severity}{severity rating assigned to client by trainee}}
 #'
 #' @docType data
 #' @name chapter_16_table_1
@@ -2715,6 +2772,86 @@
 #'
 "chapter_4_exercise_13"
 
+
+#' The data used in Chapter 4, Exercise 18
+#'
+#' Data from Chapter 4 Exercise 18 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). Posttest scores on a fear scale for four treatments for agoraphobia, with three subjects randomly assigned to each therapy; higher scores indicate more severe phobia.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{dv}{posttest score on a fear scale (higher scores indicate more severe phobia)}
+#'\item{cond}{treatment: 1 = rational-emotive (R-E), 2 = psychoanalytic (P), 3 = client-centered (C-C), 4 = behavioral (B)}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_4_exercise_18
+#' @aliases chapter_4_exercise_18 Chapter_4_Exercise_18 C4E18 c4e18
+#' @keywords datasets
+#' @usage data(chapter_4_exercise_18)
+#' @section Synonym:
+#' C4E18
+#' @examples
+#' # Load the data
+#' data(chapter_4_exercise_18)
+#'
+#' # Or, alternatively load the data as
+#' data(C4E18)
+#'
+#' # View the structure
+#' str(chapter_4_exercise_18)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_4_exercise_18)
+#'
+"chapter_4_exercise_18"
+
+
+#' The data used in Chapter 4, Exercise 21
+#'
+#' Data from Chapter 4 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). Scores on a multiple-choice memory test from the Kroes and colleagues (2014) study of electroconvulsive therapy (ECT) and memory reconsolidation; higher scores reflect more accurate memory. Participants were randomly assigned to three groups.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{dv}{memory-test score (higher scores reflect more accurate memory)}
+#'\item{cond}{group: 1 = Group A (ECT, tested 24 hours later), 2 = Group B (ECT, tested immediately after the procedure), 3 = Group C (control, no ECT, tested 24 hours later)}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_4_exercise_21
+#' @aliases chapter_4_exercise_21 Chapter_4_Exercise_21 C4E21 c4e21
+#' @keywords datasets
+#' @usage data(chapter_4_exercise_21)
+#' @section Synonym:
+#' C4E21
+#' @examples
+#' # Load the data
+#' data(chapter_4_exercise_21)
+#'
+#' # Or, alternatively load the data as
+#' data(C4E21)
+#'
+#' # View the structure
+#' str(chapter_4_exercise_21)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_4_exercise_21)
+#'
+"chapter_4_exercise_21"
+
 #' The data used in Chapter 5, Exercise 5
 #'
 #' Data from Chapter 5 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
@@ -2862,6 +2999,46 @@
 #' summary(chapter_6_exercise_10)
 #'
 "chapter_6_exercise_10"
+
+
+#' The data used in Chapter 6, Exercise 11
+#'
+#' Data from Chapter 6 Exercise 11 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). The mean number of incorrect turns made by rats learning a maze after exposure to one of four equally spaced dosage levels of a drug, with five animals per level. Because drug dosage is quantitative, these data are suited to trend analysis.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{Errors}{mean number of incorrect turns made over five trials}
+#'\item{Dosage}{drug dosage level, equally spaced in units of size 1 (1, 2, 3, 4)}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_6_exercise_11
+#' @aliases chapter_6_exercise_11 Chapter_6_Exercise_11 C6E11 c6e11
+#' @keywords datasets
+#' @usage data(chapter_6_exercise_11)
+#' @section Synonym:
+#' C6E11
+#' @examples
+#' # Load the data
+#' data(chapter_6_exercise_11)
+#'
+#' # Or, alternatively load the data as
+#' data(C6E11)
+#'
+#' # View the structure
+#' str(chapter_6_exercise_11)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_6_exercise_11)
+#'
+"chapter_6_exercise_11"
 
 #' The data used in Chapter 6, Exercise 14
 #'
@@ -3243,6 +3420,47 @@
 #' summary(chapter_7_exercise_19)
 #'
 "chapter_7_exercise_19"
+
+
+#' The data used in Chapter 7, Exercise 21
+#'
+#' Data from Chapter 7 Exercise 21 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). Trust scores in a 2 (gender) by 2 (drug) between-subjects factorial design in which 20 females and 20 males were randomly assigned to receive either oxytocin or a placebo; trust was measured in a variation of the prisoner's dilemma, and higher scores indicate more trust.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{Gender}{1 = female, 2 = male}
+#'\item{Drug}{1 = oxytocin, 2 = placebo}
+#'\item{Trust}{trust score (higher scores indicate more trust)}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_7_exercise_21
+#' @aliases chapter_7_exercise_21 Chapter_7_Exercise_21 C7E21 c7e21
+#' @keywords datasets
+#' @usage data(chapter_7_exercise_21)
+#' @section Synonym:
+#' C7E21
+#' @examples
+#' # Load the data
+#' data(chapter_7_exercise_21)
+#'
+#' # Or, alternatively load the data as
+#' data(C7E21)
+#'
+#' # View the structure
+#' str(chapter_7_exercise_21)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_7_exercise_21)
+#'
+"chapter_7_exercise_21"
 
 #' The data used in Chapter 7, Exercise 22
 #'
@@ -4908,10 +5126,10 @@
 #' Data from Chapter 14 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item Angle0.
-#' \item Angle4.
-#' \item Angle8.
-#' \item Group.}
+#' \item GridLeft.
+#' \item GridRight.
+#' \item BraceLeft.
+#' \item BraceRight.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -5226,7 +5444,7 @@
 #' \itemize{
 #' \item Subject.
 #' \item Cognitive70.
-#' \item Cognitive73.
+#' \item Cognitive72.
 #' \item Cognitive74.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}

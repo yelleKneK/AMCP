@@ -153,3 +153,75 @@ test_that("chapter_14_table_10 holds the M, D1, D2 transforms of Table 14.9", {
   expect_equal(mean(d10$M[d10$Group == 2L]), 663)   # old group mean
   expect_equal(mean(d10$M), 616)                    # grand mean
 })
+
+test_that("chapter_7_exercise_18 salaries match the 4th-ed book (Assistant/Associate x F/M)", {
+  # Book Exercise 18 (Table for the 2x2 gender x rank salary example, in
+  # thousands): Assistant Females 73,76,75,78,82,77; Assistant Males
+  # 79,78,80,84; Associate Females 82,80,84,83; Associate Males
+  # 83,80,89,87,88,91,88,85. (AMCP had held these values 40 too low.)
+  d <- get1("chapter_7_exercise_18")
+  expect_equal(dim(d), c(22L, 3L))
+  expect_identical(names(d), c("level", "gender", "salary"))
+  expect_equal(d$salary[d$level == 1 & d$gender == 1], c(73, 76, 75, 78, 82, 77))
+  expect_equal(d$salary[d$level == 1 & d$gender == 2], c(79, 78, 80, 84))
+  expect_equal(d$salary[d$level == 2 & d$gender == 1], c(82, 80, 84, 83))
+  expect_equal(d$salary[d$level == 2 & d$gender == 2], c(83, 80, 89, 87, 88, 91, 88, 85))
+})
+
+test_that("chapter_4_exercise_18 is the four-therapy agoraphobia fear data", {
+  d <- get1("chapter_4_exercise_18")
+  expect_equal(dim(d), c(12L, 2L))
+  expect_identical(names(d), c("dv", "cond"))
+  expect_equal(d$dv[d$cond == 1], c(2, 4, 6))     # R-E
+  expect_equal(d$dv[d$cond == 2], c(9, 12, 15))   # P
+  expect_equal(d$dv[d$cond == 3], c(5, 6, 7))     # C-C
+  expect_equal(d$dv[d$cond == 4], c(8, 10, 12))   # B
+})
+
+test_that("chapter_4_exercise_21 is the Kroes (2014) three-group memory data", {
+  d <- get1("chapter_4_exercise_21")
+  expect_equal(dim(d), c(39L, 2L))
+  expect_identical(names(d), c("dv", "cond"))
+  expect_equal(as.integer(table(d$cond)), c(13L, 13L, 13L))
+  expect_equal(d$dv[d$cond == 1][1:3], c(30, 22, 21))
+  expect_equal(d$dv[d$cond == 3][1:3], c(60, 36, 32))
+})
+
+test_that("chapter_6_exercise_11 is the drug-dosage maze-error data", {
+  d <- get1("chapter_6_exercise_11")
+  expect_equal(dim(d), c(20L, 2L))
+  expect_identical(names(d), c("Errors", "Dosage"))
+  expect_equal(d$Errors[d$Dosage == 1], c(6.6, 7.2, 5.0, 6.2, 5.8))
+  expect_equal(d$Errors[d$Dosage == 4], c(4.2, 4.8, 5.0, 4.6, 5.2))
+})
+
+test_that("chapter_7_exercise_21 is the oxytocin/trust 2x2 data", {
+  d <- get1("chapter_7_exercise_21")
+  expect_equal(dim(d), c(40L, 3L))
+  expect_identical(names(d), c("Gender", "Drug", "Trust"))
+  expect_equal(d$Trust[d$Gender == 1 & d$Drug == 1], c(3, 5, 4, 5, 4, 2, 4, 3, 4, 2))
+  expect_equal(d$Trust[d$Gender == 2 & d$Drug == 2], c(4, 3, 2, 3, 3, 1, 3, 2, 3, 3))
+})
+
+test_that("chapter_13_table_5 is the two-set determinant illustration (derived D scores)", {
+  # Only the D1/D2 derived scores are given (no raw data). The book reports the
+  # determinant of the D1,D2 SSCP matrix as 21.28 (set a) and 3157.03 (set b).
+  d <- get1("chapter_13_table_5")
+  expect_equal(dim(d), c(14L, 4L))
+  expect_identical(names(d), c("SetA_D1", "SetA_D2", "SetB_D1", "SetB_D2"))
+  expect_identical(d$SetA_D1, d$SetB_D1)                 # same D1 in both sets
+  det2 <- function(x, y) sum(x^2) * sum(y^2) - sum(x * y)^2
+  expect_equal(det2(d$SetA_D1, d$SetA_D2), 21.28, tolerance = 1e-6)
+  expect_equal(det2(d$SetB_D1, d$SetB_D2), 3157.03, tolerance = 1e-6)
+})
+
+test_that("chapter_14_exercise_10 is the Kosslyn grids/brackets x hemisphere data", {
+  # Book Exercise 10: 10 participants x (Grids/Brackets condition) x
+  # (Left/Right hemisphere) response times. Same data as chapter_12_exercise_9;
+  # AMCP once mislabeled the columns Angle0/Angle4/Angle8/Group.
+  d <- get1("chapter_14_exercise_10")
+  expect_equal(dim(d), c(10L, 4L))
+  expect_identical(names(d), c("GridLeft", "GridRight", "BraceLeft", "BraceRight"))
+  e <- get1("chapter_12_exercise_9")
+  expect_equal(unname(as.matrix(d)), unname(as.matrix(e)))
+})

@@ -26,7 +26,7 @@
 #'
 #' We recommend the \strong{DMAR} package as the companion for carrying out the book's analyses; install it with \code{install.packages("DMAR")}. The book itself illustrates these analyses using the \strong{MBESS} package, which may be used as well.
 #'
-#' Note that \url{https://designingexperiments.com/computing/} shows R code (via R Markdown), SPSS syntax and graphical user interface approaches, along with SAS code for implementing many of the analyses in the book, by chapter.
+#' Note that \url{https://designingexperiments.com/computing/} shows R code (via R Markdown) for implementing many of the analyses in the book, by chapter.
 #'
 #' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
 #' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
