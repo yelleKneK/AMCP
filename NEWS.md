@@ -6,6 +6,12 @@ A Model Comparison Perspective* (2026, Routledge).
 
 ## Data
 
+* New data set `chapter_14_table_13` (alias `C14T13`): the longitudinal
+  randomized design introduced in Chapter 14 (100 participants, 44
+  treatment and 56 control, measured at baseline and two post-intervention
+  occasions). These data underlie Tables 14.13 and 14.14 and are analyzed
+  again with mixed-effects models in Chapter 15 (Tables 15.15 and 15.16).
+  Stored in the long format expected by the Chapter 15 code.
 * The data sets now correspond to the 4th edition of the book: the
   chapter tables, the end-of-chapter exercises, and the tutorials. Each
   data set continues to ship under both its long name (e.g.,

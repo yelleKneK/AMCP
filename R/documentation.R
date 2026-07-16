@@ -2062,6 +2062,48 @@
 "chapter_14_table_10"
 
 
+#' The data used in Chapter 14, Table 13
+#'
+#' The data used in Chapter 14, Table 13
+#'
+#' Chapter 14 introduces longitudinal randomized designs with a hypothetical study of 100 participants, 44 of whom were randomly assigned to an active treatment condition and 56 of whom were assigned to a control group. The outcome variable is measured at baseline (time 0) and at two post-intervention occasions (times 4 and 8). Table 14.13 presents the sample means by group and time, and Table 14.14 presents the tests of the omnibus effects for these data. The same data set is analyzed with mixed-effects models in Chapter 15 (see Tables 15.15 and 15.16). The data are stored in the long ("univariate") format expected by the mixed-effects code shown in Chapter 15, with one row per participant per measurement occasion.
+#'
+#'@section Variables:
+#' \describe{
+#' \item{id1}{Participant identification number (1 to 100)}
+#' \item{treatment}{Condition indicator (0 = treatment, 1 = control)}
+#' \item{Index1}{Measurement occasion index (1, 2, or 3)}
+#' \item{time}{Time of measurement (0 = baseline, 4, or 8)}
+#' \item{Y}{Outcome score}}
+#'
+#'
+#' @docType data
+#' @name chapter_14_table_13
+#' @aliases C14T13 chapter_14_table_13 Chapter_14_Table_13 c14t13
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @keywords datasets
+#' @usage data(chapter_14_table_13)
+#' @section Synonym:
+#' C14T13
+#' @examples
+#' # Load the data
+#' data(chapter_14_table_13)
+#'
+#' # Or, alternatively load the data as
+#' data(C14T13)
+#'
+#' # View the structure
+#' str(chapter_14_table_13)
+#'
+"chapter_14_table_13"
+
+
+
 
 #' The data used in Chapter 15, Table 1
 #'
