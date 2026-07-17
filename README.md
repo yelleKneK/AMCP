@@ -2,7 +2,7 @@
 
 AMCP provides all of the data sets used in Maxwell, Delaney, & Kelley's *Designing Experiments and Analyzing Data: A Model Comparison Perspective* (Routledge). There are no functions in this package — it contains data only.
 
-**The package's major version tracks the edition of the book: AMCP 2.x is for the book's 4th edition (Maxwell, Delaney, & Kelley, 2026), and AMCP 1.x is for the book's 3rd edition (2018).**
+**The package's major version tracks the edition of the book: AMCP 2.x is for the book's 4th edition (Maxwell, Delaney, & Kelley, 2027), and AMCP 1.x is for the book's 3rd edition (2018).**
 
 ## Installation
 

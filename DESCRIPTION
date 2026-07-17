@@ -1,12 +1,12 @@
 Package: AMCP
 Type: Package
-Title: Data Sets to Accompany Designing Experiments and Analyzing Data: A Model Comparison Perspective (Maxwell, Delaney, and Kelley, 2026, 4th Edition)
+Title: Data Sets to Accompany Designing Experiments and Analyzing Data: A Model Comparison Perspective (Maxwell, Delaney, and Kelley, 2027, 4th Edition)
 Version: 2.0.0
-Date: 2026-07-15
+Date: 2026-07-17
 Authors@R: c(person(given="Scott", family="Maxwell", role = "aut"), person(given="Harold", family="Delaney", role = "aut"), person("Ken", "Kelley", role = c("aut", "cre"), email = "kkelley@nd.edu"))
 Description: Data sets that accompany the book "Designing experiments and
     analyzing data: A model comparison perspective" (4th ed.) by
-    Maxwell, Delaney, & Kelley (2026; Routledge). Contains all of the data
+    Maxwell, Delaney, & Kelley (2027; Routledge). Contains all of the data
     sets in the book's chapters and end-of-chapter exercises. Beginning with
     version 2.0, the package is tailored to the 4th edition of the book; for
     the data as distributed with the 3rd edition (2018), install the archived

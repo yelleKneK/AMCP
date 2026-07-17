@@ -13,7 +13,7 @@ An object of class \code{data.frame} with 58 rows and 6 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and
 analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
@@ -56,7 +56,7 @@ summary(chapter_12_exercise_26)
 \references{
 Gibson, B. S., Radvansky, G. A., Johnson, A. C., & McNerney, M. W. (2012). Grapheme-color synesthesia can enhance immediate memory without disrupting the encoding of relational cues. \emph{Psychonomic Bulletin & Review, 19}, 1172--1177.
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and analyzing data:
 {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{

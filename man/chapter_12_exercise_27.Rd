@@ -13,7 +13,7 @@ An object of class \code{data.frame} with 193 rows and 6 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and
 analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
@@ -56,7 +56,7 @@ summary(chapter_12_exercise_27)
 \references{
 Bray, J. H., & Maxwell, S. E. (1995). Multivariate statistics for family psychology research. \emph{Journal of Family Psychology, 9}, 144--160.
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and analyzing data:
 {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{

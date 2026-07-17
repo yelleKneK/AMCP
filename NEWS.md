@@ -2,7 +2,7 @@
 
 A major release that tailors the package to the **4th edition** of
 Maxwell, Delaney, and Kelley, *Designing Experiments and Analyzing Data:
-A Model Comparison Perspective* (2026, Routledge).
+A Model Comparison Perspective* (2027, Routledge).
 
 ## Data
 
@@ -138,7 +138,7 @@ A Model Comparison Perspective* (2026, Routledge).
   reproduces the book's results.
 * Added a package `CITATION` file.
 * On attach, the package prints a short startup message noting that version 2.x
-  maps to the 4th edition (2026), pointing to `news(package = "AMCP")` for the
+  maps to the 4th edition (2027), pointing to `news(package = "AMCP")` for the
   list of changed tables, and directing 3rd-edition (2018) users to the archived
   `remotes::install_version("AMCP", "1.0.2")`.
 * Added the maintainer's web site (<https://kenkelley.org/>) and the book

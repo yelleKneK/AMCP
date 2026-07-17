@@ -12,18 +12,18 @@ citHeader(
 ## ---- Primary citation: the book -------------------------------------
 bibentry(
   bibtype   = "Book",
-  key       = "MaxwellDelaneyKelley2026",
+  key       = "MaxwellDelaneyKelley2027",
   title     = "Designing Experiments and Analyzing Data: A Model Comparison Perspective",
   author    = c(person("Scott E.", "Maxwell"),
                 person("Harold D.", "Delaney"),
                 person("Ken", "Kelley")),
-  year      = "2026",
+  year      = "2027",
   edition   = "4th",
   publisher = "Routledge",
   address   = "New York, NY",
   url       = "https://designingexperiments.com/",
   textVersion = paste0(
-    "Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). ",
+    "Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). ",
     "Designing experiments and analyzing data: A model comparison ",
     "perspective (4th ed.). New York, NY: Routledge."
   )

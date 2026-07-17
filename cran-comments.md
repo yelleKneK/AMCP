@@ -1,7 +1,7 @@
 ## Submission summary
 
 AMCP 2.0.0 is a major-version update of this data-only package. It
-retargets the bundled data sets to the 4th edition (2026) of the
+retargets the bundled data sets to the 4th edition (2027) of the
 accompanying textbook (Maxwell, Delaney, and Kelley, *Designing
 Experiments and Analyzing Data: A Model Comparison Perspective*,
 Routledge). The previous CRAN release, 1.0.2, corresponds to the 3rd

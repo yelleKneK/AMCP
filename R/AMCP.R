@@ -1,6 +1,6 @@
 #' A Model Comparison Perspective (AMCP)
 #'
-#' AMCP contains all of the data sets used in Maxwell, Delaney, & Kelley's (2026) \emph{Designing experiments and analyzing data: A model comparison perspective} (4th edition). Information about the book is available at its companion website, \url{https://designingexperiments.com}.
+#' AMCP contains all of the data sets used in Maxwell, Delaney, & Kelley's (2027) \emph{Designing experiments and analyzing data: A model comparison perspective} (4th edition). Information about the book is available at its companion website, \url{https://designingexperiments.com}.
 #'
 #' Beginning with AMCP version 2.0, the package is tailored to the \strong{4th edition} of the book. If you want the data as distributed with the \strong{3rd edition} (Maxwell, Delaney, & Kelley, 2018), install the archived version (1.0.2) from CRAN, for example with \code{remotes::install_version("AMCP", version = "1.0.2")}.
 #'
@@ -28,7 +28,7 @@
 #'
 #' Note that \url{https://designingexperiments.com/computing/} shows R code (via R Markdown) for implementing many of the analyses in the book, by chapter.
 #'
-#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and analyzing data:
 #' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 #'
 #' See the web page that accompanies the book here: \url{https://designingexperiments.com}.
@@ -45,7 +45,7 @@
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage(
     "AMCP ", utils::packageVersion(pkgname),
-    " maps to the 4th edition (2026) of Maxwell, Delaney, &\n",
+    " maps to the 4th edition (2027) of Maxwell, Delaney, &\n",
     "Kelley, \"Designing Experiments and Analyzing Data\" (Routledge). Some\n",
     "tables were renumbered or removed from the 3rd edition (2018); see the\n",
     "help-page Notes and news(package = \"AMCP\").\n",

@@ -13,7 +13,7 @@ An object of class \code{data.frame} with 30 rows and 3 columns.
 \source{
 \url{https://designingexperiments.com/data/}
 
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and
 analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
 }
 \usage{
@@ -67,7 +67,7 @@ anova(lm(Score ~ Feedback * Drug, data = C7T5_factors))
 
 }
 \references{
-Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and analyzing data:
 {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
 }
 \author{
