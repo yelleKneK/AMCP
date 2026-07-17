@@ -5756,12 +5756,12 @@
 
 #' The data used in Chapter 16, Exercise 5
 #'
-#' Data from Chapter 16 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
+#' Data from Chapter 16 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). Exercise 5 analyzes the severity ratings presented in Table 16.1, so these data are the same as \code{chapter_16_table_1}.
 #'
 #' \itemize{
-#' \item Severity.
 #' \item Trainee.
-#' \item Gender.}
+#' \item Gender.
+#' \item Severity.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}

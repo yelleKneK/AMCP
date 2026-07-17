@@ -168,6 +168,18 @@ test_that("chapter_7_exercise_18 salaries match the 4th-ed book (Assistant/Assoc
   expect_equal(d$salary[d$level == 2 & d$gender == 2], c(83, 80, 89, 87, 88, 91, 88, 85))
 })
 
+test_that("chapter_16 Table 16.1 and its reusing exercises agree in shape and order", {
+  # The book's Exercise 5 analyzes the Table 16.1 data, and Exercises 7 and 9
+  # analyze the Table 16.4 data. Each exercise data set should therefore be
+  # identical to the table it reuses, column order included.
+  t1 <- get1("chapter_16_table_1")
+  expect_identical(names(t1), c("Trainee", "Gender", "Severity"))
+  expect_identical(get1("chapter_16_exercise_5"), t1)
+  t4 <- get1("chapter_16_table_4")
+  expect_identical(get1("chapter_16_exercise_7"), t4)
+  expect_identical(get1("chapter_16_exercise_9"), t4)
+})
+
 test_that("chapter_12_exercise_24 reproduces the Carnes context main effect", {
   # Instructor manual: main effect of social context, Greenhouse-Geisser
   # adjusted, F(2.58, 301.61) = 509.10, p < .001.
