@@ -1,4 +1,4 @@
-# AMCP
+# AMCP <img src="man/figures/logo.png" align="right" height="139" alt="AMCP hex logo" />
 
 AMCP provides all of the data sets used in Maxwell, Delaney, & Kelley's *Designing Experiments and Analyzing Data: A Model Comparison Perspective* (Routledge). There are no functions in this package — it contains data only.
 
