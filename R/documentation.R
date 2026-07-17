@@ -4853,6 +4853,147 @@
 "chapter_12_exercise_21"
 
 
+#' The data used in Chapter 12, Exercise 22
+#'
+#' Data from Chapter 12 Exercise 22 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). The Hu, Antony, Creery, Vargas, Bodenhausen, and Paller (2015) study of whether implicit social biases can be reduced during sleep. Forty participants were measured on implicit gender bias and implicit racial bias; during a nap, an auditory cue reactivated the counter-bias training for one of the two biases (the cued bias) but not the other (the uncued bias). The exercise analyzes the four bias scores as a 2 (cuing: cued, uncued) by 2 (time: prenap, postnap) fully within-subjects design; higher (more positive) scores reflect more bias.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{Sample}{data collection: 1 = original sample, 2 = replication sample}
+#'\item{CuedBiasType}{the bias that was cued during the nap for this participant: \code{Gender} or \code{Race} (a between-subjects factor the exercise sets aside)}
+#'\item{Cued_Baseline}{cued-bias score at baseline}
+#'\item{Uncued_Baseline}{uncued-bias score at baseline}
+#'\item{Cued_Prenap}{cued-bias score before the nap}
+#'\item{Cued_Postnap}{cued-bias score after the nap}
+#'\item{Uncued_Prenap}{uncued-bias score before the nap}
+#'\item{Uncued_Postnap}{uncued-bias score after the nap}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Hu, X., Antony, J. W., Creery, J. D., Vargas, I. M., Bodenhausen, G. V., & Paller, K. A. (2015). Unlearning implicit social biases during sleep. \emph{Science, 348}, 1013--1015.
+#'
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_12_exercise_22
+#' @aliases chapter_12_exercise_22 Chapter_12_Exercise_22 C12E22 c12e22
+#' @keywords datasets
+#' @usage data(chapter_12_exercise_22)
+#' @section Synonym:
+#' C12E22
+#' @examples
+#' # Load the data
+#' data(chapter_12_exercise_22)
+#'
+#' # Or, alternatively load the data as
+#' data(C12E22)
+#'
+#' # View the structure
+#' str(chapter_12_exercise_22)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_12_exercise_22)
+#'
+"chapter_12_exercise_22"
+
+
+#' The data used in Chapter 12, Exercise 23
+#'
+#' Data from Chapter 12 Exercise 23 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). The one-week follow-up to the Hu et al. (2015) sleep study of Exercise 22, adding a delayed measurement so that each participant now has six bias scores (cued and uncued, at prenap, postnap, and one-week delayed). Two of the 40 participants lacked delayed scores, so this data set has 38 rows. The exercise analyzes the scores as a 2 (cuing) by 3 (time) fully within-subjects design; lower scores indicate less bias.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{Sample}{data collection: 1 = original sample, 2 = replication sample}
+#'\item{CuedBiasType}{the bias that was cued during the nap: \code{Gender} or \code{Race}}
+#'\item{Cued_Baseline}{cued-bias score at baseline}
+#'\item{Uncued_Baseline}{uncued-bias score at baseline}
+#'\item{Cued_Prenap}{cued-bias score before the nap}
+#'\item{Cued_Postnap}{cued-bias score after the nap}
+#'\item{Cued_Delayed}{cued-bias score at the one-week follow-up}
+#'\item{Uncued_Prenap}{uncued-bias score before the nap}
+#'\item{Uncued_Postnap}{uncued-bias score after the nap}
+#'\item{Uncued_Delayed}{uncued-bias score at the one-week follow-up}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Hu, X., Antony, J. W., Creery, J. D., Vargas, I. M., Bodenhausen, G. V., & Paller, K. A. (2015). Unlearning implicit social biases during sleep. \emph{Science, 348}, 1013--1015.
+#'
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_12_exercise_23
+#' @aliases chapter_12_exercise_23 Chapter_12_Exercise_23 C12E23 c12e23
+#' @keywords datasets
+#' @usage data(chapter_12_exercise_23)
+#' @section Synonym:
+#' C12E23
+#' @examples
+#' # Load the data
+#' data(chapter_12_exercise_23)
+#'
+#' # Or, alternatively load the data as
+#' data(C12E23)
+#'
+#' # View the structure
+#' str(chapter_12_exercise_23)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_12_exercise_23)
+#'
+"chapter_12_exercise_23"
+
+
+#' The data used in Chapter 12, Exercise 25
+#'
+#' Data from Chapter 12 Exercise 25 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). The Kroes, Tendolkar, van Wingen, van Waarde, Strange, and Fernandez (2014) study of electroconvulsive therapy (ECT) and memory reconsolidation. Patients were shown two emotionally aversive slide-show stories; a week later one story was reactivated before three groups were formed (Group A: ECT, tested 24 hours later; Group B: ECT, tested immediately; Group C: no ECT). Each participant then received a multiple-choice memory test for both the reactivated and the non-reactivated story, giving a 3 (group) by 2 (reactivation) design with group between subjects and reactivation within subjects. Scores are percentage correct. The same study also provides the one-way data of \code{chapter_4_exercise_21}; the \code{reactivated} scores here are those Chapter 4 memory scores.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{cond}{group: 1 = Group A (ECT, tested 24 hours later), 2 = Group B (ECT, tested immediately), 3 = Group C (no ECT)}
+#'\item{reactivated}{percentage correct on the story that was reactivated for the participant}
+#'\item{nonreactivated}{percentage correct on the story that was not reactivated}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Kroes, M. C. W., Tendolkar, I., van Wingen, G. A., van Waarde, J. A., Strange, B. A., & Fernandez, G. (2014). An electroconvulsive therapy procedure impairs reconsolidation of episodic memories in humans. \emph{Nature Neuroscience, 17}, 204--206.
+#'
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_12_exercise_25
+#' @aliases chapter_12_exercise_25 Chapter_12_Exercise_25 C12E25 c12e25
+#' @keywords datasets
+#' @usage data(chapter_12_exercise_25)
+#' @section Synonym:
+#' C12E25
+#' @examples
+#' # Load the data
+#' data(chapter_12_exercise_25)
+#'
+#' # Or, alternatively load the data as
+#' data(C12E25)
+#'
+#' # View the structure
+#' str(chapter_12_exercise_25)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_12_exercise_25)
+#'
+"chapter_12_exercise_25"
+
+
 #' The data used in Chapter 12, Exercise 24
 #'
 #' Data from Chapter 12 Exercise 24 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). The Carnes, Lickel, and Janoff-Bulman (2015) study of how social contexts shape beliefs about moral principles. Each of 118 participants rated the importance of six moral principles in each of four social contexts, giving 24 ratings per participant, each on a scale from 1 (not at all important) to 9 (extremely important). Variables are named \code{PRINCIPLE_CONTEXT}, where the principle is CARE, FAIR, LOYA, AUTH, PURE, or JUST and the context is SOC (social category), TAS (task group), INT (intimacy group), or LOO (loose association).

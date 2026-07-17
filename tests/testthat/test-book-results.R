@@ -180,6 +180,38 @@ test_that("chapter_16 Table 16.1 and its reusing exercises agree in shape and or
   expect_identical(get1("chapter_16_exercise_9"), t4)
 })
 
+test_that("chapter_12_exercise_22 reproduces the Hu cuing-by-time interaction", {
+  # Instructor manual: cuing x time interaction F(1, 39) = 14.61.
+  d <- get1("chapter_12_exercise_22")
+  expect_equal(dim(d), c(40L, 8L))
+  expect_true(all(c("Cued_Prenap", "Cued_Postnap", "Uncued_Prenap", "Uncued_Postnap") %in% names(d)))
+  ic <- (d$Cued_Postnap - d$Cued_Prenap) - (d$Uncued_Postnap - d$Uncued_Prenap)
+  expect_equal(unname(t.test(ic)$statistic)^2, 14.61, tolerance = 5e-3)   # F(1, 39)
+})
+
+test_that("chapter_12_exercise_23 is the six-score follow-up with the reported interaction contrast", {
+  # Instructor manual: n = 38 (two participants lack delayed scores); the
+  # prenap-vs-delayed x cuing interaction contrast is F(1, 37) = 4.67.
+  d <- get1("chapter_12_exercise_23")
+  expect_equal(dim(d), c(38L, 10L))
+  expect_true(all(c("Cued_Delayed", "Uncued_Delayed") %in% names(d)))
+  ic <- (d$Cued_Delayed - d$Cued_Prenap) - (d$Uncued_Delayed - d$Uncued_Prenap)
+  expect_equal(unname(t.test(ic)$statistic)^2, 4.67, tolerance = 1e-2)
+})
+
+test_that("chapter_12_exercise_25 uses the book's variable names and matches the Kroes Ch4 data", {
+  # The book names the variables cond / reactivated / nonreactivated. The same
+  # Kroes (2014) study supplies the one-way data of chapter_4_exercise_21, so
+  # the reactivated-story scores here are those Chapter 4 memory scores.
+  d <- get1("chapter_12_exercise_25")
+  expect_equal(dim(d), c(39L, 3L))
+  expect_identical(names(d), c("cond", "reactivated", "nonreactivated"))
+  expect_equal(as.integer(table(d$cond)), c(13L, 13L, 13L))
+  c4 <- get1("chapter_4_exercise_21")
+  expect_equal(as.integer(d$reactivated), as.integer(c4$dv))
+  expect_equal(as.integer(d$cond), as.integer(c4$cond))
+})
+
 test_that("chapter_12_exercise_24 reproduces the Carnes context main effect", {
   # Instructor manual: main effect of social context, Greenhouse-Geisser
   # adjusted, F(2.58, 301.61) = 509.10, p < .001.

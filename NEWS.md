@@ -6,6 +6,18 @@ A Model Comparison Perspective* (2027, Routledge).
 
 ## Data
 
+* Completed the Chapter 12 website-only exercises by adding the last three, each
+  under a long name and short alias: `chapter_12_exercise_22` (`C12E22`) and
+  `chapter_12_exercise_23` (`C12E23`), the Hu, Antony, Creery, Vargas,
+  Bodenhausen, and Paller (2015) sleep-and-implicit-bias study (Exercise 22 is
+  the 2 by 2 cued/uncued by prenap/postnap design for 40 participants; Exercise
+  23 adds the one-week delayed measurement for the 38 participants who returned);
+  and `chapter_12_exercise_25` (`C12E25`), the Kroes, Tendolkar, van Wingen, van
+  Waarde, Strange, and Fernandez (2014) electroconvulsive-therapy memory study
+  (three groups, reactivated and non-reactivated story scores; its variables are
+  `cond`, `reactivated`, and `nonreactivated`, matching the names the exercise
+  gives). The same Kroes study supplies the one-way data of
+  `chapter_4_exercise_21`. Each reproduces the results reported for its exercise.
 * Added the three Chapter 12 exercise data sets that the book directs readers to
   the companion website for, each under a long name and short alias:
   `chapter_12_exercise_24` (`C12E24`), the Carnes, Lickel, and Janoff-Bulman
