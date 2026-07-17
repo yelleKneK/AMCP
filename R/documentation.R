@@ -4852,6 +4852,163 @@
 #'
 "chapter_12_exercise_21"
 
+
+#' The data used in Chapter 12, Exercise 24
+#'
+#' Data from Chapter 12 Exercise 24 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). The Carnes, Lickel, and Janoff-Bulman (2015) study of how social contexts shape beliefs about moral principles. Each of 118 participants rated the importance of six moral principles in each of four social contexts, giving 24 ratings per participant, each on a scale from 1 (not at all important) to 9 (extremely important). Variables are named \code{PRINCIPLE_CONTEXT}, where the principle is CARE, FAIR, LOYA, AUTH, PURE, or JUST and the context is SOC (social category), TAS (task group), INT (intimacy group), or LOO (loose association).
+#'
+#' @section Variables:
+#'\describe{
+#'\item{ID}{participant identifier}
+#'\item{CARE_SOC}{Care, rated in the social category context}
+#'\item{CARE_TAS}{Care, rated in the task group context}
+#'\item{CARE_INT}{Care, rated in the intimacy group context}
+#'\item{CARE_LOO}{Care, rated in the loose association context}
+#'\item{FAIR_SOC}{Fairness, rated in the social category context}
+#'\item{FAIR_TAS}{Fairness, rated in the task group context}
+#'\item{FAIR_INT}{Fairness, rated in the intimacy group context}
+#'\item{FAIR_LOO}{Fairness, rated in the loose association context}
+#'\item{LOYA_SOC}{Loyalty, rated in the social category context}
+#'\item{LOYA_TAS}{Loyalty, rated in the task group context}
+#'\item{LOYA_INT}{Loyalty, rated in the intimacy group context}
+#'\item{LOYA_LOO}{Loyalty, rated in the loose association context}
+#'\item{AUTH_SOC}{Authority, rated in the social category context}
+#'\item{AUTH_TAS}{Authority, rated in the task group context}
+#'\item{AUTH_INT}{Authority, rated in the intimacy group context}
+#'\item{AUTH_LOO}{Authority, rated in the loose association context}
+#'\item{PURE_SOC}{Purity, rated in the social category context}
+#'\item{PURE_TAS}{Purity, rated in the task group context}
+#'\item{PURE_INT}{Purity, rated in the intimacy group context}
+#'\item{PURE_LOO}{Purity, rated in the loose association context}
+#'\item{JUST_SOC}{Justice, rated in the social category context}
+#'\item{JUST_TAS}{Justice, rated in the task group context}
+#'\item{JUST_INT}{Justice, rated in the intimacy group context}
+#'\item{JUST_LOO}{Justice, rated in the loose association context}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Carnes, N. C., Lickel, B., & Janoff-Bulman, R. (2015). Shared perceptions: Morality is embedded in social contexts. \emph{Personality and Social Psychology Bulletin, 41}, 351--362.
+#'
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_12_exercise_24
+#' @aliases chapter_12_exercise_24 Chapter_12_Exercise_24 C12E24 c12e24
+#' @keywords datasets
+#' @usage data(chapter_12_exercise_24)
+#' @section Synonym:
+#' C12E24
+#' @examples
+#' # Load the data
+#' data(chapter_12_exercise_24)
+#'
+#' # Or, alternatively load the data as
+#' data(C12E24)
+#'
+#' # View the structure
+#' str(chapter_12_exercise_24)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_12_exercise_24)
+#'
+"chapter_12_exercise_24"
+
+
+#' The data used in Chapter 12, Exercise 26
+#'
+#' Data from Chapter 12 Exercise 26 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). The Gibson, Radvansky, Johnson, and McNerney (2012) study of whether grapheme-color synesthetes have better memory for word lists than nonsynesthetes. Lists of high-frequency or low-frequency words were presented to 48 nonsynesthetes and 10 synesthetes, and two dependent variables were measured for each word frequency: input-output (IO) correspondence and recall accuracy.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{ID}{participant identifier}
+#'\item{Group}{0 = nonsynesthete (control), 1 = grapheme-color synesthete}
+#'\item{HFcorr}{input-output correspondence for high-frequency words, a proportion measuring the extent to which temporal order was preserved in recall (higher scores reflect greater use of relational cues)}
+#'\item{LFcorr}{input-output correspondence for low-frequency words}
+#'\item{HFrecall}{recall accuracy for high-frequency words (higher scores reflect higher accuracy)}
+#'\item{LFrecall}{recall accuracy for low-frequency words}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Gibson, B. S., Radvansky, G. A., Johnson, A. C., & McNerney, M. W. (2012). Grapheme-color synesthesia can enhance immediate memory without disrupting the encoding of relational cues. \emph{Psychonomic Bulletin & Review, 19}, 1172--1177.
+#'
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_12_exercise_26
+#' @aliases chapter_12_exercise_26 Chapter_12_Exercise_26 C12E26 c12e26
+#' @keywords datasets
+#' @usage data(chapter_12_exercise_26)
+#' @section Synonym:
+#' C12E26
+#' @examples
+#' # Load the data
+#' data(chapter_12_exercise_26)
+#'
+#' # Or, alternatively load the data as
+#' data(C12E26)
+#'
+#' # View the structure
+#' str(chapter_12_exercise_26)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_12_exercise_26)
+#'
+"chapter_12_exercise_26"
+
+
+#' The data used in Chapter 12, Exercise 27
+#'
+#' Data from Chapter 12 Exercise 27 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). Reports of the number of negative life events collected from three members (mother, father, and child) of 95 first-marriage nuclear families and 98 stepfamilies, as described by Bray and Maxwell (1995). Family member is a within-subjects factor and type of family is a between-subjects factor.
+#'
+#' @section Variables:
+#'\describe{
+#'\item{id}{family identifier}
+#'\item{grp}{type of family: 1 = nuclear family, 2 = stepfamily}
+#'\item{sex}{sex of the child: 1 = boy, 2 = girl}
+#'\item{mtb}{number of negative life events reported by the mother}
+#'\item{ftb}{number of negative life events reported by the father}
+#'\item{ctb}{number of negative life events reported by the child}
+#'}
+#'
+#' @author Ken Kelley \email{kkelley@nd.edu}
+#' @source \url{https://designingexperiments.com/data/}
+#' @source Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and
+#' analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Routledge.
+#' @references
+#' Bray, J. H., & Maxwell, S. E. (1995). Multivariate statistics for family psychology research. \emph{Journal of Family Psychology, 9}, 144--160.
+#'
+#' Maxwell, S. E., Delaney, H. D., & Kelley, K. (2026). \emph{Designing experiments and analyzing data:
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' @docType data
+#' @name chapter_12_exercise_27
+#' @aliases chapter_12_exercise_27 Chapter_12_Exercise_27 C12E27 c12e27
+#' @keywords datasets
+#' @usage data(chapter_12_exercise_27)
+#' @section Synonym:
+#' C12E27
+#' @examples
+#' # Load the data
+#' data(chapter_12_exercise_27)
+#'
+#' # Or, alternatively load the data as
+#' data(C12E27)
+#'
+#' # View the structure
+#' str(chapter_12_exercise_27)
+#'
+#' # Brief summary of the data.
+#' summary(chapter_12_exercise_27)
+#'
+"chapter_12_exercise_27"
+
 #' The data used in Chapter 13, Exercise 7
 #'
 #' Data from Chapter 13 Exercise 7 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).

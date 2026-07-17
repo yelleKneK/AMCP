@@ -6,6 +6,17 @@ A Model Comparison Perspective* (2026, Routledge).
 
 ## Data
 
+* Added the three Chapter 12 exercise data sets that the book directs readers to
+  the companion website for, each under a long name and short alias:
+  `chapter_12_exercise_24` (`C12E24`), the Carnes, Lickel, and Janoff-Bulman
+  (2015) study in which 118 participants rated six moral principles in each of
+  four social contexts; `chapter_12_exercise_26` (`C12E26`), the Gibson,
+  Radvansky, Johnson, and McNerney (2012) grapheme-color synesthesia study (48
+  nonsynesthetes and 10 synesthetes, with input-output correspondence and recall
+  accuracy for high- and low-frequency words); and `chapter_12_exercise_27`
+  (`C12E27`), the Bray and Maxwell (1995) reports of negative life events from
+  the mother, father, and child of 95 nuclear families and 98 stepfamilies. Each
+  reproduces the results reported for its exercise.
 * New data set `chapter_14_table_13` (alias `C14T13`): the longitudinal
   randomized design introduced in Chapter 14 (100 participants, 44
   treatment and 56 control, measured at baseline and two post-intervention

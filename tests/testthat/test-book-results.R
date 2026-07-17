@@ -168,6 +168,57 @@ test_that("chapter_7_exercise_18 salaries match the 4th-ed book (Assistant/Assoc
   expect_equal(d$salary[d$level == 2 & d$gender == 2], c(83, 80, 89, 87, 88, 91, 88, 85))
 })
 
+test_that("chapter_12_exercise_24 reproduces the Carnes context main effect", {
+  # Instructor manual: main effect of social context, Greenhouse-Geisser
+  # adjusted, F(2.58, 301.61) = 509.10, p < .001.
+  d <- get1("chapter_12_exercise_24")
+  expect_equal(dim(d), c(118L, 25L))
+  prin <- c("CARE", "FAIR", "LOYA", "AUTH", "PURE", "JUST")
+  ctx  <- c("SOC", "TAS", "INT", "LOO")
+  expect_identical(names(d), c("ID", as.vector(t(outer(prin, ctx, paste, sep = "_")))))
+  M <- sapply(ctx, function(c0) rowMeans(d[, paste0(prin, "_", c0)]))
+  n <- nrow(M); a <- ncol(M)
+  gm <- mean(M); cm <- colMeans(M); sm <- rowMeans(M)
+  SSa  <- n * sum((cm - gm)^2)
+  SSas <- sum((M - outer(sm, rep(1, a)) - outer(rep(1, n), cm) + gm)^2)
+  Fv <- (SSa / (a - 1)) / (SSas / ((n - 1) * (a - 1)))
+  expect_equal(Fv, 509.10, tolerance = 1e-4)          # F(3, 351)
+  # Greenhouse-Geisser epsilon -> adjusted df of (2.58, 301.61)
+  S <- cov(M); p <- a
+  Sb <- S - rowMeans(S) %o% rep(1, p) - rep(1, p) %o% colMeans(S) + mean(S)
+  lam <- eigen(Sb, only.values = TRUE)$values[1:(p - 1)]
+  eps <- sum(lam)^2 / ((p - 1) * sum(lam^2))
+  expect_equal(eps * (a - 1), 2.58, tolerance = 5e-3)
+  expect_equal(eps * (n - 1) * (a - 1), 301.61, tolerance = 5e-4)
+})
+
+test_that("chapter_12_exercise_26 reproduces the Gibson cell means", {
+  # Instructor manual descriptive statistics (control n = 48, synesthesia n = 10).
+  d <- get1("chapter_12_exercise_26")
+  expect_equal(dim(d), c(58L, 6L))
+  expect_identical(names(d), c("ID", "Group", "HFcorr", "LFcorr", "HFrecall", "LFrecall"))
+  expect_equal(as.integer(table(d$Group)), c(48L, 10L))
+  key <- list(HFcorr = c(.6871, .6693), LFcorr   = c(.5276, .5425),
+              HFrecall = c(.4944, .7160), LFrecall = c(.3455, .5618))
+  for (v in names(key)) {
+    expect_equal(mean(d[[v]][d$Group == 0]), key[[v]][1], tolerance = 1e-4, info = v)
+    expect_equal(mean(d[[v]][d$Group == 1]), key[[v]][2], tolerance = 1e-4, info = v)
+  }
+})
+
+test_that("chapter_12_exercise_27 reproduces the Bray type-of-family effect", {
+  # Instructor manual: main effect of type of family F(1, 191) = 19.53, p < .001;
+  # 95 nuclear families and 98 stepfamilies.
+  d <- get1("chapter_12_exercise_27")
+  expect_equal(dim(d), c(193L, 6L))
+  expect_identical(names(d), c("id", "grp", "sex", "mtb", "ftb", "ctb"))
+  expect_equal(as.integer(table(d$grp)), c(95L, 98L))
+  sm <- rowMeans(as.matrix(d[, c("mtb", "ftb", "ctb")]))
+  fit <- anova(lm(sm ~ factor(d$grp)))
+  expect_equal(fit$Df[2], 191L)
+  expect_equal(fit$F[1], 19.53, tolerance = 1e-3)
+})
+
 test_that("chapter_4_exercise_18 is the four-therapy agoraphobia fear data", {
   d <- get1("chapter_4_exercise_18")
   expect_equal(dim(d), c(12L, 2L))
