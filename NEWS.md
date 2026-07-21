@@ -105,6 +105,12 @@ A Model Comparison Perspective* (2027, Routledge).
   columns record ability at ages 70, 72, and 74 (as the companion
   `chapter_15_exercise_19_univariate` records with `Age` = 70/72/74), so the
   middle column's name was corrected to match; the data values are unchanged.
+* Corrected `tutorial_1_table_1` (and its alias `T1T1`). A header-less import had
+  turned the first score (22) into the column name (`X22`) and dropped that
+  observation, leaving 102 rows. The data set now holds the full 103 Beck
+  Depression Inventory scores in a column named `BDI`, reproducing the statistics
+  reviewed in Tutorial 1 (sum 1,622, mean 15.748, median 13, mode 9, range 0 to
+  43, skewness .629, kurtosis -.243).
 * Reordered the columns of `chapter_16_table_1` (and its alias `C16T1`) to
   `Trainee`, `Gender`, `Severity`, and reordered `chapter_16_exercise_5`
   (`C16E5`), which analyzes the same Table 16.1 data, to match. The data values

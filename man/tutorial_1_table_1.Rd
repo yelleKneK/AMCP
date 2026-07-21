@@ -7,7 +7,7 @@
 \alias{t1t1}
 \title{The data used in Tutorial 1, Table 1}
 \format{
-An object of class \code{data.frame} with 102 rows and 1 columns.
+An object of class \code{data.frame} with 103 rows and 1 columns.
 }
 \source{
 \url{https://designingexperiments.com/data/}
@@ -19,11 +19,11 @@ analyzing data: {A} model comparison perspective}. (4th ed.). New York, NY: Rout
 data(tutorial_1_table_1)
 }
 \description{
-Data from Tutorial 1 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
+Data from Tutorial 1 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). Beck Depression Inventory (BDI) scores for 103 adults (Smith, Meyers, & Delaney, 1998), used in Tutorial 1 to review basic descriptive statistics (the scores range from 0 to 43, with mean 15.748, median 13, and mode 9).
 }
 \details{
 \itemize{
-\item X22.}
+\item BDI.}
 }
 \section{Synonym}{
 

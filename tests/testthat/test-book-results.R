@@ -168,6 +168,26 @@ test_that("chapter_7_exercise_18 salaries match the 4th-ed book (Assistant/Assoc
   expect_equal(d$salary[d$level == 2 & d$gender == 2], c(83, 80, 89, 87, 88, 91, 88, 85))
 })
 
+test_that("tutorial_1_table_1 is the 103 BDI scores with the reviewed statistics", {
+  # Tutorial 1 reviews basic descriptives on 103 Beck Depression Inventory scores
+  # (Smith, Meyers, & Delaney, 1998): sum 1,622, mean 15.748, median 13, mode 9,
+  # range 0-43, 25th/75th percentiles 8/22, skewness .629, kurtosis -.243.
+  d <- get1("tutorial_1_table_1")
+  expect_equal(dim(d), c(103L, 1L))
+  expect_identical(names(d), "BDI")
+  expect_equal(sum(d$BDI), 1622L)
+  expect_equal(mean(d$BDI), 15.748, tolerance = 1e-3)
+  expect_equal(median(d$BDI), 13)
+  expect_equal(as.numeric(names(sort(table(d$BDI), decreasing = TRUE))[1]), 9)
+  expect_equal(range(d$BDI), c(0L, 43L))
+  n <- 103; z <- (d$BDI - mean(d$BDI)) / sd(d$BDI)
+  g1 <- (n / ((n - 1) * (n - 2))) * sum(z^3)
+  g2 <- ((n * (n + 1)) / ((n - 1) * (n - 2) * (n - 3))) * sum(z^4) -
+        (3 * (n - 1)^2) / ((n - 2) * (n - 3))
+  expect_equal(g1, 0.629, tolerance = 1e-3)
+  expect_equal(g2, -0.243, tolerance = 1e-3)
+})
+
 test_that("chapter_16 Table 16.1 and its reusing exercises agree in shape and order", {
   # The book's Exercise 5 analyzes the Table 16.1 data, and Exercises 7 and 9
   # analyze the Table 16.4 data. Each exercise data set should therefore be

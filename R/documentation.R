@@ -6027,10 +6027,10 @@
 #######################################################################################################################################
 #' The data used in Tutorial 1, Table 1
 #'
-#' Data from Tutorial 1 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
+#' Data from Tutorial 1 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley). Beck Depression Inventory (BDI) scores for 103 adults (Smith, Meyers, & Delaney, 1998), used in Tutorial 1 to review basic descriptive statistics (the scores range from 0 to 43, with mean 15.748, median 13, and mode 9).
 #'
 #' \itemize{
-#' \item X22.}
+#' \item BDI.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
