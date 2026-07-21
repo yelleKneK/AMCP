@@ -25,9 +25,9 @@ Data from Tutorial 3A Table 5 of \emph{Designing Experiments and Analyzing Data:
 \itemize{
 \item group.
 \item score.
-\item X0.
-\item X1.
-\item X2.
+\item x0.
+\item x1.
+\item x2.
 \item x3.}
 }
 \section{Synonym}{

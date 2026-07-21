@@ -25,7 +25,7 @@ Data from Chapter 3 Exercise 11 of \emph{Designing Experiments and Analyzing Dat
 \details{
 \itemize{
 \item Condition.
-\item Scores.}
+\item Score.}
 }
 \section{Synonym}{
 

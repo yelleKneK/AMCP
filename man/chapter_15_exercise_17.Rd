@@ -24,10 +24,10 @@ Data from Chapter 15 Exercise 17 of \emph{Designing Experiments and Analyzing Da
 }
 \details{
 \itemize{
-\item Day1.
-\item Day2.
-\item Day3.
-\item Day4.}
+\item ID.
+\item Group.
+\item Day.
+\item Weight.}
 }
 \section{Synonym}{
 

@@ -6,8 +6,9 @@ A Model Comparison Perspective* (2027, Routledge).
 
 ## Data
 
-* Completed the Chapter 12 website-only exercises by adding the last three, each
-  under a long name and short alias: `chapter_12_exercise_22` (`C12E22`) and
+* Added three further Chapter 12 exercise data sets that the book directs readers
+  to the companion website for, each under a long name and short alias:
+  `chapter_12_exercise_22` (`C12E22`) and
   `chapter_12_exercise_23` (`C12E23`), the Hu, Antony, Creery, Vargas,
   Bodenhausen, and Paller (2015) sleep-and-implicit-bias study (Exercise 22 is
   the 2 by 2 cued/uncued by prenap/postnap design for 40 participants; Exercise
@@ -104,6 +105,10 @@ A Model Comparison Perspective* (2027, Routledge).
   columns record ability at ages 70, 72, and 74 (as the companion
   `chapter_15_exercise_19_univariate` records with `Age` = 70/72/74), so the
   middle column's name was corrected to match; the data values are unchanged.
+* Reordered the columns of `chapter_16_table_1` (and its alias `C16T1`) to
+  `Trainee`, `Gender`, `Severity`, and reordered `chapter_16_exercise_5`
+  (`C16E5`), which analyzes the same Table 16.1 data, to match. The data values
+  are unchanged.
 * For the data exactly as distributed with the 3rd edition (2018),
   install the archived CRAN release 1.0.2:
   `remotes::install_version("AMCP", "1.0.2")`.
@@ -153,5 +158,5 @@ A Model Comparison Perspective* (2027, Routledge).
   maps to the 4th edition (2027), pointing to `news(package = "AMCP")` for the
   list of changed tables, and directing 3rd-edition (2018) users to the archived
   `remotes::install_version("AMCP", "1.0.2")`.
-* Added the maintainer's web site (<https://kenkelley.org/>) and the book
+* Added the maintainer's website (<https://kenkelley.org/>) and the book
   companion site to the package `URL` field.

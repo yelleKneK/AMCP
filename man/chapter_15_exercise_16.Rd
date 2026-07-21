@@ -24,9 +24,10 @@ Data from Chapter 15 Exercise 16 of \emph{Designing Experiments and Analyzing Da
 }
 \details{
 \itemize{
-\item ID.
-\item Time.
-\item Y.}
+\item Day1.
+\item Day2.
+\item Day3.
+\item Day4.}
 }
 \section{Synonym}{
 

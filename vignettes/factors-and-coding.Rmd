@@ -1,5 +1,5 @@
 ---
-title: "Factors and numeric coding in AMCP"
+title: "Factors and Numeric Coding in AMCP"
 author: "Ken Kelley"
 date: "`r format(Sys.Date(), '%B %Y')`"
 output:
@@ -7,7 +7,7 @@ output:
     toc: true
     toc_depth: 2
 vignette: >
-  %\VignetteIndexEntry{Factors and numeric coding in AMCP}
+  %\VignetteIndexEntry{Factors and Numeric Coding in AMCP}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 library(AMCP)
 ```
 
-## Why AMCP codes grouping variables as numbers
+## Why AMCP Codes Grouping Variables as Numbers
 
 The data sets in AMCP are entered to match the printed tables in
 Maxwell, Delaney, and Kelley, *Designing Experiments and Analyzing
@@ -45,7 +45,7 @@ The golden rule:
 > three or more groups, and always confirm which code means which
 > condition from the data set's help page and the book.
 
-## The two-line recipe
+## The Two-Line Recipe
 
 ```r
 my_data <- chapter_X_table_Y                 # take a copy
@@ -60,7 +60,7 @@ the order R uses); `labels` gives the text shown in output. If you omit
 (`"1"`, `"2"`, ...), which is already enough to make a variable
 categorical.
 
-## A worked example with known labels
+## A Worked Example With Known Labels
 
 A case where the coding is documented is the teacher-expectancy
 ("Pygmalion") data in `chapter_9_exercise_15`. Here `Treatment` is
@@ -96,7 +96,7 @@ to confirm that a tidy-up has not silently altered a result. (DMAR
 ships this same data set, already labeled in exactly this way, as the
 `pygmalion` data set; see `vignette("pygmalion", package = "DMAR")`.)
 
-## With three or more groups, the coding *matters*
+## With Three or More Groups, the Coding *Matters*
 
 For two groups the numeric and factor versions happen to agree. With
 three or more groups they do **not**, because R treats a bare numeric
@@ -125,7 +125,7 @@ whether a numeric column is a group label or a real measurement, the
 help page and the corresponding table or exercise in the book are
 authoritative.
 
-## Finding the categorical variables in a data set
+## Finding the Categorical Variables in a Data Set
 
 AMCP does not impose a single coding scheme across the book: some
 examples use `1`/`2`, others use `0`/`1`, and the meaning of each code
@@ -144,7 +144,7 @@ likely_factors <- function(df) {
 }
 
 likely_factors(chapter_7_table_16)   # e.g., Sex, Education
-likely_factors(chapter_16_table_1)   # e.g., Gender, Trainee, Condition
+likely_factors(chapter_16_table_1)   # e.g., Trainee, Gender
 ```
 
 This is a heuristic, not a guarantee (a genuine count variable can also

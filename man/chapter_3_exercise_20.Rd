@@ -24,9 +24,8 @@ Data from Chapter 3 Exercise 20 of \emph{Designing Experiments and Analyzing Dat
 }
 \details{
 \itemize{
-\item ID.
 \item Condition.
-\item Anger.}
+\item ImageBasedIntrusions.}
 }
 \section{Synonym}{
 

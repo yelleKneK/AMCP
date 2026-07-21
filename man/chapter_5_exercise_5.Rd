@@ -24,8 +24,8 @@ Data from Chapter 5 Exercise 5 of \emph{Designing Experiments and Analyzing Data
 }
 \details{
 \itemize{
-\item dv.
-\item cond.}
+\item cond.
+\item score.}
 }
 \section{Synonym}{
 

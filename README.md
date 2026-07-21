@@ -1,6 +1,6 @@
 # AMCP <img src="man/figures/logo.png" align="right" height="139" alt="AMCP hex logo" />
 
-AMCP provides all of the data sets used in Maxwell, Delaney, & Kelley's *Designing Experiments and Analyzing Data: A Model Comparison Perspective* (Routledge). There are no functions in this package — it contains data only.
+AMCP provides all of the data sets used in Maxwell, Delaney, & Kelley's *Designing Experiments and Analyzing Data: A Model Comparison Perspective* (Routledge). There are no functions in this package; it contains data only.
 
 **The package's major version tracks the edition of the book: AMCP 2.x is for the book's 4th edition (Maxwell, Delaney, & Kelley, 2027), and AMCP 1.x is for the book's 3rd edition (2018).**
 
@@ -21,7 +21,7 @@ remotes::install_version("AMCP", version = "1.0.2")
 
 ## Related software
 
-We recommend the **DMAR** package as the companion for carrying out the book's analyses — install it with:
+We recommend the **DMAR** package as the companion for carrying out the book's analyses. Install it with:
 
 ```r
 install.packages("DMAR")
@@ -31,4 +31,9 @@ The book itself illustrates these analyses using the **MBESS** package, which yo
 
 ## More information
 
-The book's companion website is at <https://designingexperiments.com>.
+The book's companion website is at <https://designingexperiments.com>. The 4th
+edition (ISBN 978-1-041-25384-6, copyright 2027, 1050 pages) is published by
+Routledge and is available on the [publisher's book
+page](https://www.routledge.com/Designing-Experiments-and-Analyzing-Data-A-Model-Comparison-Perspective/Maxwell-Delaney-Kelley/p/book/9781041253846).
+The text is a 2026 winner of the American Psychological Foundation's (APF)
+Kirk Award.

@@ -24,8 +24,8 @@ Data from Chapter 6 Exercise 10 of \emph{Designing Experiments and Analyzing Dat
 }
 \details{
 \itemize{
-\item cond.
-\item score.}
+\item Rating.
+\item Grade.}
 }
 \section{Synonym}{
 

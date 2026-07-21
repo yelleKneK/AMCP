@@ -1380,7 +1380,7 @@
 #'
 #' A third covariance matrix is relevant for the AB interaction because this effect does not average over either A or B. Instead, the interaction assesses whether the B difference is the same at each level of A. Table 12.11 presents scores that address this question. For each subject, a given score represents the noise effect (i.e., reaction time when noise is present minus reaction time when noise is absent) at a particular level of the angle factor.
 #'
-#' #' @section Variables:
+#' @section Variables:
 #'\describe{
 #'\item{Angle0}{reaction time when noise is present minus reaction time when noise is absent at angle 0}
 #'\item{Angle4}{reaction time when noise is present minus reaction time when noise is absent at angle 4}
@@ -2518,7 +2518,7 @@
 #'
 #' \itemize{
 #' \item Condition.
-#' \item Scores.}
+#' \item Score.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -2593,9 +2593,8 @@
 #' Data from Chapter 3 Exercise 20 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item ID.
 #' \item Condition.
-#' \item Anger.}
+#' \item ImageBasedIntrusions.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -2899,8 +2898,8 @@
 #' Data from Chapter 5 Exercise 5 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item dv.
-#' \item cond.}
+#' \item cond.
+#' \item score.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -3010,8 +3009,8 @@
 #' Data from Chapter 6 Exercise 10 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item cond.
-#' \item score.}
+#' \item Rating.
+#' \item Grade.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -3939,10 +3938,12 @@
 #' Data from Chapter 9 Exercise 15 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item ID.
-#' \item Condition.
-#' \item EmotClose.
-#' \item Anger.}
+#' \item Grade.
+#' \item Treatment.
+#' \item IQPre.
+#' \item IQ4.
+#' \item IQ8.
+#' \item IQGain.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -3978,10 +3979,12 @@
 #' Data from Chapter 9 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item ID.
-#' \item Condition.
-#' \item EmotClose.
-#' \item Anger.}
+#' \item Grade.
+#' \item Treatment.
+#' \item IQPre.
+#' \item IQ4.
+#' \item IQ8.
+#' \item IQGain.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -5665,9 +5668,10 @@
 #' Data from Chapter 15 Exercise 16 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item ID.
-#' \item Time.
-#' \item Y.}
+#' \item Day1.
+#' \item Day2.
+#' \item Day3.
+#' \item Day4.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -5704,10 +5708,10 @@
 #' Data from Chapter 15 Exercise 17 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item Day1.
-#' \item Day2.
-#' \item Day3.
-#' \item Day4.}
+#' \item ID.
+#' \item Group.
+#' \item Day.
+#' \item Weight.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -6026,8 +6030,7 @@
 #' Data from Tutorial 1 Table 1 of \emph{Designing Experiments and Analyzing Data: A Model Comparison Perspective} (4th edition; Maxwell, Delaney, & Kelley).
 #'
 #' \itemize{
-#' \item Group.
-#' \item Score.}
+#' \item X22.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
 #' @source \url{https://designingexperiments.com/data/}
@@ -6222,9 +6225,9 @@
 #' \itemize{
 #' \item group.
 #' \item score.
-#' \item X0.
-#' \item X1.
-#' \item X2.
+#' \item x0.
+#' \item x1.
+#' \item x2.
 #' \item x3.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}
@@ -6264,9 +6267,9 @@
 #' \itemize{
 #' \item group.
 #' \item score.
-#' \item X0.
-#' \item X1.
-#' \item X2.
+#' \item x0.
+#' \item x1.
+#' \item x2.
 #' \item x3.}
 #'
 #' @author Ken Kelley \email{kkelley@nd.edu}

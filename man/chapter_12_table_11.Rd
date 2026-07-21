@@ -24,14 +24,16 @@ The data used in Chapter 12, Table 11
 }
 \details{
 A third covariance matrix is relevant for the AB interaction because this effect does not average over either A or B. Instead, the interaction assesses whether the B difference is the same at each level of A. Table 12.11 presents scores that address this question. For each subject, a given score represents the noise effect (i.e., reaction time when noise is present minus reaction time when noise is absent) at a particular level of the angle factor.
+}
+\section{Variables}{
 
-#' @section Variables:
 \describe{
 \item{Angle0}{reaction time when noise is present minus reaction time when noise is absent at angle 0}
 \item{Angle4}{reaction time when noise is present minus reaction time when noise is absent at angle 4}
 \item{Angle8}{reaction time when noise is present minus reaction time when noise is absent at angle 8}
 }
 }
+
 \section{Synonym}{
 
 C12T11

@@ -23,8 +23,7 @@ Data from Tutorial 1 Table 1 of \emph{Designing Experiments and Analyzing Data: 
 }
 \details{
 \itemize{
-\item Group.
-\item Score.}
+\item X22.}
 }
 \section{Synonym}{
 

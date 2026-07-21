@@ -29,9 +29,9 @@
 #' Note that \url{https://designingexperiments.com/computing/} shows R code (via R Markdown) for implementing many of the analyses in the book, by chapter.
 #'
 #' @references Maxwell, S. E., Delaney, H. D., & Kelley, K. (2027). \emph{Designing experiments and analyzing data:
-#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge.
+#' {A} model comparison perspective} (4th ed.). New York, NY: Routledge. ISBN 978-1-041-25384-6.
 #'
-#' See the web page that accompanies the book here: \url{https://designingexperiments.com}.
+#' See the web page that accompanies the book here: \url{https://designingexperiments.com}. The book is published by Routledge; its publisher page is \url{https://www.routledge.com/Designing-Experiments-and-Analyzing-Data-A-Model-Comparison-Perspective/Maxwell-Delaney-Kelley/p/book/9781041253846}.
 #'
 #' For suggested updates, please email Ken Kelley (\email{kkelley@nd.edu}); see also \url{https://kenkelley.org}.
 #' @author Ken Kelley \email{kkelley@nd.edu}

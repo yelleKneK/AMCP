@@ -24,10 +24,12 @@ Data from Chapter 9 Exercise 16 of \emph{Designing Experiments and Analyzing Dat
 }
 \details{
 \itemize{
-\item ID.
-\item Condition.
-\item EmotClose.
-\item Anger.}
+\item Grade.
+\item Treatment.
+\item IQPre.
+\item IQ4.
+\item IQ8.
+\item IQGain.}
 }
 \section{Synonym}{
 
